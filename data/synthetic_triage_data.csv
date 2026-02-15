@@ -1,0 +1,3001 @@
+patient_id,age,gender,symptom,bp,hr,temp,pre_existing,risk
+P1,69,Male,Chest Pain,114,126,100.6,Heart Disease,High
+P2,41,Female,Chest Pain,102,76,97.3,Diabetes,Medium
+P3,47,Male,Severe Headache,137,56,98.1,Hypertension,Medium
+P4,38,Male,Fever,132,130,100.7,Hypertension,Medium
+P5,66,Male,Chest Pain,158,96,97.3,None,Medium
+P6,77,Male,Seizure,179,69,99.7,Asthma,High
+P7,64,Male,Fever,161,105,99.3,None,Medium
+P8,81,Female,Chest Pain,102,105,101.1,Asthma,High
+P9,56,Male,Chest Pain,117,58,102.7,None,Medium
+P10,31,Male,Shortness of Breath,108,107,98.4,Heart Disease,Medium
+P11,77,Female,Shortness of Breath,170,98,100.0,Diabetes,High
+P12,64,Female,Cough,134,132,99.3,Asthma,Medium
+P13,67,Male,Severe Headache,103,56,99.6,Diabetes,Medium
+P14,71,Male,Cough,103,108,97.2,Diabetes,Medium
+P15,35,Female,Fever,189,98,102.6,Diabetes,Medium
+P16,79,Female,Cough,113,102,99.0,Heart Disease,Medium
+P17,79,Female,Cough,139,139,99.3,Heart Disease,High
+P18,70,Male,Fever,123,80,102.8,Diabetes,Medium
+P19,77,Male,Chest Pain,140,83,101.8,Hypertension,High
+P20,82,Male,Shortness of Breath,188,125,99.5,Heart Disease,High
+P21,18,Female,Seizure,107,117,101.9,Diabetes,Medium
+P22,25,Female,Cough,134,89,101.6,Heart Disease,Medium
+P23,22,Male,Chest Pain,140,82,102.2,Hypertension,Medium
+P24,89,Female,Fever,111,88,97.6,Hypertension,Medium
+P25,40,Female,Cough,161,91,101.4,Asthma,Medium
+P26,52,Male,Cough,164,101,101.3,None,Medium
+P27,18,Male,Shortness of Breath,104,68,100.0,Asthma,Medium
+P28,26,Female,Cough,178,69,97.7,Heart Disease,Medium
+P29,68,Female,Cough,162,106,100.4,Hypertension,High
+P30,21,Female,Shortness of Breath,122,69,101.5,Heart Disease,Medium
+P31,53,Female,Fever,112,86,100.6,Asthma,Medium
+P32,45,Male,Shortness of Breath,165,96,101.8,Diabetes,High
+P33,74,Male,Severe Headache,105,82,101.8,Heart Disease,High
+P34,61,Female,Fever,183,84,102.3,Heart Disease,High
+P35,79,Male,Severe Headache,100,81,99.6,None,Medium
+P36,20,Male,Seizure,169,126,100.2,Asthma,High
+P37,79,Male,Shortness of Breath,136,105,98.6,Diabetes,Medium
+P38,41,Male,Seizure,178,113,98.9,Hypertension,High
+P39,69,Female,Chest Pain,161,112,102.8,Asthma,High
+P40,56,Female,Shortness of Breath,101,57,98.8,Diabetes,Medium
+P41,73,Male,Chest Pain,180,113,100.7,Heart Disease,High
+P42,19,Female,Shortness of Breath,153,55,98.4,Heart Disease,Medium
+P43,19,Male,Shortness of Breath,152,98,99.7,Hypertension,Medium
+P44,87,Male,Fever,131,122,97.5,Heart Disease,Medium
+P45,73,Female,Chest Pain,116,92,99.2,Asthma,Medium
+P46,87,Male,Severe Headache,185,65,101.9,Asthma,High
+P47,33,Female,Fever,172,113,98.1,Diabetes,Medium
+P48,20,Male,Chest Pain,119,113,98.3,Hypertension,Medium
+P49,84,Female,Cough,118,74,100.9,Hypertension,Medium
+P50,69,Female,Shortness of Breath,132,94,99.3,Hypertension,Medium
+P51,18,Female,Cough,110,111,97.7,None,Low
+P52,40,Male,Seizure,130,96,98.5,Diabetes,Medium
+P53,33,Female,Shortness of Breath,189,114,98.6,Heart Disease,Medium
+P54,18,Female,Shortness of Breath,147,66,100.3,Asthma,Medium
+P55,49,Male,Seizure,108,73,101.4,None,Medium
+P56,20,Female,Shortness of Breath,119,78,99.4,Asthma,Medium
+P57,50,Male,Chest Pain,123,129,102.6,Asthma,High
+P58,53,Male,Shortness of Breath,137,138,100.5,Asthma,Medium
+P59,42,Male,Severe Headache,117,136,99.9,None,Medium
+P60,52,Male,Shortness of Breath,179,115,98.3,Diabetes,Medium
+P61,50,Female,Severe Headache,167,87,100.0,Diabetes,Medium
+P62,65,Male,Cough,119,62,102.1,Hypertension,Medium
+P63,34,Male,Seizure,132,102,97.6,Diabetes,Medium
+P64,39,Female,Severe Headache,129,92,102.9,Diabetes,Medium
+P65,68,Female,Chest Pain,153,62,100.8,None,Medium
+P66,38,Male,Seizure,129,82,101.0,Heart Disease,Medium
+P67,86,Male,Severe Headache,160,102,98.7,Asthma,Medium
+P68,52,Female,Fever,163,103,97.3,None,Medium
+P69,61,Female,Shortness of Breath,129,100,102.5,Diabetes,Medium
+P70,54,Female,Cough,123,100,102.8,Asthma,Medium
+P71,77,Female,Fever,162,139,98.1,Heart Disease,High
+P72,50,Female,Shortness of Breath,166,72,100.3,None,Medium
+P73,71,Female,Severe Headache,157,121,100.4,Asthma,High
+P74,41,Female,Severe Headache,131,101,102.9,Diabetes,Medium
+P75,83,Female,Cough,126,56,98.9,Heart Disease,Medium
+P76,50,Female,Severe Headache,108,97,101.3,Asthma,Medium
+P77,56,Female,Chest Pain,141,80,101.9,Asthma,High
+P78,42,Female,Severe Headache,123,67,97.5,Heart Disease,Medium
+P79,24,Female,Chest Pain,156,90,101.8,Diabetes,Medium
+P80,82,Female,Severe Headache,107,70,97.3,Asthma,Medium
+P81,32,Female,Cough,165,86,100.5,Hypertension,Medium
+P82,68,Female,Severe Headache,124,112,100.3,Hypertension,Medium
+P83,39,Female,Cough,157,112,97.2,Diabetes,Medium
+P84,69,Male,Shortness of Breath,141,124,98.8,Diabetes,High
+P85,77,Male,Fever,107,107,98.6,Hypertension,Medium
+P86,22,Female,Fever,167,60,97.3,Diabetes,Medium
+P87,64,Male,Seizure,154,94,101.4,Diabetes,High
+P88,30,Female,Seizure,129,73,101.8,Asthma,Medium
+P89,80,Male,Severe Headache,118,112,97.5,Hypertension,Medium
+P90,79,Female,Shortness of Breath,122,63,101.1,Hypertension,Medium
+P91,18,Male,Cough,157,55,99.7,Heart Disease,Medium
+P92,65,Male,Seizure,188,55,102.7,None,High
+P93,81,Female,Chest Pain,162,123,100.7,Heart Disease,High
+P94,84,Male,Shortness of Breath,175,80,99.1,Heart Disease,High
+P95,74,Female,Cough,128,132,97.6,Diabetes,Medium
+P96,64,Male,Fever,161,123,99.8,Hypertension,High
+P97,65,Female,Shortness of Breath,184,93,99.1,Diabetes,High
+P98,40,Female,Seizure,109,123,102.3,Heart Disease,High
+P99,69,Female,Cough,109,73,100.0,Asthma,Medium
+P100,18,Female,Severe Headache,168,58,100.7,Diabetes,Medium
+P101,19,Female,Cough,131,138,100.5,Heart Disease,Medium
+P102,67,Female,Seizure,134,87,99.7,Diabetes,Medium
+P103,68,Female,Seizure,142,66,99.3,Diabetes,High
+P104,50,Female,Cough,139,128,98.2,Asthma,Medium
+P105,46,Male,Cough,112,66,97.6,Diabetes,Low
+P106,19,Female,Fever,134,135,100.9,None,Medium
+P107,43,Male,Cough,173,88,98.6,Diabetes,Medium
+P108,24,Female,Fever,167,112,101.2,Diabetes,Medium
+P109,46,Female,Fever,135,75,102.8,Diabetes,Medium
+P110,53,Male,Chest Pain,109,127,100.4,Heart Disease,High
+P111,66,Male,Fever,135,136,98.5,None,Medium
+P112,41,Female,Fever,122,116,100.4,None,Medium
+P113,29,Female,Seizure,154,67,101.4,None,Medium
+P114,47,Female,Seizure,116,116,100.0,Asthma,Medium
+P115,30,Male,Chest Pain,158,73,99.3,Diabetes,Medium
+P116,29,Female,Fever,160,73,97.5,None,Low
+P117,88,Male,Fever,127,132,101.1,Asthma,High
+P118,69,Male,Seizure,182,70,99.7,Heart Disease,High
+P119,29,Male,Chest Pain,124,106,101.0,None,Medium
+P120,70,Female,Cough,122,70,101.7,Hypertension,Medium
+P121,70,Female,Seizure,141,112,97.3,Diabetes,High
+P122,22,Male,Severe Headache,134,129,97.7,None,Medium
+P123,26,Female,Fever,173,112,100.7,Asthma,Medium
+P124,24,Male,Shortness of Breath,145,67,98.3,None,Low
+P125,26,Female,Severe Headache,149,81,101.2,Asthma,Medium
+P126,22,Female,Severe Headache,128,91,98.4,Asthma,Low
+P127,25,Female,Seizure,164,71,102.7,Asthma,High
+P128,62,Male,Severe Headache,103,90,99.3,Hypertension,Medium
+P129,48,Female,Chest Pain,118,115,99.3,None,Medium
+P130,56,Male,Chest Pain,173,73,97.7,Heart Disease,High
+P131,84,Male,Seizure,144,67,99.4,Asthma,High
+P132,75,Female,Chest Pain,119,126,97.7,Heart Disease,High
+P133,56,Male,Fever,100,57,100.5,None,Low
+P134,79,Male,Shortness of Breath,162,79,102.2,Diabetes,High
+P135,55,Male,Chest Pain,105,112,97.1,Diabetes,Medium
+P136,49,Male,Chest Pain,144,115,98.9,None,Medium
+P137,53,Female,Cough,118,74,97.5,Diabetes,Low
+P138,64,Male,Shortness of Breath,148,68,98.8,Asthma,Medium
+P139,18,Male,Fever,153,57,102.4,Hypertension,Medium
+P140,74,Female,Chest Pain,174,66,102.8,Asthma,High
+P141,33,Male,Severe Headache,171,130,97.6,Heart Disease,High
+P142,25,Male,Fever,135,62,99.1,Asthma,Low
+P143,67,Female,Severe Headache,127,95,98.6,Asthma,Medium
+P144,44,Female,Seizure,162,71,98.7,None,Medium
+P145,46,Female,Severe Headache,112,100,97.5,Diabetes,Medium
+P146,23,Male,Shortness of Breath,181,123,100.7,Heart Disease,High
+P147,83,Male,Cough,109,110,102.3,Hypertension,Medium
+P148,22,Male,Severe Headache,132,119,99.9,Asthma,Medium
+P149,66,Male,Shortness of Breath,110,139,101.5,Asthma,High
+P150,76,Female,Fever,126,103,102.0,Hypertension,Medium
+P151,18,Female,Fever,120,109,102.2,Asthma,Medium
+P152,86,Female,Chest Pain,104,57,100.3,Hypertension,Medium
+P153,70,Female,Shortness of Breath,136,128,102.1,Hypertension,High
+P154,34,Female,Chest Pain,184,132,98.2,Asthma,High
+P155,18,Male,Severe Headache,150,99,100.6,Hypertension,Medium
+P156,79,Female,Cough,164,86,97.3,Asthma,Medium
+P157,89,Male,Shortness of Breath,138,80,100.0,Diabetes,Medium
+P158,71,Female,Severe Headache,102,104,102.1,Diabetes,High
+P159,71,Male,Cough,104,111,100.5,Asthma,Medium
+P160,64,Female,Cough,122,133,101.7,None,Medium
+P161,31,Male,Chest Pain,165,129,98.3,Asthma,High
+P162,55,Female,Severe Headache,163,92,100.6,Diabetes,Medium
+P163,47,Female,Fever,178,105,102.4,Hypertension,High
+P164,69,Female,Cough,137,133,99.4,Heart Disease,High
+P165,68,Male,Fever,180,59,101.8,None,Medium
+P166,27,Male,Chest Pain,155,71,100.0,Hypertension,Medium
+P167,86,Male,Fever,133,60,100.0,Asthma,Medium
+P168,60,Male,Severe Headache,174,77,97.8,Diabetes,Medium
+P169,33,Male,Chest Pain,107,58,98.1,Heart Disease,Medium
+P170,73,Female,Fever,124,121,102.2,Heart Disease,High
+P171,44,Male,Chest Pain,131,104,100.6,Hypertension,Medium
+P172,68,Female,Seizure,118,75,98.0,None,Medium
+P173,59,Male,Fever,160,76,97.5,Heart Disease,Medium
+P174,18,Male,Cough,104,66,98.2,None,Low
+P175,51,Male,Seizure,148,132,99.0,Heart Disease,High
+P176,44,Male,Fever,172,80,101.8,Heart Disease,High
+P177,73,Male,Fever,162,102,97.4,Diabetes,Medium
+P178,43,Male,Cough,135,55,97.5,Hypertension,Low
+P179,69,Male,Fever,178,101,99.2,Asthma,High
+P180,31,Male,Chest Pain,189,82,99.2,Asthma,Medium
+P181,19,Male,Chest Pain,125,68,97.9,Asthma,Medium
+P182,24,Female,Cough,102,77,100.1,Asthma,Low
+P183,35,Male,Severe Headache,137,69,97.6,Asthma,Low
+P184,45,Male,Cough,173,93,98.9,Heart Disease,Medium
+P185,61,Female,Severe Headache,124,71,99.1,Diabetes,Medium
+P186,42,Male,Seizure,167,64,101.7,Asthma,High
+P187,35,Female,Seizure,185,88,100.3,Asthma,Medium
+P188,57,Male,Chest Pain,182,96,98.7,None,Medium
+P189,23,Male,Chest Pain,151,80,100.6,Asthma,Medium
+P190,76,Female,Fever,155,113,102.9,Hypertension,High
+P191,50,Female,Cough,152,76,98.4,Hypertension,Medium
+P192,87,Female,Chest Pain,103,129,97.5,None,Medium
+P193,41,Male,Severe Headache,154,63,97.5,Diabetes,Medium
+P194,48,Male,Shortness of Breath,139,90,103.0,Asthma,Medium
+P195,23,Female,Seizure,165,138,102.8,Heart Disease,High
+P196,21,Female,Seizure,178,60,102.9,Asthma,High
+P197,68,Female,Cough,161,111,101.3,Asthma,High
+P198,25,Female,Cough,125,105,102.0,Diabetes,Medium
+P199,22,Male,Severe Headache,169,80,98.9,Diabetes,Medium
+P200,36,Male,Severe Headache,183,74,98.5,Diabetes,Medium
+P201,64,Male,Seizure,100,68,98.7,Heart Disease,Medium
+P202,54,Female,Seizure,110,131,100.2,Heart Disease,High
+P203,50,Male,Chest Pain,105,104,99.7,Diabetes,Medium
+P204,22,Male,Seizure,122,64,102.9,Diabetes,Medium
+P205,30,Female,Severe Headache,139,56,97.5,Diabetes,Low
+P206,80,Male,Shortness of Breath,172,71,97.7,None,Medium
+P207,32,Male,Fever,123,92,99.5,Heart Disease,Medium
+P208,66,Male,Chest Pain,168,116,101.5,None,High
+P209,67,Female,Cough,177,129,102.6,Diabetes,High
+P210,52,Female,Seizure,100,94,101.3,None,Medium
+P211,77,Male,Cough,163,126,102.0,None,High
+P212,31,Female,Seizure,159,84,102.0,Asthma,Medium
+P213,54,Female,Shortness of Breath,104,137,101.0,None,Medium
+P214,43,Male,Fever,161,58,98.9,Heart Disease,Medium
+P215,59,Female,Cough,188,72,101.9,Diabetes,Medium
+P216,56,Female,Shortness of Breath,113,86,99.8,None,Medium
+P217,55,Male,Seizure,122,117,100.0,None,Medium
+P218,42,Female,Severe Headache,116,120,100.3,Hypertension,Medium
+P219,68,Female,Cough,138,105,99.6,None,Medium
+P220,84,Male,Shortness of Breath,106,105,99.0,Asthma,Medium
+P221,81,Male,Chest Pain,114,83,100.0,Hypertension,Medium
+P222,44,Male,Chest Pain,135,83,97.9,Asthma,Medium
+P223,44,Male,Seizure,154,87,97.2,Asthma,Medium
+P224,83,Female,Seizure,109,59,102.3,None,Medium
+P225,55,Male,Seizure,112,85,99.3,Asthma,Medium
+P226,69,Male,Seizure,155,69,101.8,Heart Disease,High
+P227,22,Male,Chest Pain,128,101,99.5,Diabetes,Medium
+P228,62,Female,Chest Pain,101,81,100.8,Hypertension,Medium
+P229,53,Female,Shortness of Breath,135,80,98.5,Hypertension,Medium
+P230,86,Male,Fever,119,65,102.8,None,Medium
+P231,55,Female,Chest Pain,105,126,99.5,Asthma,High
+P232,63,Male,Chest Pain,111,67,97.8,Diabetes,Medium
+P233,77,Female,Severe Headache,142,130,97.6,None,Medium
+P234,85,Female,Seizure,104,91,101.2,Asthma,High
+P235,48,Male,Shortness of Breath,108,105,101.4,Hypertension,Medium
+P236,57,Male,Seizure,140,65,99.7,None,Medium
+P237,63,Male,Chest Pain,120,90,97.7,Diabetes,Medium
+P238,74,Female,Severe Headache,100,117,98.9,Diabetes,Medium
+P239,57,Male,Severe Headache,114,75,99.3,Asthma,Medium
+P240,70,Male,Seizure,108,128,101.8,Diabetes,High
+P241,43,Female,Cough,140,89,99.4,Asthma,Medium
+P242,42,Male,Severe Headache,189,129,102.5,Asthma,High
+P243,24,Male,Cough,181,88,102.5,None,Medium
+P244,60,Female,Severe Headache,158,105,98.5,None,Medium
+P245,42,Male,Severe Headache,170,106,99.5,Diabetes,High
+P246,50,Male,Severe Headache,148,83,100.5,Diabetes,Medium
+P247,39,Female,Chest Pain,125,82,98.3,Diabetes,Medium
+P248,66,Female,Fever,170,135,102.8,Heart Disease,High
+P249,66,Female,Severe Headache,119,117,103.0,Heart Disease,High
+P250,66,Female,Seizure,170,55,98.9,Diabetes,High
+P251,68,Male,Fever,155,137,99.1,Hypertension,High
+P252,47,Male,Fever,128,103,97.2,Heart Disease,Medium
+P253,47,Male,Chest Pain,115,94,100.5,Diabetes,Medium
+P254,18,Female,Severe Headache,177,101,100.2,Asthma,Medium
+P255,55,Male,Seizure,150,117,97.6,Heart Disease,High
+P256,25,Male,Shortness of Breath,128,109,102.7,None,Medium
+P257,49,Male,Chest Pain,109,128,102.4,None,High
+P258,51,Male,Chest Pain,186,109,97.9,Heart Disease,High
+P259,67,Female,Chest Pain,106,62,97.2,Diabetes,Medium
+P260,84,Female,Seizure,187,113,100.0,Heart Disease,High
+P261,89,Male,Cough,153,121,102.3,Diabetes,High
+P262,25,Male,Shortness of Breath,133,89,98.5,None,Low
+P263,49,Female,Chest Pain,145,70,99.4,Hypertension,Medium
+P264,54,Female,Seizure,153,139,99.4,None,High
+P265,72,Male,Seizure,147,136,97.1,Hypertension,High
+P266,24,Female,Fever,132,77,102.1,None,Low
+P267,36,Male,Shortness of Breath,135,83,99.5,None,Low
+P268,19,Female,Severe Headache,100,101,100.7,Diabetes,Medium
+P269,28,Male,Chest Pain,101,121,100.5,Heart Disease,High
+P270,29,Male,Seizure,119,59,99.1,Heart Disease,Medium
+P271,26,Female,Chest Pain,152,98,98.3,Heart Disease,Medium
+P272,41,Female,Shortness of Breath,180,128,100.4,Diabetes,High
+P273,76,Male,Cough,186,135,99.9,None,High
+P274,31,Female,Cough,108,94,101.2,Diabetes,Medium
+P275,42,Female,Severe Headache,172,76,102.0,None,Medium
+P276,21,Female,Severe Headache,125,112,102.4,Asthma,Medium
+P277,54,Female,Fever,174,124,102.5,None,High
+P278,59,Female,Severe Headache,140,92,97.4,Hypertension,Medium
+P279,54,Female,Seizure,124,130,98.2,Heart Disease,High
+P280,44,Male,Seizure,156,85,102.2,Asthma,High
+P281,57,Female,Severe Headache,111,107,98.1,Hypertension,Medium
+P282,62,Female,Severe Headache,116,80,99.4,Asthma,Medium
+P283,79,Female,Severe Headache,145,118,99.1,Heart Disease,High
+P284,71,Female,Severe Headache,164,105,97.5,Diabetes,High
+P285,43,Female,Fever,128,75,102.0,Heart Disease,Medium
+P286,28,Male,Fever,135,113,98.8,None,Low
+P287,71,Female,Chest Pain,154,78,102.6,Heart Disease,High
+P288,86,Female,Shortness of Breath,155,87,98.6,Hypertension,Medium
+P289,37,Female,Fever,182,135,100.0,Heart Disease,High
+P290,43,Male,Shortness of Breath,165,127,97.5,Heart Disease,High
+P291,34,Male,Shortness of Breath,100,115,101.1,Diabetes,Medium
+P292,59,Male,Seizure,124,93,97.5,Hypertension,Medium
+P293,61,Female,Seizure,150,66,99.2,Asthma,High
+P294,61,Male,Chest Pain,158,103,97.8,Heart Disease,High
+P295,74,Female,Severe Headache,154,101,97.5,Heart Disease,High
+P296,25,Female,Severe Headache,120,135,101.0,Asthma,Medium
+P297,87,Male,Fever,171,79,102.4,Diabetes,High
+P298,29,Male,Seizure,114,113,102.9,None,Medium
+P299,43,Female,Shortness of Breath,146,86,101.2,Diabetes,Medium
+P300,88,Male,Fever,116,77,100.3,Heart Disease,Medium
+P301,24,Female,Fever,113,133,101.2,Hypertension,Medium
+P302,26,Male,Cough,147,126,102.8,Diabetes,Medium
+P303,56,Female,Shortness of Breath,117,113,102.0,Heart Disease,High
+P304,34,Female,Cough,113,85,99.2,Heart Disease,Medium
+P305,77,Female,Fever,144,57,101.2,Hypertension,Medium
+P306,57,Female,Shortness of Breath,189,109,99.4,Hypertension,High
+P307,56,Female,Seizure,114,58,101.7,None,Medium
+P308,42,Female,Chest Pain,112,136,100.1,Diabetes,High
+P309,59,Male,Chest Pain,165,109,99.8,Hypertension,High
+P310,51,Male,Fever,129,67,100.2,None,Low
+P311,49,Male,Fever,138,100,99.1,None,Low
+P312,79,Female,Shortness of Breath,161,111,100.5,Hypertension,High
+P313,27,Female,Severe Headache,129,79,99.0,Hypertension,Low
+P314,22,Female,Shortness of Breath,164,103,97.7,Diabetes,Medium
+P315,31,Male,Chest Pain,129,122,101.3,None,Medium
+P316,54,Male,Severe Headache,124,102,97.1,Heart Disease,Medium
+P317,32,Female,Shortness of Breath,148,122,98.3,Asthma,Medium
+P318,54,Female,Seizure,160,97,100.5,Heart Disease,High
+P319,56,Female,Chest Pain,155,117,102.7,Hypertension,High
+P320,28,Female,Severe Headache,161,131,102.9,Heart Disease,High
+P321,88,Female,Cough,151,58,98.4,Heart Disease,Medium
+P322,37,Female,Chest Pain,162,108,100.6,Diabetes,High
+P323,74,Male,Shortness of Breath,189,95,98.1,None,Medium
+P324,20,Male,Chest Pain,105,59,97.3,Hypertension,Medium
+P325,64,Male,Fever,186,103,100.1,Diabetes,High
+P326,37,Male,Cough,160,89,101.5,Hypertension,Medium
+P327,79,Female,Seizure,116,57,101.9,None,Medium
+P328,30,Female,Shortness of Breath,188,127,102.4,None,High
+P329,28,Female,Severe Headache,155,121,98.6,Asthma,Medium
+P330,46,Female,Chest Pain,108,121,102.7,Asthma,High
+P331,59,Male,Severe Headache,108,133,100.9,Asthma,Medium
+P332,22,Female,Severe Headache,110,113,98.7,Asthma,Medium
+P333,55,Female,Shortness of Breath,171,59,97.3,Hypertension,Medium
+P334,35,Female,Seizure,169,91,98.3,None,Medium
+P335,45,Female,Shortness of Breath,168,131,102.1,Diabetes,High
+P336,57,Female,Severe Headache,144,116,100.6,None,Medium
+P337,75,Female,Seizure,166,110,101.0,Heart Disease,High
+P338,57,Female,Fever,176,87,102.3,None,Medium
+P339,36,Male,Chest Pain,179,94,98.5,Diabetes,Medium
+P340,76,Female,Shortness of Breath,158,102,101.3,Heart Disease,High
+P341,62,Male,Fever,188,107,101.1,None,High
+P342,80,Male,Shortness of Breath,126,92,98.1,Hypertension,Medium
+P343,22,Female,Fever,144,112,99.8,None,Medium
+P344,48,Male,Shortness of Breath,122,96,97.8,Asthma,Medium
+P345,70,Female,Seizure,129,93,98.0,Heart Disease,Medium
+P346,19,Female,Seizure,177,131,100.0,None,High
+P347,56,Male,Seizure,165,67,100.7,None,Medium
+P348,34,Male,Chest Pain,159,118,100.2,Hypertension,Medium
+P349,52,Male,Shortness of Breath,169,137,101.6,None,High
+P350,80,Female,Shortness of Breath,127,114,98.1,None,Medium
+P351,54,Male,Cough,121,122,98.0,None,Medium
+P352,85,Male,Severe Headache,163,71,101.6,Diabetes,High
+P353,34,Female,Chest Pain,109,119,97.3,Asthma,Medium
+P354,67,Male,Seizure,113,118,101.1,Hypertension,High
+P355,53,Female,Fever,151,130,97.1,None,Medium
+P356,28,Female,Shortness of Breath,132,60,99.2,Diabetes,Medium
+P357,49,Female,Seizure,150,129,101.1,Hypertension,High
+P358,43,Male,Chest Pain,145,83,102.7,None,Medium
+P359,30,Male,Shortness of Breath,138,69,101.8,Diabetes,Medium
+P360,46,Female,Seizure,174,86,97.5,Hypertension,Medium
+P361,39,Female,Fever,174,81,102.2,Diabetes,Medium
+P362,73,Female,Seizure,120,101,99.5,None,Medium
+P363,76,Female,Shortness of Breath,183,60,101.6,Hypertension,High
+P364,86,Female,Seizure,102,55,98.9,Diabetes,Medium
+P365,55,Male,Fever,114,88,98.3,Asthma,Low
+P366,81,Male,Cough,124,78,99.2,Heart Disease,Medium
+P367,32,Female,Cough,179,81,102.8,Hypertension,Medium
+P368,63,Male,Fever,188,71,97.5,None,Medium
+P369,25,Male,Cough,178,81,102.1,Hypertension,Medium
+P370,88,Female,Fever,102,118,98.8,Asthma,Medium
+P371,41,Female,Chest Pain,159,57,98.1,None,Medium
+P372,32,Male,Seizure,124,132,100.6,Asthma,Medium
+P373,26,Female,Shortness of Breath,137,102,99.9,Diabetes,Medium
+P374,80,Male,Severe Headache,185,56,101.8,Asthma,High
+P375,28,Male,Cough,163,131,97.9,Diabetes,Medium
+P376,38,Male,Cough,117,118,99.4,Diabetes,Medium
+P377,55,Male,Fever,131,65,101.2,Heart Disease,Medium
+P378,50,Female,Cough,140,62,101.3,None,Medium
+P379,68,Male,Severe Headache,187,95,98.5,None,Medium
+P380,63,Female,Cough,131,133,100.0,Diabetes,Medium
+P381,37,Male,Seizure,132,128,101.7,Heart Disease,High
+P382,19,Male,Cough,132,131,97.5,Hypertension,Medium
+P383,43,Male,Cough,121,120,102.9,Asthma,Medium
+P384,63,Female,Severe Headache,114,98,97.6,Asthma,Medium
+P385,78,Male,Shortness of Breath,166,60,100.6,Diabetes,High
+P386,49,Female,Seizure,140,130,102.2,Hypertension,High
+P387,67,Male,Cough,161,138,99.0,Diabetes,High
+P388,24,Female,Severe Headache,174,138,100.3,None,Medium
+P389,23,Female,Fever,157,76,99.7,Heart Disease,Medium
+P390,20,Female,Fever,140,114,101.4,None,Medium
+P391,29,Female,Seizure,186,66,98.0,None,Medium
+P392,62,Male,Seizure,118,109,99.8,Asthma,High
+P393,62,Female,Cough,107,107,101.0,None,Medium
+P394,68,Male,Chest Pain,143,136,97.1,Heart Disease,High
+P395,39,Female,Fever,136,110,102.8,Diabetes,Medium
+P396,20,Male,Cough,127,128,99.4,Asthma,Medium
+P397,78,Male,Seizure,153,117,98.2,Hypertension,High
+P398,24,Male,Seizure,175,103,102.2,None,High
+P399,48,Male,Severe Headache,157,115,102.1,Hypertension,High
+P400,54,Male,Fever,103,74,100.0,Hypertension,Medium
+P401,67,Male,Severe Headache,148,105,100.5,Heart Disease,High
+P402,53,Male,Seizure,165,133,102.4,Hypertension,High
+P403,23,Female,Shortness of Breath,138,96,103.0,Asthma,Medium
+P404,75,Male,Severe Headache,111,57,100.7,Asthma,Medium
+P405,57,Female,Severe Headache,120,69,98.4,Heart Disease,Medium
+P406,43,Male,Shortness of Breath,107,96,98.4,Heart Disease,Medium
+P407,19,Male,Fever,136,123,97.4,Heart Disease,Medium
+P408,58,Male,Cough,161,114,99.4,None,Medium
+P409,31,Female,Shortness of Breath,188,138,100.6,Diabetes,High
+P410,87,Female,Chest Pain,116,82,98.5,Hypertension,Medium
+P411,22,Female,Severe Headache,164,94,100.6,Hypertension,Medium
+P412,53,Male,Shortness of Breath,144,77,99.7,Asthma,Medium
+P413,28,Female,Cough,109,121,99.7,Asthma,Medium
+P414,27,Male,Severe Headache,175,55,99.7,None,Medium
+P415,25,Female,Chest Pain,142,130,101.2,Hypertension,High
+P416,81,Male,Cough,183,82,97.2,Heart Disease,Medium
+P417,54,Female,Chest Pain,146,130,99.8,Diabetes,High
+P418,61,Female,Cough,155,82,102.2,Diabetes,Medium
+P419,23,Female,Seizure,160,74,98.6,Hypertension,Medium
+P420,19,Female,Severe Headache,172,91,102.6,Diabetes,Medium
+P421,46,Male,Shortness of Breath,100,89,99.7,None,Medium
+P422,76,Male,Cough,168,87,100.0,Asthma,Medium
+P423,29,Female,Fever,119,107,99.9,Heart Disease,Medium
+P424,60,Female,Fever,188,104,102.8,Diabetes,High
+P425,56,Female,Chest Pain,155,97,99.9,None,Medium
+P426,61,Female,Severe Headache,137,138,97.8,None,Medium
+P427,62,Female,Seizure,151,134,102.6,Asthma,High
+P428,25,Female,Shortness of Breath,184,55,101.4,Heart Disease,High
+P429,46,Male,Cough,104,101,101.2,Hypertension,Medium
+P430,72,Male,Cough,189,97,101.1,Hypertension,High
+P431,34,Female,Severe Headache,125,62,102.2,Asthma,Medium
+P432,89,Male,Cough,188,100,102.5,Asthma,High
+P433,18,Female,Shortness of Breath,118,85,101.0,Heart Disease,Medium
+P434,70,Male,Seizure,147,123,100.5,Asthma,High
+P435,79,Male,Seizure,165,118,97.3,Hypertension,High
+P436,50,Female,Shortness of Breath,140,102,101.5,Diabetes,Medium
+P437,48,Male,Seizure,174,122,100.9,Heart Disease,High
+P438,21,Female,Fever,118,124,102.4,Hypertension,Medium
+P439,30,Male,Severe Headache,122,137,102.2,Hypertension,Medium
+P440,18,Male,Shortness of Breath,187,108,100.9,Asthma,Medium
+P441,32,Female,Shortness of Breath,164,130,100.7,Asthma,High
+P442,32,Female,Fever,120,73,99.3,Hypertension,Low
+P443,50,Male,Chest Pain,148,89,98.4,Asthma,Medium
+P444,28,Female,Severe Headache,171,132,100.7,Diabetes,High
+P445,63,Female,Seizure,108,57,100.3,None,Medium
+P446,89,Female,Cough,147,120,99.9,Asthma,Medium
+P447,43,Female,Severe Headache,124,66,97.9,Hypertension,Medium
+P448,65,Male,Cough,136,133,100.2,Asthma,Medium
+P449,32,Female,Fever,142,102,100.3,None,Medium
+P450,63,Male,Seizure,142,75,98.2,Hypertension,Medium
+P451,64,Female,Fever,114,79,100.9,Hypertension,Medium
+P452,68,Female,Severe Headache,114,122,102.6,Asthma,High
+P453,36,Female,Chest Pain,133,132,99.9,Asthma,Medium
+P454,69,Male,Chest Pain,126,83,101.8,Diabetes,High
+P455,52,Female,Shortness of Breath,107,70,97.5,None,Low
+P456,47,Female,Severe Headache,117,56,98.6,Hypertension,Medium
+P457,21,Male,Fever,189,129,97.7,Hypertension,Medium
+P458,56,Male,Chest Pain,112,85,101.3,Asthma,Medium
+P459,73,Male,Chest Pain,141,115,98.5,Heart Disease,High
+P460,53,Male,Seizure,183,122,97.5,Asthma,High
+P461,71,Female,Seizure,100,98,97.3,Hypertension,Medium
+P462,64,Female,Cough,112,76,101.9,Asthma,Medium
+P463,26,Male,Shortness of Breath,125,63,100.9,Heart Disease,Medium
+P464,59,Male,Chest Pain,171,78,99.1,None,Medium
+P465,43,Female,Seizure,136,122,98.6,None,Medium
+P466,36,Female,Cough,159,93,101.0,None,Low
+P467,35,Female,Fever,118,90,97.9,Asthma,Low
+P468,72,Male,Shortness of Breath,168,101,98.4,None,Medium
+P469,50,Female,Seizure,120,135,98.1,Diabetes,Medium
+P470,54,Male,Seizure,114,89,100.6,Asthma,Medium
+P471,49,Male,Seizure,110,64,98.5,Asthma,Medium
+P472,74,Female,Seizure,124,56,98.6,Heart Disease,Medium
+P473,24,Male,Cough,184,72,99.4,Hypertension,Medium
+P474,56,Female,Cough,140,129,102.9,Hypertension,Medium
+P475,77,Male,Severe Headache,145,73,100.6,Heart Disease,High
+P476,59,Female,Fever,131,93,101.6,Diabetes,Medium
+P477,53,Male,Shortness of Breath,135,57,99.4,Diabetes,Medium
+P478,87,Male,Severe Headache,140,122,99.7,Hypertension,High
+P479,77,Female,Chest Pain,101,114,101.8,Heart Disease,High
+P480,44,Female,Cough,131,75,98.6,Asthma,Low
+P481,89,Male,Fever,149,121,100.2,Asthma,High
+P482,75,Male,Cough,102,124,97.3,Heart Disease,Medium
+P483,61,Female,Chest Pain,101,135,103.0,Hypertension,High
+P484,47,Male,Severe Headache,107,76,100.4,Hypertension,Medium
+P485,53,Male,Chest Pain,168,131,100.8,Asthma,High
+P486,64,Female,Severe Headache,154,134,99.5,Diabetes,High
+P487,47,Male,Shortness of Breath,154,70,97.0,Diabetes,Medium
+P488,33,Male,Cough,111,62,101.8,None,Low
+P489,33,Male,Cough,129,77,99.4,None,Low
+P490,22,Female,Chest Pain,183,119,102.1,Asthma,High
+P491,38,Male,Chest Pain,183,124,98.5,Hypertension,High
+P492,89,Male,Severe Headache,131,87,100.7,Hypertension,Medium
+P493,55,Female,Chest Pain,113,90,98.8,Heart Disease,Medium
+P494,83,Male,Fever,184,56,102.6,Asthma,High
+P495,82,Male,Seizure,174,121,99.4,Asthma,High
+P496,40,Female,Chest Pain,125,122,102.2,Heart Disease,High
+P497,23,Male,Fever,134,76,100.0,Diabetes,Low
+P498,77,Female,Chest Pain,111,103,97.7,Heart Disease,High
+P499,62,Male,Cough,134,84,102.3,Diabetes,Medium
+P500,47,Male,Shortness of Breath,177,60,97.8,Asthma,Medium
+P501,24,Female,Chest Pain,151,68,97.5,Diabetes,Medium
+P502,38,Female,Seizure,134,120,97.9,Hypertension,Medium
+P503,52,Female,Seizure,181,132,102.9,None,High
+P504,27,Female,Severe Headache,124,120,97.8,None,Low
+P505,71,Female,Shortness of Breath,132,90,100.6,None,Medium
+P506,82,Female,Fever,179,108,102.0,Hypertension,High
+P507,69,Male,Severe Headache,102,95,102.0,Asthma,Medium
+P508,30,Female,Severe Headache,107,75,97.2,Asthma,Low
+P509,42,Male,Shortness of Breath,178,122,97.5,Heart Disease,High
+P510,29,Male,Chest Pain,131,67,102.6,Heart Disease,Medium
+P511,37,Female,Cough,117,114,102.1,Hypertension,Medium
+P512,49,Male,Chest Pain,142,56,100.9,Hypertension,Medium
+P513,48,Female,Fever,104,137,98.2,Diabetes,Medium
+P514,19,Male,Shortness of Breath,110,104,97.3,Hypertension,Medium
+P515,73,Male,Fever,178,127,99.6,Diabetes,High
+P516,26,Male,Severe Headache,120,127,101.7,Hypertension,Medium
+P517,24,Female,Severe Headache,179,70,97.4,Heart Disease,Medium
+P518,21,Male,Shortness of Breath,103,94,101.9,Asthma,Medium
+P519,69,Male,Shortness of Breath,151,90,100.2,None,Medium
+P520,67,Female,Fever,162,117,99.7,Heart Disease,High
+P521,24,Female,Chest Pain,126,68,98.1,Diabetes,Medium
+P522,22,Female,Shortness of Breath,154,56,97.8,None,Low
+P523,38,Male,Severe Headache,178,75,101.6,Heart Disease,High
+P524,75,Male,Fever,138,59,98.3,Diabetes,Medium
+P525,70,Female,Cough,181,99,97.3,None,Medium
+P526,77,Female,Fever,110,117,100.0,None,Medium
+P527,72,Male,Fever,125,122,102.2,Diabetes,High
+P528,69,Female,Fever,128,92,99.4,Asthma,Medium
+P529,59,Female,Chest Pain,112,118,101.7,Hypertension,High
+P530,26,Male,Cough,140,55,101.9,Heart Disease,Medium
+P531,65,Female,Shortness of Breath,128,64,102.6,Diabetes,Medium
+P532,77,Female,Seizure,120,82,100.8,Hypertension,Medium
+P533,51,Male,Fever,107,113,99.7,None,Medium
+P534,66,Male,Fever,178,71,97.4,Diabetes,Medium
+P535,62,Female,Shortness of Breath,182,123,101.4,Hypertension,High
+P536,82,Male,Shortness of Breath,186,62,97.3,Asthma,Medium
+P537,60,Male,Fever,100,105,97.4,Diabetes,Medium
+P538,41,Male,Seizure,116,59,100.1,None,Medium
+P539,75,Male,Seizure,130,65,102.8,Diabetes,High
+P540,24,Female,Seizure,127,105,98.0,Asthma,Medium
+P541,22,Male,Fever,104,62,98.6,Hypertension,Low
+P542,55,Female,Cough,180,62,101.6,Diabetes,Medium
+P543,42,Male,Chest Pain,172,120,101.0,Asthma,High
+P544,84,Female,Cough,148,90,100.7,Diabetes,Medium
+P545,58,Male,Fever,188,116,102.4,None,Medium
+P546,27,Female,Chest Pain,120,90,98.8,None,Low
+P547,19,Male,Chest Pain,112,107,102.5,None,Medium
+P548,33,Female,Severe Headache,131,86,100.9,Heart Disease,Medium
+P549,28,Male,Fever,109,69,97.7,Diabetes,Low
+P550,35,Female,Seizure,154,127,99.2,Asthma,High
+P551,76,Male,Shortness of Breath,177,76,98.6,None,Medium
+P552,61,Male,Chest Pain,131,105,102.3,Heart Disease,High
+P553,38,Female,Severe Headache,131,93,102.1,None,Medium
+P554,64,Female,Fever,117,75,101.5,None,Medium
+P555,38,Female,Chest Pain,107,100,101.4,Diabetes,Medium
+P556,24,Female,Cough,122,129,98.9,Diabetes,Medium
+P557,39,Female,Chest Pain,188,76,100.2,None,Medium
+P558,30,Male,Fever,181,56,97.8,Heart Disease,Medium
+P559,69,Male,Seizure,126,104,98.3,None,Medium
+P560,40,Female,Fever,187,98,101.4,Hypertension,Medium
+P561,60,Female,Cough,136,115,101.5,Heart Disease,Medium
+P562,20,Female,Cough,162,73,97.9,Asthma,Medium
+P563,47,Male,Cough,138,79,101.6,Heart Disease,Medium
+P564,25,Male,Shortness of Breath,157,70,101.9,None,Medium
+P565,22,Male,Fever,102,119,98.7,Heart Disease,Medium
+P566,81,Female,Seizure,188,64,101.5,Heart Disease,High
+P567,63,Female,Severe Headache,126,120,99.1,Hypertension,Medium
+P568,30,Male,Severe Headache,108,90,97.0,Asthma,Low
+P569,75,Male,Cough,153,66,101.5,None,Medium
+P570,31,Male,Cough,133,107,99.2,Asthma,Medium
+P571,33,Female,Fever,169,110,100.0,Heart Disease,Medium
+P572,75,Female,Shortness of Breath,103,58,101.3,Heart Disease,High
+P573,41,Female,Severe Headache,125,91,101.0,Hypertension,Medium
+P574,71,Female,Shortness of Breath,120,128,100.7,Diabetes,High
+P575,21,Female,Fever,159,111,99.3,None,Medium
+P576,34,Male,Chest Pain,170,58,100.1,Asthma,Medium
+P577,20,Female,Seizure,187,134,98.4,Asthma,High
+P578,21,Male,Seizure,123,88,100.6,None,Medium
+P579,36,Male,Severe Headache,130,114,102.0,None,Medium
+P580,66,Male,Severe Headache,162,137,97.4,Diabetes,High
+P581,47,Male,Fever,157,85,102.0,Hypertension,Medium
+P582,36,Female,Shortness of Breath,147,99,97.9,Hypertension,Medium
+P583,72,Female,Shortness of Breath,154,72,99.2,Hypertension,Medium
+P584,64,Female,Fever,174,111,102.6,Heart Disease,High
+P585,62,Male,Cough,132,71,100.8,Diabetes,Medium
+P586,37,Male,Seizure,146,69,99.5,Asthma,Medium
+P587,26,Female,Severe Headache,189,70,98.2,Diabetes,Medium
+P588,78,Female,Shortness of Breath,109,104,98.0,None,Medium
+P589,87,Male,Chest Pain,180,105,102.6,Hypertension,High
+P590,59,Female,Fever,134,100,98.4,Asthma,Low
+P591,86,Male,Shortness of Breath,163,91,99.9,Diabetes,High
+P592,38,Male,Chest Pain,173,118,99.9,Asthma,High
+P593,87,Female,Fever,189,58,97.3,Hypertension,Medium
+P594,56,Female,Severe Headache,134,55,101.7,Asthma,Medium
+P595,87,Female,Cough,140,108,98.4,Hypertension,Medium
+P596,77,Female,Seizure,156,85,102.5,Heart Disease,High
+P597,53,Male,Seizure,184,84,98.7,Heart Disease,High
+P598,47,Female,Shortness of Breath,185,61,98.5,Heart Disease,Medium
+P599,31,Male,Cough,109,134,99.2,Heart Disease,Medium
+P600,87,Male,Seizure,143,127,99.9,Asthma,High
+P601,73,Male,Seizure,183,136,102.4,Asthma,High
+P602,74,Male,Severe Headache,120,122,98.9,Diabetes,Medium
+P603,24,Female,Fever,169,69,97.1,Hypertension,Medium
+P604,37,Male,Fever,187,69,102.3,Heart Disease,Medium
+P605,38,Male,Shortness of Breath,141,80,99.5,None,Medium
+P606,31,Female,Fever,156,91,102.9,Asthma,Medium
+P607,86,Male,Cough,102,91,100.4,Hypertension,Medium
+P608,36,Male,Cough,188,139,100.7,Hypertension,Medium
+P609,78,Male,Shortness of Breath,140,87,97.9,Heart Disease,Medium
+P610,85,Female,Seizure,170,87,100.1,None,High
+P611,78,Male,Chest Pain,160,82,101.3,Asthma,High
+P612,58,Male,Seizure,138,103,100.3,None,Medium
+P613,87,Female,Chest Pain,169,119,99.6,None,High
+P614,22,Female,Cough,101,76,102.1,Asthma,Medium
+P615,83,Female,Cough,173,70,99.5,None,Medium
+P616,56,Male,Shortness of Breath,185,130,97.4,Diabetes,High
+P617,57,Male,Seizure,137,114,99.1,Heart Disease,High
+P618,81,Male,Shortness of Breath,162,103,98.2,Diabetes,High
+P619,24,Male,Fever,120,74,100.3,Hypertension,Low
+P620,85,Female,Fever,185,69,98.2,Diabetes,Medium
+P621,31,Male,Severe Headache,126,94,102.9,Hypertension,Medium
+P622,43,Male,Chest Pain,162,120,97.4,Asthma,High
+P623,20,Female,Chest Pain,171,98,100.2,Hypertension,Medium
+P624,23,Male,Chest Pain,138,106,99.7,None,Medium
+P625,67,Female,Chest Pain,142,73,99.6,None,Medium
+P626,28,Male,Seizure,111,128,97.6,Heart Disease,Medium
+P627,58,Female,Chest Pain,135,139,98.9,Hypertension,Medium
+P628,26,Male,Severe Headache,146,69,102.5,Hypertension,Medium
+P629,59,Male,Seizure,159,138,100.3,Asthma,High
+P630,19,Male,Seizure,106,134,102.1,Asthma,High
+P631,20,Female,Severe Headache,126,94,100.0,Hypertension,Medium
+P632,18,Female,Cough,107,86,100.9,Heart Disease,Medium
+P633,21,Female,Chest Pain,169,73,102.3,Asthma,High
+P634,29,Male,Shortness of Breath,110,100,98.9,Asthma,Low
+P635,18,Female,Cough,162,75,101.4,Diabetes,Medium
+P636,51,Male,Cough,103,82,102.3,None,Medium
+P637,76,Female,Seizure,126,123,100.4,Asthma,High
+P638,85,Female,Severe Headache,124,74,102.3,Heart Disease,High
+P639,22,Female,Chest Pain,160,63,101.9,Hypertension,Medium
+P640,67,Female,Fever,105,137,101.6,Hypertension,High
+P641,28,Male,Seizure,165,101,100.9,None,Medium
+P642,20,Male,Cough,175,84,98.0,Heart Disease,Medium
+P643,38,Male,Fever,127,116,101.3,Heart Disease,Medium
+P644,52,Female,Fever,151,88,99.1,Diabetes,Medium
+P645,64,Female,Chest Pain,181,112,100.7,None,High
+P646,40,Female,Seizure,147,76,101.4,None,Medium
+P647,28,Female,Fever,114,89,97.2,Diabetes,Low
+P648,33,Female,Fever,133,120,98.9,Asthma,Low
+P649,45,Female,Fever,146,93,98.0,Hypertension,Medium
+P650,37,Male,Cough,100,126,97.4,Asthma,Medium
+P651,80,Male,Cough,166,58,102.2,Diabetes,High
+P652,64,Female,Chest Pain,137,69,98.3,Heart Disease,Medium
+P653,74,Male,Severe Headache,152,100,101.6,Heart Disease,High
+P654,34,Female,Cough,138,63,101.7,None,Low
+P655,23,Female,Fever,122,113,97.7,None,Low
+P656,63,Male,Severe Headache,137,68,102.2,Diabetes,Medium
+P657,89,Female,Shortness of Breath,161,89,99.5,Asthma,High
+P658,42,Male,Severe Headache,139,68,102.5,Heart Disease,Medium
+P659,39,Male,Cough,147,137,102.8,Hypertension,Medium
+P660,20,Female,Severe Headache,141,73,101.8,Hypertension,Medium
+P661,62,Male,Fever,170,132,101.4,Hypertension,High
+P662,36,Female,Fever,146,68,98.3,Diabetes,Low
+P663,70,Female,Fever,160,90,97.6,Asthma,Medium
+P664,47,Female,Fever,108,118,100.4,None,Medium
+P665,69,Female,Shortness of Breath,188,68,100.6,Heart Disease,High
+P666,76,Male,Fever,177,95,97.3,Diabetes,Medium
+P667,85,Male,Seizure,107,56,101.0,Diabetes,Medium
+P668,58,Male,Cough,154,70,98.4,Heart Disease,Medium
+P669,65,Female,Chest Pain,129,66,100.5,Asthma,Medium
+P670,81,Male,Cough,149,139,100.1,Diabetes,High
+P671,86,Male,Fever,147,74,98.3,Asthma,Medium
+P672,61,Female,Shortness of Breath,132,127,102.5,Diabetes,High
+P673,85,Female,Chest Pain,134,135,97.4,Asthma,High
+P674,82,Female,Severe Headache,107,99,101.2,Diabetes,Medium
+P675,57,Female,Cough,175,108,99.6,Heart Disease,High
+P676,64,Female,Severe Headache,114,73,102.4,Diabetes,Medium
+P677,39,Male,Cough,120,105,99.7,Heart Disease,Medium
+P678,46,Female,Chest Pain,150,58,101.1,None,Medium
+P679,45,Male,Seizure,103,76,101.7,Hypertension,Medium
+P680,84,Female,Cough,185,120,98.6,Hypertension,Medium
+P681,72,Female,Fever,100,126,100.8,None,Medium
+P682,23,Female,Seizure,185,79,97.0,Asthma,Medium
+P683,78,Male,Severe Headache,111,60,97.3,Diabetes,Medium
+P684,25,Female,Fever,182,119,99.7,Heart Disease,Medium
+P685,57,Female,Fever,113,89,99.7,Diabetes,Medium
+P686,73,Male,Seizure,148,67,100.2,Hypertension,High
+P687,66,Male,Chest Pain,145,116,102.0,None,High
+P688,37,Male,Chest Pain,189,93,101.8,Hypertension,High
+P689,66,Female,Cough,163,116,99.4,Asthma,High
+P690,71,Male,Shortness of Breath,108,91,98.7,Asthma,Medium
+P691,34,Male,Fever,187,75,99.1,Heart Disease,Medium
+P692,56,Female,Cough,154,95,97.2,None,Low
+P693,81,Female,Shortness of Breath,110,73,99.7,Asthma,Medium
+P694,63,Male,Shortness of Breath,144,55,99.3,Hypertension,Medium
+P695,36,Male,Chest Pain,175,126,102.4,None,High
+P696,29,Male,Seizure,160,87,101.9,Diabetes,Medium
+P697,86,Male,Fever,107,79,100.8,Heart Disease,Medium
+P698,47,Male,Shortness of Breath,146,103,100.6,Diabetes,Medium
+P699,35,Female,Fever,165,122,99.3,Hypertension,Medium
+P700,53,Male,Cough,181,73,100.6,Asthma,Medium
+P701,57,Female,Chest Pain,183,130,97.5,Hypertension,High
+P702,32,Male,Chest Pain,140,93,99.5,Asthma,Medium
+P703,46,Male,Seizure,173,120,102.3,None,High
+P704,27,Female,Seizure,113,136,97.8,Hypertension,Medium
+P705,56,Female,Fever,127,57,101.3,Asthma,Medium
+P706,44,Male,Severe Headache,101,92,102.0,Diabetes,Medium
+P707,57,Female,Shortness of Breath,101,135,101.2,None,Medium
+P708,29,Female,Cough,134,119,97.5,Hypertension,Low
+P709,79,Male,Shortness of Breath,148,79,101.4,Hypertension,High
+P710,55,Male,Severe Headache,127,75,101.2,Asthma,Medium
+P711,35,Male,Chest Pain,135,99,98.7,None,Low
+P712,70,Female,Cough,129,114,98.4,Diabetes,Medium
+P713,49,Male,Severe Headache,166,121,102.1,None,High
+P714,58,Male,Severe Headache,162,77,98.9,Heart Disease,Medium
+P715,65,Male,Seizure,131,111,97.2,Diabetes,Medium
+P716,50,Female,Seizure,123,93,100.1,Diabetes,Medium
+P717,45,Male,Cough,136,61,97.9,None,Low
+P718,73,Female,Cough,164,119,102.7,Heart Disease,High
+P719,36,Female,Shortness of Breath,128,128,100.9,Heart Disease,Medium
+P720,52,Male,Cough,142,65,98.9,Hypertension,Medium
+P721,55,Male,Fever,163,123,100.2,Diabetes,High
+P722,65,Female,Severe Headache,155,130,100.4,Asthma,High
+P723,48,Male,Severe Headache,103,104,99.9,Diabetes,Medium
+P724,76,Female,Fever,166,129,97.8,None,Medium
+P725,43,Female,Seizure,126,100,97.2,Asthma,Medium
+P726,81,Female,Chest Pain,150,104,98.9,Diabetes,High
+P727,32,Female,Fever,129,96,102.4,None,Low
+P728,54,Female,Severe Headache,141,89,102.3,Heart Disease,High
+P729,85,Male,Cough,117,127,102.9,Diabetes,High
+P730,76,Male,Shortness of Breath,146,71,99.3,Asthma,Medium
+P731,39,Female,Cough,167,123,97.9,Diabetes,Medium
+P732,66,Female,Cough,112,88,98.0,Diabetes,Medium
+P733,70,Female,Fever,186,105,99.1,Diabetes,High
+P734,49,Female,Fever,150,139,99.1,Asthma,Medium
+P735,38,Male,Fever,143,65,100.3,Asthma,Medium
+P736,18,Female,Chest Pain,162,78,103.0,Diabetes,High
+P737,30,Male,Severe Headache,110,105,101.7,Hypertension,Medium
+P738,41,Female,Fever,118,91,101.4,None,Medium
+P739,25,Male,Shortness of Breath,127,59,99.9,Hypertension,Medium
+P740,53,Male,Chest Pain,118,118,100.6,Heart Disease,High
+P741,28,Male,Seizure,153,99,99.8,None,Medium
+P742,38,Male,Severe Headache,110,59,101.8,None,Medium
+P743,37,Male,Shortness of Breath,140,100,97.2,None,Low
+P744,87,Male,Chest Pain,116,73,100.1,Heart Disease,High
+P745,69,Female,Chest Pain,169,109,99.3,None,High
+P746,50,Male,Cough,161,77,99.3,None,Medium
+P747,81,Female,Cough,180,105,102.4,None,High
+P748,68,Female,Shortness of Breath,146,58,101.8,Hypertension,High
+P749,52,Male,Fever,147,127,97.4,Asthma,Medium
+P750,62,Female,Severe Headache,180,135,102.1,Diabetes,High
+P751,89,Female,Seizure,118,117,102.3,Asthma,High
+P752,76,Female,Chest Pain,168,67,102.8,Hypertension,High
+P753,78,Female,Chest Pain,130,134,101.6,None,High
+P754,39,Male,Shortness of Breath,185,97,102.2,Diabetes,Medium
+P755,27,Female,Fever,141,118,98.8,Diabetes,Medium
+P756,83,Female,Cough,140,78,101.4,Asthma,Medium
+P757,47,Female,Seizure,156,101,102.9,Hypertension,High
+P758,25,Male,Fever,125,125,97.0,None,Low
+P759,84,Male,Severe Headache,164,90,102.0,Heart Disease,High
+P760,18,Male,Chest Pain,114,91,97.0,Heart Disease,Medium
+P761,25,Female,Fever,104,114,101.0,None,Low
+P762,18,Female,Severe Headache,135,89,100.7,None,Low
+P763,40,Male,Chest Pain,108,88,97.5,Diabetes,Medium
+P764,21,Female,Chest Pain,129,129,99.1,Heart Disease,High
+P765,20,Male,Chest Pain,113,114,100.5,Diabetes,Medium
+P766,51,Female,Fever,144,115,97.6,Heart Disease,Medium
+P767,33,Male,Fever,165,94,97.7,Diabetes,Medium
+P768,51,Male,Shortness of Breath,115,114,97.9,Hypertension,Medium
+P769,30,Female,Cough,155,85,98.4,Asthma,Low
+P770,56,Female,Cough,166,62,98.8,Heart Disease,Medium
+P771,72,Male,Shortness of Breath,126,107,102.1,None,Medium
+P772,34,Female,Severe Headache,129,107,97.2,Heart Disease,Medium
+P773,36,Male,Chest Pain,152,73,100.9,Hypertension,Medium
+P774,48,Female,Severe Headache,180,109,100.0,Diabetes,High
+P775,79,Male,Fever,173,64,101.9,Hypertension,High
+P776,71,Female,Cough,151,74,101.1,Asthma,Medium
+P777,31,Female,Fever,149,82,98.4,None,Low
+P778,70,Male,Severe Headache,123,133,100.3,Diabetes,High
+P779,80,Male,Cough,103,131,102.5,Diabetes,High
+P780,25,Male,Chest Pain,181,66,100.0,None,Medium
+P781,51,Female,Seizure,181,129,98.6,Heart Disease,High
+P782,66,Female,Cough,178,111,97.0,Heart Disease,High
+P783,43,Female,Shortness of Breath,117,92,102.4,Hypertension,Medium
+P784,67,Male,Chest Pain,107,95,99.0,Heart Disease,Medium
+P785,61,Male,Severe Headache,163,83,102.6,Heart Disease,High
+P786,82,Male,Shortness of Breath,118,63,102.1,Heart Disease,High
+P787,61,Male,Seizure,167,136,102.4,None,High
+P788,30,Female,Shortness of Breath,182,103,99.3,Asthma,Medium
+P789,73,Male,Chest Pain,175,105,97.5,None,High
+P790,75,Female,Cough,186,83,99.3,None,Medium
+P791,72,Male,Severe Headache,109,101,98.0,Heart Disease,Medium
+P792,38,Female,Seizure,112,87,98.7,Heart Disease,Medium
+P793,28,Male,Fever,116,122,101.2,Heart Disease,Medium
+P794,38,Male,Seizure,183,137,100.8,Asthma,High
+P795,54,Female,Shortness of Breath,141,71,99.2,Diabetes,Medium
+P796,65,Female,Fever,127,95,99.9,Hypertension,Medium
+P797,35,Female,Severe Headache,177,125,101.6,None,High
+P798,30,Female,Severe Headache,130,56,98.3,None,Low
+P799,55,Male,Seizure,174,108,102.3,None,High
+P800,62,Female,Seizure,133,63,97.8,Heart Disease,Medium
+P801,24,Female,Shortness of Breath,135,72,101.4,Hypertension,Medium
+P802,87,Female,Chest Pain,143,75,101.1,None,High
+P803,71,Female,Fever,153,119,102.3,Hypertension,High
+P804,30,Male,Cough,156,103,97.7,Diabetes,Medium
+P805,27,Male,Cough,152,98,97.6,None,Low
+P806,63,Female,Chest Pain,112,91,102.5,Hypertension,High
+P807,19,Male,Seizure,185,135,97.7,Heart Disease,High
+P808,27,Male,Fever,134,79,101.4,Asthma,Medium
+P809,34,Female,Cough,111,108,98.6,Asthma,Low
+P810,46,Male,Chest Pain,142,79,102.8,Diabetes,High
+P811,77,Female,Shortness of Breath,189,119,98.9,Heart Disease,High
+P812,45,Female,Cough,115,101,98.3,None,Low
+P813,75,Male,Cough,175,81,100.5,Heart Disease,High
+P814,59,Female,Seizure,158,101,101.8,Heart Disease,High
+P815,51,Female,Chest Pain,136,60,99.6,Asthma,Medium
+P816,42,Male,Shortness of Breath,132,109,100.1,Hypertension,Medium
+P817,74,Male,Cough,111,70,100.4,Diabetes,Medium
+P818,24,Male,Shortness of Breath,150,127,100.3,None,Medium
+P819,25,Male,Shortness of Breath,186,126,98.2,Asthma,Medium
+P820,76,Female,Fever,103,121,101.3,None,Medium
+P821,46,Male,Cough,127,131,101.5,Hypertension,Medium
+P822,61,Female,Severe Headache,189,58,102.7,Diabetes,High
+P823,26,Female,Cough,104,110,102.9,Heart Disease,Medium
+P824,67,Male,Fever,174,69,100.4,Hypertension,Medium
+P825,39,Male,Chest Pain,116,113,101.4,Diabetes,Medium
+P826,88,Female,Cough,156,80,102.1,Hypertension,Medium
+P827,62,Male,Cough,182,65,102.9,None,Medium
+P828,89,Male,Fever,167,82,100.9,Asthma,Medium
+P829,82,Female,Shortness of Breath,148,101,102.5,Hypertension,High
+P830,71,Male,Seizure,159,111,102.3,Asthma,High
+P831,63,Female,Cough,125,59,100.0,Asthma,Medium
+P832,71,Male,Cough,132,104,98.8,Hypertension,Medium
+P833,32,Female,Seizure,160,75,102.8,Hypertension,Medium
+P834,23,Female,Chest Pain,137,116,101.8,Asthma,Medium
+P835,63,Female,Fever,112,57,98.0,Heart Disease,Medium
+P836,25,Female,Shortness of Breath,143,87,97.8,None,Low
+P837,67,Male,Shortness of Breath,110,82,101.0,None,Medium
+P838,58,Female,Seizure,115,122,102.7,Diabetes,High
+P839,65,Female,Cough,155,118,102.7,Hypertension,High
+P840,79,Female,Cough,175,65,99.8,Hypertension,Medium
+P841,35,Male,Seizure,118,109,98.3,Heart Disease,Medium
+P842,43,Female,Shortness of Breath,105,58,102.0,Hypertension,Medium
+P843,46,Male,Severe Headache,158,71,102.8,Hypertension,Medium
+P844,83,Female,Chest Pain,133,62,98.0,Asthma,Medium
+P845,25,Female,Chest Pain,164,97,101.0,Diabetes,Medium
+P846,76,Female,Chest Pain,183,98,97.1,Diabetes,High
+P847,53,Male,Chest Pain,127,96,101.8,Heart Disease,High
+P848,59,Female,Cough,165,109,101.4,Asthma,High
+P849,39,Male,Shortness of Breath,126,121,102.4,Diabetes,Medium
+P850,62,Male,Severe Headache,109,63,97.9,Asthma,Medium
+P851,44,Female,Fever,133,55,97.3,Hypertension,Low
+P852,88,Male,Severe Headache,166,138,97.5,Asthma,High
+P853,52,Male,Cough,189,132,100.7,Hypertension,High
+P854,62,Female,Shortness of Breath,183,107,99.2,Diabetes,High
+P855,85,Female,Seizure,164,55,98.1,Hypertension,High
+P856,37,Female,Severe Headache,186,64,102.0,Heart Disease,High
+P857,58,Male,Seizure,104,119,98.1,Hypertension,Medium
+P858,58,Male,Seizure,167,123,101.3,Heart Disease,High
+P859,73,Male,Cough,150,75,100.1,Heart Disease,Medium
+P860,43,Male,Shortness of Breath,118,114,99.6,Hypertension,Medium
+P861,88,Female,Chest Pain,125,94,99.4,Asthma,Medium
+P862,21,Male,Shortness of Breath,122,138,100.0,Hypertension,Medium
+P863,25,Male,Fever,140,73,100.6,Hypertension,Low
+P864,63,Female,Seizure,127,122,98.8,None,Medium
+P865,54,Male,Severe Headache,100,121,97.6,None,Medium
+P866,44,Female,Severe Headache,139,117,99.0,Diabetes,Medium
+P867,41,Female,Fever,123,58,97.9,Asthma,Low
+P868,74,Male,Cough,148,107,98.7,Diabetes,Medium
+P869,40,Male,Chest Pain,168,107,101.6,None,High
+P870,74,Female,Fever,159,108,99.2,Hypertension,Medium
+P871,74,Male,Chest Pain,109,94,98.4,Asthma,Medium
+P872,55,Female,Shortness of Breath,184,115,99.6,Hypertension,High
+P873,68,Male,Cough,185,101,98.1,None,Medium
+P874,55,Male,Severe Headache,135,95,102.1,None,Medium
+P875,75,Male,Severe Headache,149,84,99.0,Diabetes,Medium
+P876,42,Female,Severe Headache,126,105,98.1,Heart Disease,Medium
+P877,64,Male,Severe Headache,138,70,101.5,Heart Disease,High
+P878,71,Female,Shortness of Breath,120,126,101.0,None,Medium
+P879,76,Male,Chest Pain,130,96,101.3,None,Medium
+P880,76,Male,Shortness of Breath,133,63,98.6,Hypertension,Medium
+P881,27,Male,Severe Headache,185,71,100.6,Asthma,Medium
+P882,69,Female,Fever,124,75,100.4,Asthma,Medium
+P883,82,Male,Cough,162,105,99.2,Heart Disease,High
+P884,83,Male,Shortness of Breath,114,93,99.8,None,Medium
+P885,18,Male,Seizure,122,93,102.1,Diabetes,Medium
+P886,74,Female,Seizure,180,88,101.8,Heart Disease,High
+P887,30,Male,Shortness of Breath,169,60,101.0,Asthma,Medium
+P888,20,Male,Chest Pain,180,117,101.6,Diabetes,High
+P889,64,Male,Shortness of Breath,154,118,100.0,Asthma,High
+P890,84,Male,Chest Pain,189,69,100.0,Diabetes,High
+P891,85,Male,Seizure,117,137,101.7,None,High
+P892,52,Female,Chest Pain,177,112,100.7,Diabetes,High
+P893,51,Male,Fever,160,58,100.4,Hypertension,Medium
+P894,46,Female,Severe Headache,182,60,100.3,Asthma,Medium
+P895,66,Female,Seizure,139,137,99.6,None,High
+P896,86,Male,Shortness of Breath,126,134,102.2,Heart Disease,High
+P897,30,Female,Chest Pain,163,116,100.3,None,Medium
+P898,60,Male,Fever,173,74,101.1,Hypertension,Medium
+P899,61,Male,Chest Pain,122,56,102.2,Diabetes,High
+P900,74,Male,Cough,171,61,98.9,Asthma,Medium
+P901,84,Female,Shortness of Breath,115,137,100.8,Heart Disease,High
+P902,89,Male,Fever,111,107,98.8,Hypertension,Medium
+P903,44,Male,Cough,111,71,102.6,None,Medium
+P904,22,Male,Fever,156,82,99.4,Hypertension,Medium
+P905,76,Female,Fever,132,116,97.5,Diabetes,Medium
+P906,36,Female,Seizure,185,123,97.4,Asthma,High
+P907,64,Female,Severe Headache,138,122,102.9,Asthma,High
+P908,71,Male,Severe Headache,106,133,97.7,Hypertension,Medium
+P909,36,Male,Chest Pain,153,74,98.7,Hypertension,Medium
+P910,80,Female,Cough,173,111,97.1,Heart Disease,High
+P911,79,Male,Severe Headache,128,128,98.1,None,Medium
+P912,23,Female,Severe Headache,157,123,102.9,Hypertension,High
+P913,58,Female,Chest Pain,168,136,101.2,Diabetes,High
+P914,58,Female,Shortness of Breath,148,103,99.4,Diabetes,Medium
+P915,20,Female,Chest Pain,109,89,98.6,Heart Disease,Medium
+P916,41,Male,Cough,173,92,102.8,Hypertension,Medium
+P917,60,Male,Seizure,154,93,98.0,None,Medium
+P918,37,Female,Seizure,140,108,101.2,None,Medium
+P919,36,Female,Severe Headache,183,120,98.6,Hypertension,Medium
+P920,51,Female,Severe Headache,121,121,99.2,None,Medium
+P921,44,Female,Shortness of Breath,109,127,101.2,Heart Disease,High
+P922,65,Female,Shortness of Breath,169,113,98.6,Diabetes,High
+P923,19,Female,Fever,128,122,102.7,None,Medium
+P924,43,Male,Fever,188,64,100.7,Asthma,Medium
+P925,76,Female,Severe Headache,121,105,102.3,Diabetes,High
+P926,39,Female,Fever,129,79,97.3,None,Low
+P927,82,Male,Cough,144,122,102.6,Asthma,High
+P928,26,Female,Seizure,135,137,102.7,None,Medium
+P929,53,Male,Shortness of Breath,172,100,98.1,Hypertension,Medium
+P930,49,Female,Shortness of Breath,105,102,101.0,Heart Disease,Medium
+P931,44,Female,Seizure,153,104,97.6,Asthma,Medium
+P932,42,Male,Cough,127,69,101.9,None,Medium
+P933,44,Male,Severe Headache,125,73,100.5,Asthma,Medium
+P934,34,Female,Fever,142,95,98.5,Asthma,Low
+P935,57,Male,Fever,138,77,97.3,Diabetes,Low
+P936,69,Male,Seizure,146,117,99.1,None,High
+P937,86,Male,Chest Pain,142,102,102.5,Diabetes,High
+P938,78,Female,Cough,149,121,98.3,Hypertension,Medium
+P939,50,Female,Fever,174,70,97.5,Heart Disease,Medium
+P940,65,Male,Cough,109,136,101.8,None,Medium
+P941,36,Female,Cough,135,113,98.7,Asthma,Low
+P942,63,Female,Severe Headache,102,128,100.1,None,Medium
+P943,25,Male,Cough,150,135,102.5,Hypertension,Medium
+P944,23,Female,Seizure,188,93,98.6,Hypertension,Medium
+P945,45,Male,Cough,153,91,101.0,Asthma,Medium
+P946,73,Male,Cough,158,139,99.5,Asthma,High
+P947,75,Female,Cough,159,94,99.7,None,Medium
+P948,54,Male,Cough,178,72,101.9,Hypertension,Medium
+P949,39,Female,Chest Pain,110,112,97.1,Heart Disease,Medium
+P950,21,Female,Shortness of Breath,185,61,97.3,Hypertension,Medium
+P951,71,Female,Fever,187,122,98.3,None,Medium
+P952,18,Female,Severe Headache,154,57,99.5,Heart Disease,Medium
+P953,18,Male,Cough,137,139,98.0,Asthma,Medium
+P954,22,Male,Seizure,173,75,101.5,Heart Disease,High
+P955,84,Female,Shortness of Breath,146,138,99.7,None,High
+P956,85,Male,Fever,168,55,98.9,Hypertension,Medium
+P957,77,Male,Chest Pain,126,110,100.3,Diabetes,High
+P958,42,Male,Seizure,120,115,99.1,Heart Disease,High
+P959,69,Male,Cough,187,79,102.0,Asthma,High
+P960,63,Female,Cough,131,109,102.7,None,Medium
+P961,53,Male,Severe Headache,148,112,102.6,Heart Disease,High
+P962,78,Male,Cough,108,60,100.3,Heart Disease,Medium
+P963,52,Male,Cough,138,76,100.1,None,Low
+P964,22,Male,Cough,141,135,99.1,Asthma,Medium
+P965,84,Male,Cough,129,111,97.1,Hypertension,Medium
+P966,46,Male,Shortness of Breath,136,67,101.3,Heart Disease,Medium
+P967,40,Female,Chest Pain,144,71,101.4,Asthma,Medium
+P968,83,Female,Seizure,105,72,98.8,Asthma,Medium
+P969,50,Male,Cough,129,135,99.5,Heart Disease,Medium
+P970,49,Female,Chest Pain,141,132,97.7,Heart Disease,High
+P971,53,Female,Chest Pain,133,127,98.3,Hypertension,Medium
+P972,28,Female,Fever,177,93,97.3,Diabetes,Medium
+P973,36,Female,Severe Headache,114,82,100.4,Heart Disease,Medium
+P974,26,Male,Shortness of Breath,146,87,99.6,Heart Disease,Medium
+P975,36,Female,Shortness of Breath,166,128,99.5,Hypertension,High
+P976,82,Male,Cough,128,104,99.0,None,Medium
+P977,30,Male,Chest Pain,100,88,97.1,Heart Disease,Medium
+P978,65,Male,Chest Pain,148,118,102.6,None,High
+P979,56,Female,Cough,187,80,100.1,None,Medium
+P980,30,Female,Fever,168,80,102.4,Hypertension,Medium
+P981,24,Female,Shortness of Breath,157,103,102.7,Asthma,Medium
+P982,82,Male,Shortness of Breath,161,71,102.1,Hypertension,High
+P983,20,Female,Shortness of Breath,178,83,100.8,Diabetes,Medium
+P984,49,Female,Severe Headache,125,70,97.1,None,Low
+P985,45,Male,Fever,172,110,102.0,None,Medium
+P986,58,Female,Shortness of Breath,150,125,99.7,None,Medium
+P987,36,Male,Shortness of Breath,165,95,102.3,Diabetes,Medium
+P988,20,Male,Chest Pain,110,107,99.5,Hypertension,Medium
+P989,74,Female,Cough,117,105,98.7,Asthma,Medium
+P990,83,Male,Shortness of Breath,107,76,99.9,None,Medium
+P991,74,Male,Chest Pain,135,133,97.4,None,Medium
+P992,74,Female,Shortness of Breath,148,99,99.7,Heart Disease,High
+P993,62,Male,Seizure,178,74,103.0,Diabetes,High
+P994,84,Male,Seizure,182,57,99.1,None,High
+P995,81,Female,Seizure,139,113,101.2,None,High
+P996,21,Female,Severe Headache,159,129,100.9,Diabetes,Medium
+P997,47,Male,Cough,101,116,102.1,Heart Disease,Medium
+P998,26,Male,Severe Headache,130,115,97.6,None,Low
+P999,65,Male,Fever,124,90,101.6,Asthma,Medium
+P1000,75,Male,Seizure,144,116,101.8,Diabetes,High
+P1001,75,Male,Seizure,180,137,100.7,None,High
+P1002,46,Male,Shortness of Breath,158,125,101.0,Hypertension,High
+P1003,23,Female,Shortness of Breath,128,112,102.4,None,Medium
+P1004,20,Female,Severe Headache,120,118,101.6,Asthma,Medium
+P1005,79,Female,Fever,141,130,99.8,None,Medium
+P1006,30,Female,Chest Pain,110,108,99.3,None,Medium
+P1007,76,Female,Shortness of Breath,156,94,100.6,Hypertension,Medium
+P1008,19,Male,Seizure,175,64,100.0,None,Medium
+P1009,19,Male,Cough,149,66,99.7,Heart Disease,Medium
+P1010,40,Female,Chest Pain,117,116,101.8,Hypertension,Medium
+P1011,79,Male,Shortness of Breath,137,121,102.6,Diabetes,High
+P1012,78,Female,Seizure,100,99,102.0,None,Medium
+P1013,38,Male,Chest Pain,112,81,100.6,Diabetes,Medium
+P1014,39,Male,Seizure,173,107,101.9,Diabetes,High
+P1015,21,Female,Seizure,122,124,101.7,Asthma,High
+P1016,50,Male,Chest Pain,127,62,97.2,Heart Disease,Medium
+P1017,80,Female,Seizure,121,124,99.5,Diabetes,High
+P1018,52,Male,Shortness of Breath,178,59,100.8,Heart Disease,High
+P1019,63,Female,Cough,149,102,98.9,Asthma,Medium
+P1020,73,Male,Shortness of Breath,158,83,99.6,Diabetes,Medium
+P1021,35,Male,Seizure,101,62,98.5,Hypertension,Medium
+P1022,71,Male,Seizure,137,102,102.0,Diabetes,High
+P1023,29,Male,Fever,142,115,101.5,Asthma,Medium
+P1024,78,Female,Fever,173,121,103.0,Diabetes,High
+P1025,52,Male,Severe Headache,114,70,99.5,Heart Disease,Medium
+P1026,52,Female,Severe Headache,174,113,102.1,Diabetes,High
+P1027,71,Female,Severe Headache,174,84,98.9,Diabetes,Medium
+P1028,65,Male,Cough,134,92,97.1,Diabetes,Medium
+P1029,41,Female,Severe Headache,148,86,97.8,Diabetes,Medium
+P1030,75,Female,Cough,102,134,99.5,None,Medium
+P1031,27,Female,Cough,182,79,97.4,Hypertension,Medium
+P1032,46,Male,Severe Headache,118,97,101.1,Heart Disease,Medium
+P1033,78,Male,Seizure,142,79,98.4,Hypertension,Medium
+P1034,41,Male,Cough,110,109,100.7,Hypertension,Medium
+P1035,80,Male,Chest Pain,158,59,103.0,None,High
+P1036,29,Male,Chest Pain,149,58,102.2,Hypertension,Medium
+P1037,59,Female,Shortness of Breath,183,92,100.6,Heart Disease,High
+P1038,49,Male,Severe Headache,110,115,101.0,Hypertension,Medium
+P1039,72,Male,Seizure,153,136,97.7,Diabetes,High
+P1040,38,Male,Cough,143,59,97.3,Diabetes,Low
+P1041,76,Female,Shortness of Breath,188,108,98.7,Hypertension,High
+P1042,82,Male,Shortness of Breath,163,125,100.6,Hypertension,High
+P1043,32,Male,Seizure,175,76,99.7,Asthma,Medium
+P1044,64,Female,Severe Headache,180,100,98.0,None,Medium
+P1045,37,Female,Severe Headache,149,87,100.7,Heart Disease,Medium
+P1046,60,Female,Severe Headache,178,66,99.7,Heart Disease,High
+P1047,37,Male,Cough,137,57,100.8,Hypertension,Low
+P1048,30,Male,Shortness of Breath,176,120,100.4,None,Medium
+P1049,83,Female,Shortness of Breath,135,108,100.5,None,Medium
+P1050,89,Male,Cough,139,97,97.3,Diabetes,Medium
+P1051,25,Female,Severe Headache,128,94,98.4,Diabetes,Low
+P1052,72,Male,Chest Pain,115,100,101.0,Asthma,Medium
+P1053,24,Male,Cough,179,99,102.9,Diabetes,Medium
+P1054,73,Male,Fever,147,81,101.4,Heart Disease,High
+P1055,52,Male,Chest Pain,150,138,98.3,Asthma,High
+P1056,74,Female,Shortness of Breath,107,133,102.1,Asthma,High
+P1057,37,Male,Shortness of Breath,152,66,101.9,None,Medium
+P1058,81,Female,Chest Pain,141,83,97.5,Diabetes,Medium
+P1059,28,Male,Shortness of Breath,149,125,98.3,Diabetes,Medium
+P1060,51,Male,Seizure,119,104,98.6,Diabetes,Medium
+P1061,27,Female,Chest Pain,131,106,99.6,Hypertension,Medium
+P1062,20,Female,Seizure,136,94,97.7,Heart Disease,Medium
+P1063,73,Male,Cough,122,65,99.0,Hypertension,Medium
+P1064,25,Female,Seizure,155,114,102.0,Diabetes,High
+P1065,45,Female,Seizure,148,90,101.0,Heart Disease,High
+P1066,53,Female,Seizure,125,58,97.9,Hypertension,Medium
+P1067,81,Male,Cough,137,76,99.9,Asthma,Medium
+P1068,28,Female,Chest Pain,145,116,97.8,Hypertension,Medium
+P1069,27,Male,Cough,139,78,100.7,Hypertension,Low
+P1070,77,Female,Severe Headache,161,71,99.7,None,Medium
+P1071,74,Female,Shortness of Breath,154,107,99.5,Hypertension,High
+P1072,26,Male,Fever,121,67,99.1,Heart Disease,Medium
+P1073,35,Male,Severe Headache,175,94,101.0,Diabetes,Medium
+P1074,32,Male,Shortness of Breath,178,117,97.8,None,Medium
+P1075,30,Male,Seizure,180,86,102.3,None,Medium
+P1076,37,Female,Fever,189,139,99.9,Heart Disease,High
+P1077,80,Male,Shortness of Breath,175,98,101.1,Diabetes,High
+P1078,77,Male,Severe Headache,170,102,99.4,Hypertension,High
+P1079,72,Female,Fever,138,122,99.5,Diabetes,Medium
+P1080,79,Female,Chest Pain,112,135,101.9,Hypertension,High
+P1081,23,Male,Severe Headache,182,131,100.5,Hypertension,High
+P1082,31,Female,Cough,153,58,102.8,Diabetes,Medium
+P1083,89,Female,Seizure,124,131,101.0,Heart Disease,High
+P1084,80,Male,Shortness of Breath,137,107,98.7,Heart Disease,Medium
+P1085,45,Male,Cough,102,134,98.7,None,Medium
+P1086,55,Male,Fever,171,126,99.2,Hypertension,High
+P1087,23,Male,Fever,177,86,101.8,None,Medium
+P1088,20,Female,Fever,158,130,100.3,Hypertension,Medium
+P1089,48,Male,Cough,168,116,102.9,Diabetes,High
+P1090,58,Male,Fever,130,139,102.2,Heart Disease,High
+P1091,39,Male,Severe Headache,103,67,100.7,Asthma,Medium
+P1092,59,Male,Fever,148,74,99.3,Diabetes,Medium
+P1093,71,Female,Shortness of Breath,135,55,99.1,Heart Disease,Medium
+P1094,34,Male,Cough,123,112,98.4,Hypertension,Low
+P1095,40,Male,Cough,145,126,98.2,Diabetes,Medium
+P1096,76,Male,Fever,112,93,97.0,Diabetes,Medium
+P1097,45,Female,Severe Headache,188,115,97.9,Diabetes,Medium
+P1098,19,Female,Fever,181,71,101.2,Diabetes,Medium
+P1099,30,Male,Severe Headache,181,67,101.0,Heart Disease,Medium
+P1100,38,Female,Fever,154,135,100.1,None,Medium
+P1101,32,Female,Cough,172,106,100.1,Hypertension,Medium
+P1102,70,Male,Severe Headache,186,106,98.7,Heart Disease,High
+P1103,74,Female,Fever,151,63,102.0,Heart Disease,High
+P1104,18,Female,Shortness of Breath,143,129,99.7,Heart Disease,High
+P1105,26,Male,Seizure,131,69,99.8,Heart Disease,Medium
+P1106,74,Female,Seizure,107,126,102.5,None,High
+P1107,29,Female,Severe Headache,164,96,99.4,Asthma,Medium
+P1108,28,Female,Shortness of Breath,142,71,98.3,None,Low
+P1109,57,Female,Severe Headache,122,110,99.3,Diabetes,Medium
+P1110,67,Female,Seizure,136,118,99.6,Asthma,High
+P1111,89,Male,Shortness of Breath,148,65,98.8,None,Medium
+P1112,38,Female,Fever,165,117,97.2,None,Medium
+P1113,45,Female,Shortness of Breath,116,60,101.1,Hypertension,Medium
+P1114,45,Female,Chest Pain,165,92,102.7,Hypertension,High
+P1115,85,Female,Severe Headache,185,103,98.7,None,Medium
+P1116,75,Female,Seizure,112,106,101.1,Diabetes,High
+P1117,77,Female,Seizure,182,112,98.7,Asthma,High
+P1118,73,Male,Chest Pain,127,55,97.5,Diabetes,Medium
+P1119,65,Male,Cough,139,117,102.9,Asthma,Medium
+P1120,21,Female,Severe Headache,137,81,97.6,Heart Disease,Medium
+P1121,33,Male,Fever,155,130,98.6,Diabetes,Medium
+P1122,31,Female,Severe Headache,124,88,98.1,Hypertension,Low
+P1123,41,Female,Cough,172,80,100.9,Asthma,Medium
+P1124,27,Female,Severe Headache,182,121,98.8,Hypertension,Medium
+P1125,84,Female,Cough,157,81,97.3,Diabetes,Medium
+P1126,32,Male,Fever,134,130,102.2,Heart Disease,Medium
+P1127,61,Male,Fever,125,101,99.4,Hypertension,Medium
+P1128,67,Female,Shortness of Breath,183,66,102.5,Diabetes,High
+P1129,65,Male,Seizure,154,55,99.6,Asthma,High
+P1130,83,Male,Cough,129,57,99.1,None,Medium
+P1131,66,Female,Seizure,185,139,101.4,None,High
+P1132,55,Male,Shortness of Breath,114,106,101.4,Diabetes,Medium
+P1133,42,Male,Cough,120,59,99.1,None,Low
+P1134,64,Female,Fever,186,122,100.5,Asthma,High
+P1135,38,Male,Shortness of Breath,185,77,101.2,Heart Disease,High
+P1136,57,Female,Fever,109,106,97.1,None,Low
+P1137,78,Male,Chest Pain,163,59,97.6,Hypertension,High
+P1138,70,Male,Cough,154,91,97.7,Hypertension,Medium
+P1139,86,Male,Shortness of Breath,172,113,100.6,Heart Disease,High
+P1140,82,Male,Fever,159,105,101.0,Diabetes,Medium
+P1141,56,Female,Severe Headache,189,131,100.4,Diabetes,High
+P1142,80,Female,Severe Headache,163,115,98.5,Asthma,High
+P1143,75,Male,Chest Pain,184,110,99.1,Asthma,High
+P1144,48,Female,Fever,151,130,100.1,Heart Disease,High
+P1145,39,Female,Severe Headache,139,55,98.5,Hypertension,Low
+P1146,80,Male,Severe Headache,153,96,101.9,Diabetes,High
+P1147,39,Female,Chest Pain,137,134,99.2,Asthma,Medium
+P1148,64,Female,Chest Pain,116,71,100.3,None,Medium
+P1149,30,Female,Seizure,116,92,99.8,None,Medium
+P1150,62,Female,Chest Pain,105,89,98.3,Hypertension,Medium
+P1151,89,Female,Seizure,160,69,101.9,Diabetes,High
+P1152,44,Male,Shortness of Breath,112,85,98.8,Diabetes,Medium
+P1153,52,Male,Shortness of Breath,159,60,101.1,None,Medium
+P1154,75,Female,Cough,148,77,100.2,None,Medium
+P1155,43,Male,Seizure,146,59,98.9,Diabetes,Medium
+P1156,23,Female,Cough,169,113,100.9,None,Medium
+P1157,35,Female,Severe Headache,103,71,102.6,Hypertension,Medium
+P1158,30,Female,Chest Pain,106,98,97.7,Diabetes,Medium
+P1159,36,Female,Seizure,162,89,97.5,None,Medium
+P1160,36,Male,Seizure,119,89,99.4,Diabetes,Medium
+P1161,65,Male,Chest Pain,143,78,100.7,Hypertension,High
+P1162,34,Male,Chest Pain,170,104,97.6,Diabetes,Medium
+P1163,49,Male,Seizure,135,67,100.2,Asthma,Medium
+P1164,31,Female,Severe Headache,136,133,99.4,None,Medium
+P1165,85,Male,Fever,139,113,97.2,Heart Disease,Medium
+P1166,33,Female,Chest Pain,161,58,99.5,Asthma,Medium
+P1167,45,Female,Fever,165,85,97.6,Heart Disease,Medium
+P1168,25,Female,Chest Pain,123,69,101.4,Asthma,Medium
+P1169,62,Female,Cough,165,62,97.3,Hypertension,Medium
+P1170,74,Female,Fever,179,84,101.5,None,Medium
+P1171,35,Male,Severe Headache,168,93,101.4,Asthma,Medium
+P1172,60,Male,Cough,144,77,102.0,Diabetes,Medium
+P1173,23,Female,Chest Pain,155,58,101.6,Heart Disease,High
+P1174,23,Male,Seizure,131,72,98.5,Heart Disease,Medium
+P1175,23,Female,Shortness of Breath,162,121,102.0,Diabetes,High
+P1176,60,Male,Fever,116,58,98.9,Diabetes,Low
+P1177,58,Female,Fever,182,59,102.1,Diabetes,Medium
+P1178,87,Male,Fever,134,76,97.8,Asthma,Medium
+P1179,39,Male,Chest Pain,110,131,102.9,Diabetes,High
+P1180,20,Male,Severe Headache,108,114,98.1,Diabetes,Medium
+P1181,31,Female,Severe Headache,117,127,98.1,Diabetes,Medium
+P1182,64,Female,Seizure,168,101,100.0,Hypertension,High
+P1183,47,Female,Chest Pain,124,82,97.8,Heart Disease,Medium
+P1184,42,Female,Chest Pain,173,132,101.3,Asthma,High
+P1185,75,Female,Chest Pain,140,79,101.0,Diabetes,Medium
+P1186,65,Male,Chest Pain,109,129,97.1,Asthma,High
+P1187,38,Female,Chest Pain,185,99,98.8,Diabetes,Medium
+P1188,81,Female,Chest Pain,163,56,102.6,Asthma,High
+P1189,59,Male,Severe Headache,181,108,98.3,Hypertension,Medium
+P1190,33,Female,Seizure,117,113,100.5,None,Medium
+P1191,23,Male,Severe Headache,156,101,98.5,Diabetes,Medium
+P1192,59,Female,Shortness of Breath,175,114,99.4,Heart Disease,High
+P1193,19,Female,Fever,189,113,100.2,Diabetes,Medium
+P1194,89,Female,Cough,106,117,99.2,Asthma,Medium
+P1195,63,Male,Severe Headache,162,66,99.5,Asthma,High
+P1196,60,Female,Fever,116,117,98.3,Asthma,Medium
+P1197,53,Female,Seizure,184,62,102.6,Diabetes,High
+P1198,53,Male,Cough,127,101,102.2,Hypertension,Medium
+P1199,47,Female,Chest Pain,122,70,99.0,None,Medium
+P1200,88,Male,Seizure,151,91,101.4,Asthma,High
+P1201,32,Male,Shortness of Breath,146,100,100.3,Diabetes,Medium
+P1202,38,Female,Cough,163,91,101.6,Diabetes,Medium
+P1203,46,Female,Cough,119,79,98.6,Heart Disease,Medium
+P1204,53,Male,Chest Pain,101,76,97.8,Hypertension,Medium
+P1205,35,Female,Cough,168,108,97.2,Heart Disease,Medium
+P1206,62,Female,Chest Pain,118,88,98.2,Hypertension,Medium
+P1207,79,Female,Fever,121,106,102.4,Diabetes,Medium
+P1208,53,Male,Severe Headache,172,73,100.9,None,Medium
+P1209,74,Female,Shortness of Breath,119,63,100.3,Diabetes,Medium
+P1210,67,Male,Severe Headache,181,59,97.9,None,Medium
+P1211,54,Female,Chest Pain,121,112,97.2,Heart Disease,Medium
+P1212,61,Female,Seizure,133,131,103.0,Hypertension,High
+P1213,24,Female,Chest Pain,167,73,98.0,Heart Disease,Medium
+P1214,48,Male,Cough,134,111,100.0,None,Medium
+P1215,48,Female,Cough,182,107,101.6,Diabetes,High
+P1216,76,Female,Chest Pain,109,56,100.7,Heart Disease,High
+P1217,34,Female,Seizure,115,70,98.2,None,Low
+P1218,48,Female,Fever,187,55,97.8,Heart Disease,Medium
+P1219,21,Female,Fever,170,80,100.1,Hypertension,Medium
+P1220,29,Female,Severe Headache,180,129,103.0,Heart Disease,High
+P1221,82,Female,Seizure,146,107,101.6,Hypertension,High
+P1222,19,Male,Severe Headache,123,58,97.6,Diabetes,Low
+P1223,43,Female,Cough,174,94,97.6,Hypertension,Medium
+P1224,84,Female,Fever,111,121,101.1,None,Medium
+P1225,71,Male,Cough,165,103,101.1,Diabetes,High
+P1226,77,Female,Shortness of Breath,153,84,99.3,None,Medium
+P1227,45,Male,Chest Pain,124,64,101.2,None,Medium
+P1228,57,Male,Chest Pain,176,96,98.5,Heart Disease,High
+P1229,39,Male,Fever,156,138,101.2,Asthma,Medium
+P1230,44,Female,Chest Pain,140,134,99.0,Diabetes,Medium
+P1231,83,Male,Chest Pain,111,94,97.8,None,Medium
+P1232,27,Male,Shortness of Breath,147,74,99.9,Heart Disease,Medium
+P1233,83,Female,Chest Pain,164,105,100.3,Hypertension,High
+P1234,41,Female,Fever,126,56,101.0,Diabetes,Medium
+P1235,83,Female,Seizure,128,69,102.3,None,Medium
+P1236,45,Male,Cough,183,78,99.2,Heart Disease,Medium
+P1237,35,Male,Fever,187,68,101.8,Diabetes,Medium
+P1238,75,Female,Fever,175,76,97.9,Hypertension,Medium
+P1239,53,Female,Severe Headache,144,90,101.4,Diabetes,Medium
+P1240,78,Female,Fever,155,87,102.0,Heart Disease,High
+P1241,37,Female,Cough,117,92,98.8,Diabetes,Low
+P1242,33,Male,Seizure,158,123,101.0,Heart Disease,High
+P1243,87,Female,Cough,111,70,102.4,Asthma,Medium
+P1244,31,Female,Fever,160,125,97.8,Diabetes,Medium
+P1245,32,Female,Severe Headache,143,71,102.0,Hypertension,Medium
+P1246,61,Male,Fever,104,81,99.4,Hypertension,Medium
+P1247,60,Male,Seizure,130,71,100.3,Hypertension,Medium
+P1248,71,Male,Chest Pain,161,86,102.1,Diabetes,High
+P1249,52,Male,Seizure,104,127,100.3,Heart Disease,High
+P1250,42,Male,Chest Pain,121,120,100.6,Heart Disease,High
+P1251,89,Female,Cough,100,138,97.8,Heart Disease,Medium
+P1252,56,Male,Chest Pain,153,129,100.2,Hypertension,High
+P1253,33,Female,Chest Pain,119,100,99.8,Hypertension,Medium
+P1254,75,Female,Cough,152,55,99.4,Heart Disease,Medium
+P1255,46,Male,Severe Headache,183,124,100.6,Hypertension,High
+P1256,68,Female,Fever,132,57,101.4,None,Medium
+P1257,86,Male,Shortness of Breath,175,138,101.2,Hypertension,High
+P1258,56,Female,Seizure,103,73,101.4,Diabetes,Medium
+P1259,62,Female,Chest Pain,142,67,101.0,Asthma,High
+P1260,74,Male,Severe Headache,185,106,100.0,None,High
+P1261,60,Female,Fever,182,126,97.8,Diabetes,Medium
+P1262,59,Male,Shortness of Breath,189,80,98.8,Asthma,Medium
+P1263,45,Male,Severe Headache,108,74,100.9,Diabetes,Medium
+P1264,56,Male,Cough,150,66,99.8,Heart Disease,Medium
+P1265,72,Male,Chest Pain,177,65,100.8,Asthma,High
+P1266,44,Male,Shortness of Breath,110,92,100.1,Hypertension,Medium
+P1267,36,Female,Fever,163,60,98.5,Asthma,Medium
+P1268,59,Male,Shortness of Breath,164,126,100.5,None,High
+P1269,64,Male,Shortness of Breath,106,65,102.4,Diabetes,Medium
+P1270,85,Female,Shortness of Breath,124,66,101.2,Hypertension,Medium
+P1271,29,Male,Cough,142,105,102.5,Asthma,Medium
+P1272,63,Male,Severe Headache,152,134,97.3,None,Medium
+P1273,71,Female,Cough,156,58,99.4,Diabetes,Medium
+P1274,66,Male,Shortness of Breath,106,65,99.2,Hypertension,Medium
+P1275,62,Male,Shortness of Breath,122,82,100.5,Diabetes,Medium
+P1276,74,Male,Fever,125,79,97.4,None,Low
+P1277,53,Male,Chest Pain,113,132,97.4,None,Medium
+P1278,34,Female,Cough,166,134,97.7,None,Medium
+P1279,62,Female,Chest Pain,178,105,97.0,Hypertension,High
+P1280,64,Male,Severe Headache,152,118,99.7,Heart Disease,High
+P1281,55,Female,Chest Pain,163,61,100.9,Heart Disease,High
+P1282,58,Female,Shortness of Breath,173,64,98.6,Asthma,Medium
+P1283,67,Female,Seizure,151,87,97.8,None,Medium
+P1284,70,Male,Fever,159,88,97.2,Hypertension,Medium
+P1285,21,Male,Severe Headache,142,58,100.3,Diabetes,Medium
+P1286,67,Female,Seizure,172,115,100.5,Heart Disease,High
+P1287,41,Male,Seizure,182,90,100.2,Asthma,High
+P1288,60,Male,Fever,126,86,102.4,Diabetes,Medium
+P1289,35,Male,Chest Pain,127,83,97.9,Heart Disease,Medium
+P1290,64,Female,Chest Pain,158,85,100.6,Hypertension,High
+P1291,34,Female,Fever,138,102,98.9,Diabetes,Low
+P1292,65,Female,Shortness of Breath,138,58,98.2,Asthma,Medium
+P1293,39,Male,Fever,174,120,100.8,Heart Disease,Medium
+P1294,53,Female,Cough,117,107,98.2,Diabetes,Medium
+P1295,18,Male,Seizure,157,60,101.3,Diabetes,Medium
+P1296,89,Female,Shortness of Breath,123,73,100.1,None,Medium
+P1297,47,Female,Seizure,141,87,97.9,None,Medium
+P1298,29,Female,Fever,126,93,102.9,Hypertension,Medium
+P1299,38,Male,Fever,175,83,98.7,Diabetes,Medium
+P1300,79,Female,Seizure,114,56,100.9,Diabetes,Medium
+P1301,61,Female,Seizure,153,72,100.6,None,Medium
+P1302,60,Male,Fever,181,92,98.3,Heart Disease,Medium
+P1303,50,Female,Seizure,158,65,102.0,Diabetes,High
+P1304,85,Male,Severe Headache,187,76,98.3,Asthma,Medium
+P1305,23,Female,Cough,141,79,99.7,Hypertension,Medium
+P1306,72,Female,Fever,115,68,98.0,Asthma,Medium
+P1307,68,Female,Shortness of Breath,148,63,97.1,None,Medium
+P1308,39,Male,Cough,131,123,100.6,Heart Disease,Medium
+P1309,59,Male,Severe Headache,152,113,98.4,Heart Disease,Medium
+P1310,56,Male,Cough,114,125,99.7,Hypertension,Medium
+P1311,20,Male,Seizure,182,64,98.2,None,Medium
+P1312,52,Male,Severe Headache,105,66,99.4,Hypertension,Medium
+P1313,36,Female,Cough,166,62,98.6,None,Low
+P1314,64,Male,Shortness of Breath,103,105,97.4,Diabetes,Medium
+P1315,62,Male,Chest Pain,107,70,100.4,Asthma,Medium
+P1316,26,Male,Severe Headache,159,132,102.8,Diabetes,High
+P1317,88,Female,Fever,114,125,97.3,Diabetes,Medium
+P1318,58,Female,Fever,121,78,100.1,Heart Disease,Medium
+P1319,61,Male,Seizure,100,64,102.7,Diabetes,High
+P1320,89,Female,Chest Pain,155,104,98.0,Heart Disease,High
+P1321,77,Female,Severe Headache,125,132,98.5,Heart Disease,High
+P1322,40,Female,Seizure,142,60,101.1,None,Medium
+P1323,60,Male,Shortness of Breath,124,72,102.6,Diabetes,Medium
+P1324,60,Female,Severe Headache,177,82,97.5,Diabetes,Medium
+P1325,77,Male,Severe Headache,162,111,97.3,Heart Disease,High
+P1326,73,Male,Fever,126,86,99.9,Heart Disease,Medium
+P1327,85,Male,Seizure,145,121,102.8,Hypertension,High
+P1328,23,Male,Shortness of Breath,179,78,98.9,Diabetes,Medium
+P1329,62,Female,Fever,112,123,97.6,None,Medium
+P1330,83,Female,Seizure,173,99,99.9,None,High
+P1331,80,Male,Cough,175,131,98.7,None,Medium
+P1332,72,Female,Chest Pain,174,73,103.0,None,High
+P1333,70,Male,Severe Headache,125,68,102.0,Hypertension,Medium
+P1334,61,Female,Shortness of Breath,187,119,99.5,Asthma,High
+P1335,40,Male,Severe Headache,155,73,99.0,Heart Disease,Medium
+P1336,72,Female,Fever,159,113,99.2,Asthma,Medium
+P1337,45,Female,Fever,151,103,102.7,None,Medium
+P1338,57,Female,Chest Pain,179,92,99.4,Asthma,High
+P1339,71,Female,Shortness of Breath,121,70,100.8,Diabetes,Medium
+P1340,52,Male,Severe Headache,159,99,97.8,Hypertension,Medium
+P1341,72,Male,Seizure,185,139,99.6,Diabetes,High
+P1342,42,Male,Chest Pain,164,60,99.1,Asthma,High
+P1343,81,Male,Severe Headache,186,97,101.2,Diabetes,High
+P1344,47,Male,Severe Headache,176,72,100.5,Diabetes,Medium
+P1345,38,Male,Fever,156,77,98.9,Heart Disease,Medium
+P1346,61,Male,Shortness of Breath,181,101,97.2,None,Medium
+P1347,59,Female,Cough,106,104,97.3,None,Low
+P1348,23,Female,Severe Headache,108,111,101.8,None,Medium
+P1349,57,Male,Severe Headache,144,131,99.6,Diabetes,High
+P1350,37,Male,Cough,116,82,100.1,Hypertension,Low
+P1351,42,Male,Seizure,157,95,100.0,Heart Disease,High
+P1352,55,Female,Chest Pain,105,99,98.9,Asthma,Medium
+P1353,83,Female,Severe Headache,139,57,98.0,None,Medium
+P1354,41,Male,Cough,118,72,101.3,Hypertension,Medium
+P1355,52,Female,Seizure,161,55,98.2,Diabetes,Medium
+P1356,62,Male,Fever,148,70,100.6,Hypertension,Medium
+P1357,36,Male,Fever,122,137,100.7,Heart Disease,Medium
+P1358,71,Male,Cough,172,55,99.0,Heart Disease,Medium
+P1359,51,Male,Cough,179,109,99.3,None,Medium
+P1360,62,Female,Chest Pain,105,75,99.6,Diabetes,Medium
+P1361,65,Male,Seizure,138,85,98.0,Heart Disease,Medium
+P1362,47,Male,Cough,117,114,97.1,Diabetes,Medium
+P1363,32,Female,Chest Pain,103,117,102.2,Hypertension,Medium
+P1364,26,Male,Cough,125,58,98.6,Diabetes,Low
+P1365,32,Male,Severe Headache,151,123,99.8,Diabetes,Medium
+P1366,37,Female,Fever,178,72,102.3,Heart Disease,Medium
+P1367,30,Female,Fever,103,96,101.4,Diabetes,Medium
+P1368,78,Male,Seizure,107,121,97.3,Asthma,High
+P1369,26,Female,Fever,110,96,102.2,Asthma,Medium
+P1370,30,Male,Severe Headache,111,91,98.4,None,Low
+P1371,69,Male,Cough,170,56,101.1,Asthma,High
+P1372,77,Female,Seizure,122,94,101.8,None,Medium
+P1373,40,Male,Severe Headache,128,132,99.2,Asthma,Medium
+P1374,86,Female,Shortness of Breath,188,85,102.8,Diabetes,High
+P1375,72,Male,Shortness of Breath,180,56,102.8,Asthma,High
+P1376,87,Male,Seizure,166,112,97.9,Hypertension,High
+P1377,81,Female,Severe Headache,168,137,99.4,Asthma,High
+P1378,77,Male,Cough,182,116,101.7,Hypertension,High
+P1379,85,Female,Cough,114,109,101.6,Hypertension,Medium
+P1380,31,Male,Cough,148,137,102.7,Hypertension,Medium
+P1381,24,Female,Cough,129,137,101.7,Asthma,Medium
+P1382,33,Female,Fever,150,126,97.5,Heart Disease,Medium
+P1383,59,Male,Fever,116,117,102.6,Diabetes,Medium
+P1384,24,Female,Fever,126,64,101.6,Heart Disease,Medium
+P1385,42,Male,Shortness of Breath,105,78,97.6,Diabetes,Medium
+P1386,23,Male,Seizure,128,79,97.3,Heart Disease,Medium
+P1387,63,Female,Severe Headache,123,129,100.1,Hypertension,High
+P1388,45,Female,Cough,102,129,102.2,Heart Disease,High
+P1389,68,Male,Shortness of Breath,189,102,99.0,None,Medium
+P1390,73,Female,Severe Headache,158,126,102.2,Heart Disease,High
+P1391,76,Female,Shortness of Breath,170,63,102.9,None,High
+P1392,46,Male,Seizure,162,126,101.1,Hypertension,High
+P1393,85,Male,Cough,134,57,98.0,Diabetes,Medium
+P1394,24,Male,Cough,126,55,99.9,None,Low
+P1395,88,Male,Shortness of Breath,143,95,101.9,Heart Disease,High
+P1396,59,Male,Severe Headache,132,104,99.4,Hypertension,Medium
+P1397,54,Female,Seizure,158,135,99.8,Heart Disease,High
+P1398,22,Male,Cough,147,57,101.3,None,Medium
+P1399,79,Female,Shortness of Breath,113,117,101.2,None,Medium
+P1400,78,Female,Severe Headache,130,71,98.8,Diabetes,Medium
+P1401,40,Male,Shortness of Breath,181,104,98.8,None,Medium
+P1402,87,Female,Seizure,126,69,102.2,Asthma,High
+P1403,25,Female,Chest Pain,178,57,100.8,Heart Disease,High
+P1404,78,Female,Shortness of Breath,131,67,102.9,Asthma,Medium
+P1405,79,Female,Shortness of Breath,178,132,99.1,Asthma,High
+P1406,88,Male,Fever,130,118,100.0,Heart Disease,Medium
+P1407,55,Female,Shortness of Breath,113,62,99.4,Diabetes,Medium
+P1408,19,Male,Chest Pain,180,132,102.2,Diabetes,High
+P1409,78,Female,Fever,121,89,102.4,Asthma,Medium
+P1410,67,Male,Severe Headache,142,71,98.7,Diabetes,Medium
+P1411,19,Female,Seizure,103,139,101.0,Hypertension,Medium
+P1412,23,Female,Chest Pain,180,123,98.6,Heart Disease,High
+P1413,81,Female,Seizure,115,105,97.3,Hypertension,Medium
+P1414,86,Male,Severe Headache,141,111,97.6,None,Medium
+P1415,81,Male,Seizure,185,76,101.9,None,High
+P1416,46,Female,Chest Pain,137,72,101.3,None,Medium
+P1417,18,Female,Seizure,187,58,100.1,None,Medium
+P1418,44,Female,Fever,142,113,100.7,Heart Disease,Medium
+P1419,45,Male,Fever,154,114,103.0,None,Medium
+P1420,51,Female,Seizure,186,110,100.7,Diabetes,High
+P1421,73,Male,Chest Pain,117,108,99.0,Hypertension,Medium
+P1422,60,Female,Seizure,138,115,100.1,Diabetes,Medium
+P1423,35,Male,Severe Headache,122,108,97.1,None,Low
+P1424,75,Female,Fever,167,121,101.8,Asthma,High
+P1425,35,Male,Severe Headache,106,94,98.7,Diabetes,Low
+P1426,82,Male,Seizure,167,103,102.1,Diabetes,High
+P1427,46,Male,Shortness of Breath,120,132,102.2,None,Medium
+P1428,64,Male,Severe Headache,175,96,98.4,None,Medium
+P1429,68,Male,Chest Pain,169,74,102.0,Asthma,High
+P1430,55,Female,Chest Pain,171,119,102.7,Hypertension,High
+P1431,41,Male,Cough,146,125,98.1,Diabetes,Medium
+P1432,80,Female,Fever,156,109,98.3,Diabetes,Medium
+P1433,79,Female,Fever,129,76,102.9,Heart Disease,Medium
+P1434,46,Male,Severe Headache,140,96,97.6,Diabetes,Medium
+P1435,48,Male,Fever,129,72,98.8,Asthma,Low
+P1436,34,Male,Cough,137,68,101.0,Asthma,Low
+P1437,73,Female,Chest Pain,121,121,100.8,Heart Disease,High
+P1438,36,Female,Fever,156,98,97.1,Heart Disease,Medium
+P1439,18,Male,Cough,151,139,100.3,Asthma,Medium
+P1440,54,Male,Shortness of Breath,164,105,99.9,None,Medium
+P1441,38,Male,Chest Pain,152,70,98.0,Hypertension,Medium
+P1442,78,Female,Seizure,153,94,98.3,Asthma,Medium
+P1443,82,Male,Severe Headache,173,118,102.5,Diabetes,High
+P1444,76,Female,Cough,122,61,98.2,Diabetes,Medium
+P1445,88,Female,Seizure,178,88,99.3,Asthma,High
+P1446,85,Female,Chest Pain,177,132,99.7,Asthma,High
+P1447,36,Male,Fever,101,64,98.2,Hypertension,Low
+P1448,29,Male,Shortness of Breath,169,76,101.4,None,Medium
+P1449,18,Female,Cough,153,112,97.5,None,Low
+P1450,35,Female,Severe Headache,105,99,98.1,None,Low
+P1451,40,Male,Seizure,125,131,102.7,Hypertension,High
+P1452,61,Male,Seizure,126,80,101.4,Asthma,High
+P1453,53,Male,Chest Pain,154,118,97.7,Hypertension,Medium
+P1454,86,Female,Severe Headache,160,56,101.6,Asthma,High
+P1455,55,Female,Shortness of Breath,179,132,99.9,Heart Disease,High
+P1456,52,Male,Chest Pain,178,121,98.2,Hypertension,High
+P1457,51,Male,Fever,140,95,102.5,Diabetes,Medium
+P1458,20,Male,Fever,157,86,101.2,Hypertension,Medium
+P1459,60,Female,Chest Pain,106,55,100.4,None,Medium
+P1460,69,Male,Chest Pain,105,64,97.9,None,Medium
+P1461,47,Male,Seizure,120,114,97.8,Asthma,Medium
+P1462,80,Female,Cough,141,105,100.9,Diabetes,Medium
+P1463,73,Male,Cough,179,95,100.2,Diabetes,Medium
+P1464,79,Male,Seizure,126,82,98.2,Asthma,Medium
+P1465,76,Female,Cough,157,56,99.3,Heart Disease,Medium
+P1466,88,Female,Shortness of Breath,112,69,98.2,Diabetes,Medium
+P1467,77,Male,Shortness of Breath,121,117,100.5,Asthma,Medium
+P1468,42,Male,Shortness of Breath,147,97,97.5,Heart Disease,Medium
+P1469,58,Female,Chest Pain,144,94,98.2,None,Medium
+P1470,34,Male,Cough,187,111,97.0,Heart Disease,Medium
+P1471,79,Female,Cough,187,63,99.1,None,Medium
+P1472,34,Male,Chest Pain,149,94,101.3,Heart Disease,High
+P1473,38,Female,Cough,117,109,98.7,Hypertension,Low
+P1474,34,Male,Chest Pain,117,96,98.0,Diabetes,Medium
+P1475,62,Female,Seizure,181,71,99.2,Diabetes,High
+P1476,66,Female,Shortness of Breath,128,58,102.7,Hypertension,Medium
+P1477,37,Male,Fever,146,63,98.9,Hypertension,Low
+P1478,44,Female,Fever,114,73,97.5,Heart Disease,Medium
+P1479,43,Female,Cough,188,80,99.1,None,Medium
+P1480,66,Male,Fever,181,107,98.1,Asthma,Medium
+P1481,59,Male,Chest Pain,118,71,98.8,Heart Disease,Medium
+P1482,66,Female,Fever,155,117,101.4,Hypertension,High
+P1483,66,Female,Seizure,154,80,99.2,Heart Disease,High
+P1484,69,Female,Severe Headache,106,100,101.4,Diabetes,Medium
+P1485,33,Female,Shortness of Breath,123,115,101.5,None,Medium
+P1486,18,Male,Shortness of Breath,148,79,99.4,Hypertension,Medium
+P1487,33,Female,Seizure,157,126,101.5,Diabetes,High
+P1488,23,Male,Cough,115,74,98.1,Hypertension,Low
+P1489,60,Male,Fever,125,132,98.8,None,Medium
+P1490,43,Male,Cough,144,138,98.3,Asthma,Medium
+P1491,69,Female,Shortness of Breath,167,80,102.7,Hypertension,High
+P1492,31,Female,Seizure,129,103,102.4,Hypertension,Medium
+P1493,61,Male,Chest Pain,132,67,100.7,Hypertension,Medium
+P1494,43,Male,Cough,120,82,99.6,None,Low
+P1495,57,Male,Severe Headache,165,127,99.1,Asthma,High
+P1496,40,Male,Severe Headache,180,102,100.3,Heart Disease,High
+P1497,37,Female,Fever,158,100,100.6,Asthma,Medium
+P1498,29,Male,Shortness of Breath,139,120,102.1,Asthma,Medium
+P1499,33,Male,Chest Pain,182,88,102.6,Diabetes,High
+P1500,23,Female,Fever,176,118,98.1,Asthma,Medium
+P1501,35,Male,Fever,111,106,101.9,Asthma,Medium
+P1502,68,Male,Severe Headache,170,102,100.5,Asthma,High
+P1503,44,Male,Shortness of Breath,152,102,99.1,Asthma,Medium
+P1504,86,Male,Seizure,110,69,99.6,Asthma,Medium
+P1505,86,Male,Severe Headache,122,107,100.2,Diabetes,Medium
+P1506,32,Male,Cough,102,124,98.3,Hypertension,Medium
+P1507,38,Female,Chest Pain,171,75,102.0,Heart Disease,High
+P1508,55,Female,Fever,171,89,98.8,Heart Disease,Medium
+P1509,31,Female,Shortness of Breath,109,66,98.2,Asthma,Low
+P1510,51,Male,Seizure,140,64,101.4,Heart Disease,High
+P1511,34,Female,Chest Pain,166,116,101.9,None,High
+P1512,18,Male,Chest Pain,111,58,98.0,Hypertension,Medium
+P1513,21,Male,Seizure,181,123,97.7,Hypertension,High
+P1514,29,Female,Severe Headache,180,128,100.6,Diabetes,High
+P1515,25,Female,Severe Headache,150,65,100.7,Asthma,Medium
+P1516,29,Male,Severe Headache,172,56,100.2,Asthma,Medium
+P1517,28,Male,Shortness of Breath,152,64,101.9,None,Medium
+P1518,25,Male,Shortness of Breath,135,130,100.0,Hypertension,Medium
+P1519,71,Male,Cough,184,75,97.8,None,Medium
+P1520,56,Male,Shortness of Breath,119,61,98.7,Heart Disease,Medium
+P1521,43,Female,Shortness of Breath,137,92,97.2,Hypertension,Medium
+P1522,61,Female,Severe Headache,185,98,102.1,None,High
+P1523,79,Female,Fever,105,71,100.7,Diabetes,Medium
+P1524,55,Female,Seizure,123,105,97.5,Diabetes,Medium
+P1525,89,Female,Chest Pain,120,124,100.7,Hypertension,High
+P1526,56,Male,Chest Pain,187,87,99.6,Asthma,High
+P1527,73,Female,Fever,156,130,98.4,Diabetes,Medium
+P1528,44,Female,Severe Headache,173,106,99.3,Asthma,High
+P1529,43,Male,Seizure,124,129,101.8,Heart Disease,High
+P1530,74,Male,Fever,151,85,97.3,Heart Disease,Medium
+P1531,50,Male,Seizure,184,56,98.6,Heart Disease,High
+P1532,50,Female,Chest Pain,183,89,102.2,Hypertension,High
+P1533,35,Male,Severe Headache,187,126,97.6,Asthma,Medium
+P1534,61,Female,Chest Pain,152,64,99.4,Diabetes,High
+P1535,66,Female,Shortness of Breath,110,120,102.8,Hypertension,High
+P1536,53,Female,Severe Headache,132,101,98.7,Hypertension,Medium
+P1537,85,Male,Severe Headache,141,73,101.1,Asthma,High
+P1538,36,Female,Chest Pain,157,77,98.6,Asthma,Medium
+P1539,82,Female,Chest Pain,111,78,99.5,Hypertension,Medium
+P1540,25,Male,Seizure,117,111,100.3,None,Medium
+P1541,43,Female,Severe Headache,129,108,98.5,Heart Disease,Medium
+P1542,46,Female,Severe Headache,102,112,100.1,Asthma,Medium
+P1543,19,Female,Cough,174,82,100.2,Hypertension,Medium
+P1544,19,Female,Shortness of Breath,106,80,102.1,Asthma,Medium
+P1545,33,Male,Severe Headache,122,94,101.5,Asthma,Medium
+P1546,49,Female,Chest Pain,114,67,100.9,Heart Disease,Medium
+P1547,69,Female,Fever,176,95,97.8,Hypertension,Medium
+P1548,67,Female,Seizure,114,61,101.6,Asthma,High
+P1549,49,Female,Fever,114,139,99.2,Diabetes,Medium
+P1550,21,Male,Severe Headache,110,80,102.7,Heart Disease,Medium
+P1551,40,Female,Shortness of Breath,184,94,98.2,None,Medium
+P1552,33,Male,Shortness of Breath,160,122,102.0,Heart Disease,High
+P1553,48,Male,Cough,152,79,97.1,Asthma,Medium
+P1554,26,Female,Severe Headache,111,123,102.5,Asthma,Medium
+P1555,71,Female,Fever,127,110,97.7,Diabetes,Medium
+P1556,75,Male,Fever,177,129,102.6,Diabetes,High
+P1557,85,Male,Shortness of Breath,152,87,98.3,Asthma,Medium
+P1558,89,Male,Shortness of Breath,150,128,97.2,None,Medium
+P1559,32,Male,Severe Headache,137,69,97.4,None,Low
+P1560,71,Male,Shortness of Breath,150,64,98.8,Heart Disease,Medium
+P1561,21,Male,Chest Pain,117,134,101.3,Heart Disease,High
+P1562,42,Male,Fever,186,130,98.4,Asthma,Medium
+P1563,84,Male,Seizure,108,115,102.1,Heart Disease,High
+P1564,60,Female,Shortness of Breath,134,117,100.9,Hypertension,Medium
+P1565,21,Male,Shortness of Breath,140,99,98.5,Heart Disease,Medium
+P1566,45,Male,Cough,141,134,97.4,Heart Disease,Medium
+P1567,86,Male,Cough,100,93,101.0,Heart Disease,Medium
+P1568,34,Female,Cough,187,89,100.5,None,Medium
+P1569,56,Male,Shortness of Breath,189,103,99.0,Asthma,Medium
+P1570,40,Male,Shortness of Breath,121,58,101.2,None,Medium
+P1571,85,Female,Chest Pain,170,56,102.6,Hypertension,High
+P1572,48,Male,Fever,139,102,99.5,Heart Disease,Medium
+P1573,72,Female,Severe Headache,187,103,101.3,Hypertension,High
+P1574,74,Male,Cough,176,69,99.7,Asthma,Medium
+P1575,81,Female,Fever,129,90,101.5,None,Medium
+P1576,66,Male,Fever,175,109,97.2,Asthma,Medium
+P1577,85,Male,Cough,143,85,98.3,Heart Disease,Medium
+P1578,70,Female,Cough,183,133,101.9,None,High
+P1579,33,Female,Shortness of Breath,136,75,98.7,Heart Disease,Medium
+P1580,54,Female,Cough,176,73,98.8,Hypertension,Medium
+P1581,35,Female,Severe Headache,177,116,100.1,Asthma,Medium
+P1582,69,Female,Chest Pain,118,98,98.4,Heart Disease,Medium
+P1583,61,Female,Cough,167,88,101.9,Heart Disease,High
+P1584,72,Male,Seizure,109,96,99.0,Hypertension,Medium
+P1585,86,Male,Shortness of Breath,109,64,101.3,None,Medium
+P1586,77,Female,Chest Pain,150,75,97.6,Asthma,Medium
+P1587,47,Male,Seizure,184,103,97.1,Heart Disease,High
+P1588,86,Male,Severe Headache,157,111,98.1,None,Medium
+P1589,69,Male,Severe Headache,160,94,99.6,None,Medium
+P1590,80,Male,Seizure,118,104,97.1,Hypertension,Medium
+P1591,79,Male,Cough,142,103,102.9,Heart Disease,High
+P1592,27,Female,Cough,105,111,102.4,Diabetes,Medium
+P1593,75,Female,Shortness of Breath,120,134,102.8,Diabetes,High
+P1594,37,Male,Severe Headache,153,79,102.8,None,Medium
+P1595,38,Male,Severe Headache,117,101,98.7,Diabetes,Medium
+P1596,36,Male,Chest Pain,164,57,101.9,Heart Disease,High
+P1597,57,Female,Severe Headache,166,79,99.6,Hypertension,Medium
+P1598,72,Male,Chest Pain,183,106,97.7,None,High
+P1599,73,Male,Seizure,154,124,99.0,None,High
+P1600,83,Male,Seizure,118,137,101.1,Diabetes,High
+P1601,80,Female,Fever,141,96,102.7,Heart Disease,High
+P1602,34,Female,Shortness of Breath,126,101,100.2,Asthma,Medium
+P1603,79,Male,Chest Pain,118,71,98.3,Heart Disease,Medium
+P1604,88,Female,Fever,180,93,99.4,Diabetes,Medium
+P1605,62,Male,Shortness of Breath,103,79,102.1,Asthma,Medium
+P1606,85,Male,Seizure,187,83,98.4,Asthma,High
+P1607,68,Male,Cough,123,68,98.8,Hypertension,Medium
+P1608,59,Male,Fever,156,137,100.7,Diabetes,Medium
+P1609,34,Male,Severe Headache,129,129,98.0,None,Medium
+P1610,18,Male,Severe Headache,178,86,99.6,Diabetes,Medium
+P1611,32,Female,Chest Pain,127,78,99.0,Hypertension,Medium
+P1612,52,Female,Seizure,185,81,99.1,Diabetes,High
+P1613,37,Male,Severe Headache,164,139,98.3,Hypertension,Medium
+P1614,18,Female,Severe Headache,109,101,97.9,Diabetes,Medium
+P1615,79,Female,Fever,185,72,102.1,Asthma,High
+P1616,49,Female,Cough,126,72,100.9,Diabetes,Medium
+P1617,66,Male,Severe Headache,181,98,99.7,Heart Disease,High
+P1618,51,Female,Seizure,170,90,97.6,Diabetes,Medium
+P1619,55,Male,Cough,158,63,102.2,Asthma,Medium
+P1620,89,Female,Shortness of Breath,150,89,100.3,Asthma,Medium
+P1621,31,Female,Fever,129,58,102.0,Diabetes,Medium
+P1622,81,Female,Cough,124,82,98.9,Asthma,Medium
+P1623,39,Male,Seizure,130,77,97.7,Hypertension,Medium
+P1624,55,Female,Seizure,154,122,101.9,Hypertension,High
+P1625,18,Female,Cough,106,111,97.3,Heart Disease,Medium
+P1626,22,Female,Seizure,149,96,98.9,Asthma,Medium
+P1627,29,Female,Seizure,117,120,99.7,Hypertension,Medium
+P1628,34,Female,Cough,167,125,101.1,Heart Disease,High
+P1629,51,Female,Cough,169,99,101.4,None,Medium
+P1630,51,Male,Severe Headache,143,69,97.2,Diabetes,Medium
+P1631,67,Male,Seizure,131,121,102.6,Heart Disease,High
+P1632,68,Female,Shortness of Breath,166,130,99.9,Asthma,High
+P1633,34,Female,Fever,106,67,100.3,Asthma,Low
+P1634,21,Female,Fever,109,71,98.6,Hypertension,Low
+P1635,86,Male,Cough,173,63,98.3,Asthma,Medium
+P1636,38,Male,Chest Pain,123,58,102.2,Diabetes,Medium
+P1637,20,Male,Chest Pain,167,94,101.3,None,Medium
+P1638,52,Female,Seizure,155,94,97.5,Asthma,Medium
+P1639,63,Male,Shortness of Breath,177,67,99.2,Hypertension,High
+P1640,34,Male,Cough,135,135,101.2,Heart Disease,Medium
+P1641,69,Female,Seizure,165,106,98.1,Heart Disease,High
+P1642,39,Male,Cough,154,121,98.8,None,Medium
+P1643,75,Male,Fever,111,123,101.2,Hypertension,High
+P1644,56,Female,Severe Headache,112,95,97.6,None,Low
+P1645,29,Female,Severe Headache,112,128,97.9,Diabetes,Medium
+P1646,57,Male,Severe Headache,179,99,97.0,Heart Disease,Medium
+P1647,22,Female,Chest Pain,189,65,101.3,Diabetes,High
+P1648,73,Female,Cough,109,88,99.7,Heart Disease,Medium
+P1649,48,Female,Severe Headache,174,125,98.8,None,Medium
+P1650,87,Male,Chest Pain,140,117,100.0,Heart Disease,High
+P1651,74,Female,Severe Headache,149,134,99.8,Diabetes,High
+P1652,88,Female,Chest Pain,138,71,99.7,Diabetes,Medium
+P1653,87,Male,Fever,122,124,98.8,Asthma,Medium
+P1654,89,Female,Chest Pain,136,103,100.9,Diabetes,High
+P1655,39,Male,Shortness of Breath,104,72,100.8,None,Low
+P1656,54,Female,Shortness of Breath,163,64,98.6,Heart Disease,Medium
+P1657,65,Male,Fever,143,136,98.3,Asthma,Medium
+P1658,33,Female,Shortness of Breath,153,89,99.9,None,Medium
+P1659,19,Male,Fever,112,95,98.6,Heart Disease,Low
+P1660,86,Female,Seizure,152,99,101.5,Heart Disease,High
+P1661,78,Female,Severe Headache,157,81,98.3,Diabetes,Medium
+P1662,24,Female,Cough,141,101,98.6,Heart Disease,Medium
+P1663,55,Male,Chest Pain,168,107,102.0,Hypertension,High
+P1664,43,Female,Chest Pain,147,73,101.4,Asthma,High
+P1665,71,Male,Fever,150,93,103.0,Diabetes,Medium
+P1666,20,Female,Seizure,163,83,102.6,Heart Disease,High
+P1667,75,Female,Chest Pain,174,81,98.3,Hypertension,High
+P1668,56,Male,Cough,145,120,97.4,Hypertension,Medium
+P1669,82,Female,Fever,162,89,100.9,Hypertension,Medium
+P1670,18,Male,Severe Headache,124,97,99.6,Diabetes,Medium
+P1671,84,Female,Chest Pain,162,105,97.6,None,High
+P1672,81,Male,Fever,173,123,102.1,None,High
+P1673,51,Female,Chest Pain,159,115,102.7,Heart Disease,High
+P1674,53,Female,Fever,184,103,99.0,Hypertension,Medium
+P1675,66,Female,Seizure,102,128,101.0,Heart Disease,High
+P1676,78,Female,Cough,184,80,98.9,Heart Disease,Medium
+P1677,32,Male,Cough,115,55,97.1,Hypertension,Low
+P1678,20,Female,Severe Headache,151,101,102.3,None,Medium
+P1679,72,Male,Fever,120,120,101.0,Asthma,Medium
+P1680,55,Male,Shortness of Breath,189,112,100.4,Hypertension,High
+P1681,63,Male,Chest Pain,188,65,99.1,None,High
+P1682,88,Female,Fever,163,75,98.5,Hypertension,Medium
+P1683,80,Female,Seizure,184,118,101.3,Hypertension,High
+P1684,25,Female,Severe Headache,157,100,99.6,Heart Disease,Medium
+P1685,26,Male,Fever,114,80,101.5,Heart Disease,Medium
+P1686,53,Female,Chest Pain,183,91,97.3,Diabetes,Medium
+P1687,40,Male,Shortness of Breath,140,134,100.2,Heart Disease,Medium
+P1688,65,Male,Shortness of Breath,137,85,101.9,Hypertension,Medium
+P1689,46,Female,Seizure,150,103,100.8,Asthma,High
+P1690,89,Male,Fever,186,59,102.4,None,Medium
+P1691,59,Female,Fever,135,81,101.2,Hypertension,Medium
+P1692,83,Female,Severe Headache,124,127,102.2,Asthma,High
+P1693,18,Male,Chest Pain,186,128,100.1,Asthma,High
+P1694,42,Female,Severe Headache,153,121,100.6,Hypertension,High
+P1695,75,Female,Fever,169,107,101.7,Heart Disease,High
+P1696,19,Female,Shortness of Breath,175,76,101.5,Hypertension,Medium
+P1697,41,Male,Cough,183,119,97.1,Heart Disease,Medium
+P1698,18,Female,Seizure,102,100,101.6,Diabetes,Medium
+P1699,81,Male,Cough,144,80,99.9,Diabetes,Medium
+P1700,41,Male,Chest Pain,173,89,102.9,Asthma,High
+P1701,33,Male,Fever,158,135,98.5,None,Medium
+P1702,33,Female,Fever,114,65,102.0,Diabetes,Medium
+P1703,85,Male,Cough,142,123,99.4,Heart Disease,High
+P1704,27,Female,Cough,174,136,102.9,Heart Disease,High
+P1705,58,Male,Cough,149,125,98.5,Hypertension,Medium
+P1706,20,Male,Chest Pain,175,61,102.3,Diabetes,High
+P1707,50,Male,Severe Headache,147,133,98.2,None,Medium
+P1708,88,Female,Seizure,131,58,100.3,Hypertension,Medium
+P1709,53,Female,Cough,131,82,100.1,Heart Disease,Medium
+P1710,77,Male,Shortness of Breath,155,89,98.8,None,Medium
+P1711,71,Male,Seizure,135,109,97.6,Heart Disease,High
+P1712,75,Female,Fever,182,119,97.6,Asthma,Medium
+P1713,68,Female,Seizure,121,107,100.3,Hypertension,High
+P1714,85,Male,Shortness of Breath,135,106,101.9,Heart Disease,High
+P1715,67,Male,Cough,179,95,99.2,Asthma,Medium
+P1716,83,Male,Seizure,120,98,100.8,Hypertension,Medium
+P1717,56,Female,Cough,128,108,98.0,Asthma,Medium
+P1718,34,Male,Fever,179,114,100.4,None,Medium
+P1719,66,Male,Fever,101,102,101.0,Hypertension,Medium
+P1720,76,Female,Cough,157,112,98.5,Hypertension,Medium
+P1721,19,Female,Shortness of Breath,140,137,102.1,Heart Disease,High
+P1722,33,Male,Chest Pain,103,66,99.9,None,Medium
+P1723,31,Male,Severe Headache,111,59,101.6,None,Medium
+P1724,49,Female,Shortness of Breath,173,97,98.0,Asthma,Medium
+P1725,62,Male,Severe Headache,108,103,98.5,Asthma,Medium
+P1726,35,Female,Shortness of Breath,108,116,102.5,None,Medium
+P1727,42,Male,Fever,114,60,101.3,Asthma,Medium
+P1728,46,Female,Chest Pain,178,58,100.8,None,Medium
+P1729,74,Female,Shortness of Breath,148,98,102.4,Diabetes,High
+P1730,31,Male,Shortness of Breath,102,116,98.0,None,Low
+P1731,62,Female,Severe Headache,181,112,98.6,Diabetes,High
+P1732,75,Female,Shortness of Breath,188,111,98.3,Asthma,High
+P1733,85,Male,Fever,177,106,102.5,Heart Disease,High
+P1734,61,Female,Shortness of Breath,104,123,102.9,Heart Disease,High
+P1735,26,Male,Fever,131,87,98.8,Hypertension,Low
+P1736,47,Female,Chest Pain,175,83,101.9,Asthma,High
+P1737,74,Male,Shortness of Breath,129,63,99.1,Hypertension,Medium
+P1738,79,Female,Shortness of Breath,102,100,100.1,None,Medium
+P1739,68,Male,Fever,112,98,97.8,Asthma,Medium
+P1740,26,Male,Seizure,101,115,97.9,Asthma,Medium
+P1741,61,Male,Chest Pain,163,85,100.5,Asthma,High
+P1742,19,Female,Shortness of Breath,181,131,102.1,None,High
+P1743,75,Female,Severe Headache,143,128,101.4,Diabetes,High
+P1744,60,Female,Shortness of Breath,188,88,100.8,None,Medium
+P1745,88,Female,Shortness of Breath,169,109,98.8,Hypertension,High
+P1746,20,Male,Seizure,125,111,101.9,Asthma,Medium
+P1747,70,Male,Fever,169,97,99.3,Asthma,Medium
+P1748,66,Male,Seizure,141,130,99.5,None,High
+P1749,83,Female,Shortness of Breath,110,72,97.9,Diabetes,Medium
+P1750,69,Male,Fever,145,98,102.2,None,Medium
+P1751,76,Female,Chest Pain,129,62,102.3,Heart Disease,High
+P1752,37,Male,Seizure,124,73,99.4,Asthma,Medium
+P1753,89,Female,Cough,182,81,97.1,Diabetes,Medium
+P1754,43,Male,Cough,126,116,100.2,None,Medium
+P1755,67,Male,Cough,141,83,99.5,Diabetes,Medium
+P1756,58,Female,Seizure,132,137,102.3,Hypertension,High
+P1757,33,Male,Seizure,122,61,100.5,None,Medium
+P1758,29,Male,Fever,171,59,99.6,Asthma,Medium
+P1759,86,Female,Severe Headache,148,80,100.6,Heart Disease,High
+P1760,30,Male,Chest Pain,127,87,100.2,None,Medium
+P1761,35,Male,Chest Pain,129,80,99.2,None,Medium
+P1762,56,Male,Seizure,132,80,99.6,Diabetes,Medium
+P1763,55,Male,Seizure,101,60,101.8,Heart Disease,High
+P1764,55,Male,Cough,187,72,100.5,None,Medium
+P1765,89,Male,Seizure,173,71,99.8,Diabetes,High
+P1766,46,Female,Shortness of Breath,157,124,102.0,Heart Disease,High
+P1767,23,Male,Cough,125,93,102.6,Heart Disease,Medium
+P1768,31,Male,Cough,121,105,97.8,Heart Disease,Medium
+P1769,88,Male,Cough,149,67,99.8,Diabetes,Medium
+P1770,27,Female,Cough,154,63,98.0,Hypertension,Low
+P1771,19,Female,Chest Pain,124,67,102.6,None,Medium
+P1772,75,Female,Severe Headache,133,89,100.1,None,Medium
+P1773,76,Male,Cough,169,102,100.8,Diabetes,High
+P1774,36,Male,Seizure,166,136,102.8,Heart Disease,High
+P1775,22,Male,Fever,166,65,98.7,Diabetes,Medium
+P1776,85,Male,Severe Headache,168,55,101.0,None,Medium
+P1777,80,Male,Shortness of Breath,128,136,97.6,Asthma,Medium
+P1778,58,Female,Cough,101,91,98.5,Hypertension,Low
+P1779,65,Female,Shortness of Breath,123,76,101.4,Asthma,Medium
+P1780,75,Female,Shortness of Breath,145,83,98.4,Diabetes,Medium
+P1781,32,Male,Chest Pain,159,96,102.6,Hypertension,Medium
+P1782,66,Male,Fever,163,86,99.0,Diabetes,Medium
+P1783,19,Female,Severe Headache,123,120,101.1,Diabetes,Medium
+P1784,43,Male,Fever,128,121,100.9,Diabetes,Medium
+P1785,42,Female,Chest Pain,147,119,97.7,None,Medium
+P1786,35,Female,Cough,108,92,101.6,Hypertension,Medium
+P1787,82,Male,Seizure,120,81,102.7,Heart Disease,High
+P1788,87,Female,Cough,143,82,102.4,None,Medium
+P1789,57,Male,Cough,102,130,101.9,Heart Disease,High
+P1790,83,Female,Shortness of Breath,145,84,97.9,Asthma,Medium
+P1791,28,Female,Chest Pain,168,120,100.2,None,Medium
+P1792,50,Male,Severe Headache,138,100,97.1,Hypertension,Medium
+P1793,77,Male,Seizure,130,65,97.9,Hypertension,Medium
+P1794,19,Female,Seizure,126,56,101.0,None,Medium
+P1795,38,Male,Seizure,157,59,102.7,Asthma,Medium
+P1796,37,Female,Chest Pain,160,92,101.0,Heart Disease,Medium
+P1797,42,Female,Seizure,101,86,98.3,Diabetes,Medium
+P1798,58,Male,Fever,166,55,98.0,Heart Disease,Medium
+P1799,30,Female,Seizure,118,66,100.6,Hypertension,Medium
+P1800,74,Male,Cough,134,130,101.6,Asthma,High
+P1801,39,Male,Fever,176,111,101.8,Asthma,Medium
+P1802,20,Male,Seizure,152,138,100.0,None,Medium
+P1803,50,Female,Severe Headache,171,104,101.0,Hypertension,High
+P1804,33,Male,Seizure,175,131,102.1,Heart Disease,High
+P1805,56,Male,Severe Headache,188,100,102.5,Heart Disease,High
+P1806,64,Female,Shortness of Breath,143,63,97.6,Asthma,Medium
+P1807,67,Female,Cough,176,114,99.1,Heart Disease,High
+P1808,32,Female,Cough,135,117,98.6,Asthma,Low
+P1809,58,Male,Seizure,173,78,101.8,Diabetes,High
+P1810,35,Female,Fever,106,58,100.6,None,Low
+P1811,77,Female,Shortness of Breath,154,70,99.7,Hypertension,Medium
+P1812,46,Male,Cough,122,68,100.5,None,Low
+P1813,50,Female,Fever,124,75,102.6,Diabetes,Medium
+P1814,74,Female,Fever,180,112,100.2,None,Medium
+P1815,37,Female,Chest Pain,129,73,101.8,Hypertension,Medium
+P1816,73,Female,Chest Pain,176,136,99.9,Asthma,High
+P1817,50,Female,Chest Pain,117,127,99.0,Asthma,Medium
+P1818,78,Female,Seizure,153,71,102.5,Heart Disease,High
+P1819,87,Male,Seizure,133,138,100.3,None,High
+P1820,28,Male,Chest Pain,115,115,99.8,Diabetes,Medium
+P1821,24,Female,Cough,115,70,100.3,Hypertension,Low
+P1822,29,Male,Seizure,134,75,102.8,Heart Disease,Medium
+P1823,34,Female,Chest Pain,131,95,100.0,Heart Disease,Medium
+P1824,44,Male,Chest Pain,119,79,98.2,None,Medium
+P1825,70,Female,Seizure,160,92,99.5,Hypertension,High
+P1826,87,Male,Seizure,154,55,102.7,Diabetes,High
+P1827,62,Male,Shortness of Breath,146,133,99.8,Diabetes,High
+P1828,31,Female,Severe Headache,153,125,99.1,Diabetes,Medium
+P1829,48,Male,Cough,187,113,102.4,Hypertension,High
+P1830,34,Male,Fever,113,90,97.5,Asthma,Low
+P1831,41,Female,Chest Pain,162,79,98.9,Hypertension,Medium
+P1832,35,Male,Severe Headache,136,80,100.0,Heart Disease,Medium
+P1833,81,Male,Chest Pain,171,74,101.4,Asthma,High
+P1834,47,Male,Seizure,152,117,102.0,Asthma,High
+P1835,66,Male,Seizure,186,73,97.9,Heart Disease,High
+P1836,48,Male,Seizure,142,91,101.5,Heart Disease,High
+P1837,43,Female,Shortness of Breath,101,138,97.6,Asthma,Medium
+P1838,21,Male,Fever,185,104,97.7,None,Medium
+P1839,76,Male,Chest Pain,189,129,99.8,Diabetes,High
+P1840,83,Male,Cough,107,83,97.7,Hypertension,Medium
+P1841,35,Female,Cough,154,104,97.2,Diabetes,Medium
+P1842,26,Male,Chest Pain,110,117,101.0,Diabetes,Medium
+P1843,84,Male,Fever,152,93,97.4,Diabetes,Medium
+P1844,45,Male,Severe Headache,174,93,98.2,Hypertension,Medium
+P1845,27,Male,Cough,142,69,97.8,Hypertension,Low
+P1846,38,Female,Severe Headache,159,104,101.4,Asthma,Medium
+P1847,86,Female,Severe Headache,103,132,99.7,Asthma,High
+P1848,52,Male,Cough,120,112,98.8,Diabetes,Medium
+P1849,89,Male,Fever,180,97,98.0,Asthma,Medium
+P1850,23,Female,Shortness of Breath,185,132,100.4,Heart Disease,High
+P1851,29,Female,Severe Headache,165,56,101.3,Hypertension,Medium
+P1852,46,Male,Seizure,180,61,97.7,Heart Disease,High
+P1853,31,Male,Cough,143,84,101.8,Asthma,Medium
+P1854,87,Male,Fever,187,60,98.5,Asthma,Medium
+P1855,41,Male,Severe Headache,133,94,102.6,Heart Disease,Medium
+P1856,41,Female,Severe Headache,164,72,102.1,Hypertension,High
+P1857,74,Male,Shortness of Breath,127,125,99.4,None,Medium
+P1858,51,Female,Shortness of Breath,110,89,101.6,Diabetes,Medium
+P1859,59,Male,Fever,127,136,98.9,Heart Disease,Medium
+P1860,41,Male,Seizure,107,107,99.4,Hypertension,Medium
+P1861,22,Female,Shortness of Breath,148,84,100.1,Heart Disease,Medium
+P1862,80,Female,Cough,146,80,97.9,Asthma,Medium
+P1863,24,Male,Fever,139,93,99.2,Asthma,Low
+P1864,70,Male,Severe Headache,103,136,99.1,None,Medium
+P1865,42,Male,Severe Headache,106,82,97.0,Diabetes,Medium
+P1866,37,Male,Cough,182,65,99.5,Diabetes,Medium
+P1867,24,Male,Severe Headache,122,115,98.3,Asthma,Medium
+P1868,51,Female,Cough,118,112,100.0,Asthma,Medium
+P1869,58,Male,Severe Headache,147,99,101.8,Diabetes,Medium
+P1870,42,Male,Cough,118,93,98.0,Diabetes,Low
+P1871,44,Female,Severe Headache,173,117,99.3,None,Medium
+P1872,36,Female,Severe Headache,127,139,101.0,Diabetes,Medium
+P1873,50,Male,Severe Headache,109,137,102.1,Asthma,High
+P1874,20,Female,Seizure,181,129,102.4,Heart Disease,High
+P1875,71,Female,Fever,105,94,102.4,None,Medium
+P1876,19,Male,Fever,172,56,99.7,None,Medium
+P1877,72,Male,Chest Pain,171,114,100.6,Diabetes,High
+P1878,23,Male,Shortness of Breath,118,81,97.4,Diabetes,Low
+P1879,50,Male,Chest Pain,139,86,102.2,Diabetes,Medium
+P1880,25,Female,Shortness of Breath,156,96,99.7,Hypertension,Medium
+P1881,52,Male,Shortness of Breath,170,133,98.9,Hypertension,High
+P1882,42,Female,Fever,166,116,97.5,Heart Disease,Medium
+P1883,41,Female,Fever,145,76,101.7,Heart Disease,Medium
+P1884,25,Male,Fever,138,89,101.7,Heart Disease,Medium
+P1885,55,Male,Seizure,107,108,100.0,Heart Disease,High
+P1886,57,Male,Severe Headache,133,133,101.9,Asthma,High
+P1887,34,Male,Fever,132,101,99.9,Asthma,Medium
+P1888,26,Male,Seizure,132,114,98.2,Heart Disease,Medium
+P1889,38,Female,Chest Pain,157,139,97.5,Diabetes,Medium
+P1890,23,Male,Severe Headache,112,119,97.5,None,Low
+P1891,63,Female,Chest Pain,107,64,101.0,Hypertension,Medium
+P1892,84,Male,Fever,110,66,102.2,Asthma,Medium
+P1893,66,Female,Fever,148,65,99.3,Asthma,Medium
+P1894,53,Female,Severe Headache,138,107,98.5,None,Medium
+P1895,73,Male,Severe Headache,100,110,101.6,Diabetes,High
+P1896,47,Female,Fever,111,89,100.9,Hypertension,Medium
+P1897,48,Female,Shortness of Breath,186,122,102.0,Heart Disease,High
+P1898,24,Male,Chest Pain,121,129,101.2,Diabetes,High
+P1899,75,Male,Chest Pain,163,66,97.1,Asthma,High
+P1900,72,Male,Shortness of Breath,161,127,99.7,None,High
+P1901,72,Female,Severe Headache,135,78,102.4,Asthma,Medium
+P1902,19,Male,Fever,112,85,99.7,Hypertension,Low
+P1903,45,Female,Fever,159,81,100.8,None,Medium
+P1904,50,Female,Chest Pain,119,96,101.0,Hypertension,Medium
+P1905,40,Male,Cough,171,68,98.3,Asthma,Medium
+P1906,48,Male,Shortness of Breath,153,59,98.0,None,Medium
+P1907,60,Female,Seizure,188,101,99.8,Heart Disease,High
+P1908,55,Male,Shortness of Breath,166,116,101.5,Asthma,High
+P1909,54,Male,Shortness of Breath,185,62,99.5,None,Medium
+P1910,50,Male,Severe Headache,180,96,99.7,Asthma,Medium
+P1911,44,Female,Seizure,107,77,102.5,Hypertension,Medium
+P1912,81,Female,Shortness of Breath,119,70,97.4,None,Medium
+P1913,36,Male,Fever,107,92,99.5,Hypertension,Low
+P1914,48,Male,Severe Headache,143,114,102.1,Asthma,High
+P1915,34,Female,Shortness of Breath,178,127,98.9,Asthma,Medium
+P1916,65,Female,Fever,111,72,101.8,Hypertension,Medium
+P1917,23,Female,Shortness of Breath,142,89,99.0,None,Low
+P1918,71,Male,Cough,161,123,102.7,Heart Disease,High
+P1919,25,Male,Fever,188,85,102.6,Hypertension,Medium
+P1920,73,Female,Shortness of Breath,175,124,100.4,Diabetes,High
+P1921,22,Female,Severe Headache,122,63,102.7,Diabetes,Medium
+P1922,71,Female,Seizure,145,76,97.1,Heart Disease,High
+P1923,37,Male,Cough,150,132,100.6,Diabetes,Medium
+P1924,67,Male,Chest Pain,133,129,100.7,Diabetes,High
+P1925,50,Female,Shortness of Breath,130,108,100.6,Asthma,Medium
+P1926,88,Male,Severe Headache,161,77,102.4,Asthma,High
+P1927,24,Female,Cough,188,115,99.4,None,Medium
+P1928,55,Male,Shortness of Breath,183,88,102.9,Hypertension,High
+P1929,47,Male,Shortness of Breath,116,113,98.6,Hypertension,Medium
+P1930,35,Female,Seizure,144,113,98.6,Hypertension,Medium
+P1931,66,Female,Severe Headache,162,86,101.9,Diabetes,High
+P1932,87,Female,Fever,161,101,102.5,Hypertension,High
+P1933,34,Female,Seizure,153,130,97.8,Heart Disease,High
+P1934,36,Female,Chest Pain,166,136,99.2,Asthma,High
+P1935,81,Male,Chest Pain,182,101,98.2,Heart Disease,High
+P1936,89,Female,Shortness of Breath,117,106,99.3,Hypertension,Medium
+P1937,56,Female,Chest Pain,148,66,97.4,Diabetes,Medium
+P1938,88,Female,Shortness of Breath,154,55,99.3,Heart Disease,High
+P1939,38,Female,Chest Pain,136,78,99.5,Hypertension,Medium
+P1940,24,Male,Fever,180,125,97.5,Heart Disease,Medium
+P1941,41,Male,Severe Headache,110,127,97.5,Asthma,Medium
+P1942,80,Female,Shortness of Breath,167,111,98.7,Heart Disease,High
+P1943,56,Female,Severe Headache,187,134,102.2,Asthma,High
+P1944,51,Female,Severe Headache,170,129,100.1,Asthma,High
+P1945,79,Female,Severe Headache,112,85,101.4,Diabetes,Medium
+P1946,32,Male,Chest Pain,156,129,101.4,Diabetes,High
+P1947,85,Male,Severe Headache,174,83,101.8,None,High
+P1948,33,Male,Fever,138,131,102.4,Diabetes,Medium
+P1949,38,Male,Chest Pain,143,73,97.5,Hypertension,Medium
+P1950,25,Female,Chest Pain,176,120,98.4,Asthma,Medium
+P1951,87,Female,Chest Pain,160,80,97.5,Heart Disease,High
+P1952,87,Male,Severe Headache,128,120,100.6,Hypertension,Medium
+P1953,75,Male,Shortness of Breath,169,111,102.8,Hypertension,High
+P1954,47,Male,Seizure,170,127,97.5,Hypertension,High
+P1955,82,Male,Seizure,105,72,101.5,Hypertension,High
+P1956,28,Female,Chest Pain,164,131,99.9,Heart Disease,High
+P1957,82,Male,Shortness of Breath,151,121,101.6,None,High
+P1958,48,Female,Fever,116,109,97.0,Asthma,Medium
+P1959,53,Male,Severe Headache,125,107,100.6,Asthma,Medium
+P1960,42,Male,Fever,101,59,98.1,Heart Disease,Medium
+P1961,23,Male,Fever,120,131,100.9,None,Medium
+P1962,43,Male,Cough,154,93,97.0,None,Low
+P1963,31,Female,Fever,155,135,97.5,Hypertension,Medium
+P1964,33,Male,Seizure,115,138,99.3,Hypertension,Medium
+P1965,25,Male,Chest Pain,187,57,102.3,Asthma,High
+P1966,83,Female,Cough,178,128,101.0,Asthma,High
+P1967,63,Female,Severe Headache,112,87,98.7,Hypertension,Medium
+P1968,44,Female,Cough,177,78,101.2,Asthma,Medium
+P1969,80,Female,Severe Headache,147,117,97.7,None,Medium
+P1970,45,Female,Cough,143,97,100.5,Hypertension,Medium
+P1971,66,Male,Shortness of Breath,184,111,102.7,Diabetes,High
+P1972,81,Male,Shortness of Breath,174,111,100.1,Hypertension,High
+P1973,87,Male,Seizure,187,130,98.9,None,High
+P1974,40,Male,Chest Pain,126,112,100.6,Heart Disease,Medium
+P1975,54,Female,Shortness of Breath,105,119,97.6,Hypertension,Medium
+P1976,39,Male,Shortness of Breath,187,79,99.2,Asthma,Medium
+P1977,89,Male,Severe Headache,150,102,100.1,Heart Disease,High
+P1978,87,Female,Chest Pain,164,114,102.8,Asthma,High
+P1979,75,Female,Seizure,175,92,101.2,Hypertension,High
+P1980,59,Male,Fever,138,125,99.5,Hypertension,Medium
+P1981,69,Female,Severe Headache,130,87,102.6,Asthma,Medium
+P1982,58,Female,Shortness of Breath,157,110,99.0,Asthma,Medium
+P1983,48,Female,Fever,154,64,99.7,None,Medium
+P1984,32,Female,Cough,102,97,100.0,None,Low
+P1985,84,Male,Chest Pain,155,117,100.0,Hypertension,High
+P1986,27,Female,Seizure,137,101,102.4,Diabetes,Medium
+P1987,88,Male,Shortness of Breath,114,72,99.6,Heart Disease,Medium
+P1988,19,Female,Shortness of Breath,183,97,98.5,Hypertension,Medium
+P1989,55,Male,Severe Headache,141,59,98.8,Asthma,Medium
+P1990,51,Male,Cough,100,137,99.1,None,Medium
+P1991,37,Male,Seizure,160,75,101.5,Heart Disease,High
+P1992,29,Male,Chest Pain,121,74,97.9,Asthma,Medium
+P1993,47,Female,Cough,123,68,102.2,Diabetes,Medium
+P1994,41,Male,Fever,159,109,102.2,Diabetes,Medium
+P1995,41,Female,Shortness of Breath,176,78,102.2,Diabetes,High
+P1996,83,Male,Seizure,179,92,100.9,Hypertension,High
+P1997,68,Female,Seizure,134,97,100.1,Hypertension,Medium
+P1998,75,Female,Fever,153,93,98.8,Heart Disease,Medium
+P1999,46,Female,Chest Pain,142,57,97.4,Heart Disease,Medium
+P2000,76,Male,Shortness of Breath,113,130,101.1,Diabetes,High
+P2001,49,Female,Cough,131,96,101.4,Diabetes,Medium
+P2002,18,Male,Cough,155,56,98.8,Hypertension,Low
+P2003,88,Female,Fever,151,63,99.4,Hypertension,Medium
+P2004,66,Male,Cough,100,127,98.6,Hypertension,Medium
+P2005,57,Female,Chest Pain,144,122,100.0,Hypertension,High
+P2006,39,Female,Chest Pain,117,130,97.8,Asthma,Medium
+P2007,56,Female,Shortness of Breath,172,60,97.5,Hypertension,Medium
+P2008,24,Male,Shortness of Breath,179,123,100.5,None,Medium
+P2009,54,Female,Shortness of Breath,182,91,97.2,Asthma,Medium
+P2010,81,Male,Seizure,189,116,97.1,Asthma,High
+P2011,50,Male,Shortness of Breath,165,84,99.8,Heart Disease,High
+P2012,77,Male,Fever,181,128,99.1,Asthma,High
+P2013,21,Female,Cough,136,58,101.3,Hypertension,Medium
+P2014,35,Female,Severe Headache,187,120,97.9,Diabetes,Medium
+P2015,75,Female,Severe Headache,182,127,100.4,Diabetes,High
+P2016,27,Male,Seizure,164,96,101.1,Diabetes,High
+P2017,77,Female,Shortness of Breath,114,111,101.3,Hypertension,High
+P2018,39,Male,Severe Headache,163,95,100.5,Diabetes,Medium
+P2019,73,Female,Cough,122,79,98.1,Hypertension,Medium
+P2020,23,Male,Chest Pain,133,117,99.8,Diabetes,Medium
+P2021,66,Male,Cough,150,114,98.0,Hypertension,Medium
+P2022,48,Female,Severe Headache,140,116,102.4,Heart Disease,High
+P2023,31,Female,Seizure,135,90,100.7,Diabetes,Medium
+P2024,25,Female,Chest Pain,125,90,97.7,Diabetes,Medium
+P2025,45,Male,Fever,167,116,97.3,Asthma,Medium
+P2026,68,Male,Shortness of Breath,141,83,98.9,None,Medium
+P2027,27,Female,Cough,138,136,99.6,Diabetes,Medium
+P2028,38,Male,Severe Headache,164,69,98.9,Asthma,Medium
+P2029,78,Male,Fever,119,64,101.7,Hypertension,Medium
+P2030,51,Male,Shortness of Breath,147,87,100.3,Diabetes,Medium
+P2031,78,Female,Shortness of Breath,109,108,97.7,None,Medium
+P2032,18,Female,Severe Headache,104,134,98.6,Hypertension,Medium
+P2033,45,Male,Fever,122,71,100.2,None,Low
+P2034,30,Male,Seizure,113,65,100.8,None,Medium
+P2035,78,Female,Shortness of Breath,163,85,101.9,Diabetes,High
+P2036,27,Male,Cough,107,75,100.4,Diabetes,Low
+P2037,67,Female,Shortness of Breath,168,124,97.3,Hypertension,High
+P2038,34,Male,Shortness of Breath,174,74,101.8,Asthma,Medium
+P2039,19,Female,Fever,136,55,98.4,None,Low
+P2040,71,Male,Seizure,124,57,101.3,Hypertension,High
+P2041,51,Female,Chest Pain,142,128,102.8,None,High
+P2042,87,Female,Fever,101,120,100.1,Diabetes,Medium
+P2043,33,Male,Shortness of Breath,175,55,99.4,Heart Disease,Medium
+P2044,65,Male,Severe Headache,149,67,99.3,Diabetes,Medium
+P2045,61,Male,Chest Pain,107,128,102.4,Asthma,High
+P2046,36,Female,Shortness of Breath,137,65,98.0,Diabetes,Low
+P2047,37,Male,Chest Pain,119,75,100.5,Hypertension,Medium
+P2048,67,Female,Fever,173,80,100.1,Heart Disease,High
+P2049,48,Female,Severe Headache,141,122,100.0,None,Medium
+P2050,87,Male,Cough,177,122,98.4,None,Medium
+P2051,34,Male,Shortness of Breath,118,105,97.1,Asthma,Medium
+P2052,80,Female,Seizure,174,134,98.7,Hypertension,High
+P2053,88,Female,Seizure,125,110,102.5,Heart Disease,High
+P2054,36,Male,Seizure,130,80,98.4,None,Low
+P2055,40,Female,Severe Headache,146,67,98.9,None,Low
+P2056,83,Female,Chest Pain,115,127,102.7,Heart Disease,High
+P2057,52,Male,Cough,140,131,101.4,Diabetes,Medium
+P2058,49,Female,Seizure,153,126,98.7,Asthma,High
+P2059,83,Male,Seizure,153,94,101.2,Asthma,High
+P2060,54,Female,Seizure,164,128,98.9,None,High
+P2061,27,Female,Seizure,146,129,102.6,Diabetes,High
+P2062,29,Female,Severe Headache,144,71,97.9,None,Low
+P2063,83,Female,Cough,174,95,102.4,Heart Disease,High
+P2064,35,Male,Severe Headache,119,68,100.0,Asthma,Medium
+P2065,71,Female,Severe Headache,130,112,97.7,Asthma,Medium
+P2066,75,Male,Fever,181,84,99.9,Heart Disease,High
+P2067,36,Male,Seizure,171,62,100.9,Asthma,Medium
+P2068,84,Female,Cough,185,135,98.6,Heart Disease,High
+P2069,31,Female,Shortness of Breath,108,116,102.4,None,Medium
+P2070,54,Female,Fever,110,74,98.3,Asthma,Low
+P2071,64,Female,Cough,174,106,99.3,Hypertension,High
+P2072,44,Female,Seizure,143,94,97.6,Heart Disease,Medium
+P2073,61,Male,Fever,147,139,102.1,None,High
+P2074,85,Male,Severe Headache,110,131,100.9,Hypertension,High
+P2075,21,Male,Severe Headache,175,127,101.2,None,High
+P2076,43,Female,Seizure,176,93,99.6,Diabetes,High
+P2077,36,Male,Seizure,187,137,99.7,Asthma,High
+P2078,75,Male,Shortness of Breath,127,120,100.0,Hypertension,Medium
+P2079,75,Male,Shortness of Breath,172,68,101.0,Asthma,High
+P2080,32,Male,Chest Pain,132,71,102.3,Hypertension,Medium
+P2081,79,Female,Cough,112,116,102.3,None,Medium
+P2082,33,Female,Shortness of Breath,165,135,99.8,Diabetes,High
+P2083,25,Male,Seizure,102,66,102.3,Asthma,Medium
+P2084,76,Female,Fever,148,117,99.3,Hypertension,Medium
+P2085,66,Male,Chest Pain,150,87,102.8,Asthma,High
+P2086,32,Female,Shortness of Breath,181,77,102.1,Asthma,Medium
+P2087,62,Female,Seizure,161,133,99.8,Hypertension,High
+P2088,63,Male,Seizure,163,100,99.5,None,High
+P2089,61,Female,Severe Headache,174,83,101.5,Hypertension,High
+P2090,69,Female,Seizure,153,111,101.0,Asthma,High
+P2091,39,Male,Severe Headache,119,87,102.6,Diabetes,Medium
+P2092,63,Male,Chest Pain,172,111,98.8,Asthma,High
+P2093,72,Male,Shortness of Breath,160,62,97.9,Hypertension,Medium
+P2094,65,Female,Seizure,160,69,99.1,None,Medium
+P2095,20,Male,Severe Headache,153,68,102.4,Asthma,Medium
+P2096,84,Male,Severe Headache,109,103,101.9,Asthma,High
+P2097,82,Male,Cough,156,81,99.4,None,Medium
+P2098,22,Female,Cough,170,137,99.1,Diabetes,Medium
+P2099,32,Female,Severe Headache,175,84,98.2,Asthma,Medium
+P2100,20,Male,Severe Headache,172,95,98.7,Heart Disease,Medium
+P2101,19,Male,Seizure,122,77,97.1,Hypertension,Medium
+P2102,33,Female,Fever,108,67,97.5,Diabetes,Low
+P2103,68,Male,Severe Headache,163,106,98.4,Asthma,High
+P2104,82,Female,Seizure,117,117,102.2,Heart Disease,High
+P2105,30,Female,Seizure,139,109,100.0,Diabetes,Medium
+P2106,60,Male,Fever,143,122,99.3,Hypertension,Medium
+P2107,53,Male,Fever,109,74,100.8,Hypertension,Medium
+P2108,29,Female,Shortness of Breath,161,72,103.0,Heart Disease,High
+P2109,80,Male,Seizure,183,79,101.7,Diabetes,High
+P2110,42,Male,Chest Pain,110,118,97.1,Hypertension,Medium
+P2111,67,Male,Chest Pain,161,103,101.8,Heart Disease,High
+P2112,42,Male,Shortness of Breath,158,126,102.0,None,High
+P2113,36,Female,Seizure,122,63,99.9,None,Medium
+P2114,67,Male,Severe Headache,115,87,99.7,None,Medium
+P2115,18,Female,Cough,189,112,99.8,Diabetes,Medium
+P2116,64,Female,Severe Headache,143,134,101.7,Diabetes,High
+P2117,41,Female,Cough,154,69,97.2,Asthma,Medium
+P2118,51,Female,Seizure,101,81,102.5,Diabetes,Medium
+P2119,89,Male,Shortness of Breath,122,122,102.8,Heart Disease,High
+P2120,82,Female,Shortness of Breath,167,117,100.8,Heart Disease,High
+P2121,81,Male,Severe Headache,131,133,99.8,Asthma,High
+P2122,83,Female,Seizure,118,78,100.5,Diabetes,Medium
+P2123,28,Male,Fever,158,69,97.2,Heart Disease,Medium
+P2124,44,Female,Chest Pain,159,127,102.5,Heart Disease,High
+P2125,45,Male,Shortness of Breath,164,71,97.3,Hypertension,Medium
+P2126,27,Male,Shortness of Breath,162,136,100.9,Diabetes,High
+P2127,87,Male,Chest Pain,175,107,103.0,Diabetes,High
+P2128,71,Male,Fever,119,133,97.4,Diabetes,Medium
+P2129,75,Female,Cough,109,64,102.3,Asthma,Medium
+P2130,56,Male,Shortness of Breath,127,84,98.3,None,Low
+P2131,84,Female,Severe Headache,142,133,98.0,Asthma,High
+P2132,73,Female,Severe Headache,175,122,99.0,None,High
+P2133,40,Female,Chest Pain,162,115,100.0,Asthma,High
+P2134,41,Female,Chest Pain,150,112,97.5,Heart Disease,High
+P2135,50,Female,Fever,115,76,98.7,None,Low
+P2136,79,Male,Seizure,181,125,102.5,Heart Disease,High
+P2137,89,Male,Shortness of Breath,169,84,98.0,Hypertension,Medium
+P2138,49,Female,Cough,185,111,98.2,Heart Disease,Medium
+P2139,48,Male,Seizure,170,63,97.8,Diabetes,Medium
+P2140,20,Male,Severe Headache,134,75,101.6,Heart Disease,Medium
+P2141,69,Female,Cough,133,89,100.8,Heart Disease,Medium
+P2142,23,Male,Cough,184,86,101.6,Hypertension,Medium
+P2143,45,Male,Seizure,184,118,100.5,Diabetes,High
+P2144,36,Male,Chest Pain,114,60,98.9,Diabetes,Medium
+P2145,55,Female,Chest Pain,125,136,100.8,Diabetes,High
+P2146,68,Female,Seizure,172,107,102.2,None,High
+P2147,87,Male,Chest Pain,177,112,98.5,Heart Disease,High
+P2148,30,Male,Cough,142,130,99.1,Hypertension,Medium
+P2149,38,Male,Seizure,182,78,99.9,Diabetes,Medium
+P2150,45,Male,Chest Pain,181,83,98.4,Asthma,Medium
+P2151,61,Male,Chest Pain,160,122,98.4,Asthma,High
+P2152,84,Female,Fever,101,103,98.5,Asthma,Medium
+P2153,89,Female,Cough,126,72,100.0,None,Medium
+P2154,78,Male,Severe Headache,102,122,97.8,Hypertension,Medium
+P2155,68,Male,Seizure,114,62,98.6,None,Medium
+P2156,73,Male,Chest Pain,146,64,97.5,None,Medium
+P2157,66,Female,Severe Headache,140,137,98.1,None,Medium
+P2158,88,Male,Severe Headache,182,85,99.5,Diabetes,High
+P2159,40,Male,Cough,147,94,102.1,Hypertension,Medium
+P2160,58,Female,Shortness of Breath,126,129,97.6,Heart Disease,Medium
+P2161,34,Female,Cough,170,101,102.7,Asthma,Medium
+P2162,30,Male,Seizure,110,78,102.2,Asthma,Medium
+P2163,21,Female,Fever,145,72,100.4,Heart Disease,Medium
+P2164,50,Male,Shortness of Breath,109,127,102.3,None,Medium
+P2165,45,Male,Shortness of Breath,159,57,101.2,Heart Disease,High
+P2166,31,Male,Chest Pain,157,69,102.8,Diabetes,Medium
+P2167,81,Female,Seizure,170,78,98.7,Hypertension,High
+P2168,56,Female,Shortness of Breath,162,133,98.0,Asthma,High
+P2169,21,Male,Fever,128,55,102.0,Asthma,Medium
+P2170,28,Male,Fever,173,113,100.3,Heart Disease,Medium
+P2171,53,Male,Fever,155,75,99.7,Hypertension,Medium
+P2172,28,Male,Fever,174,124,101.9,Hypertension,High
+P2173,87,Female,Chest Pain,176,110,101.5,Hypertension,High
+P2174,54,Male,Shortness of Breath,146,132,99.7,Asthma,High
+P2175,86,Male,Seizure,157,90,97.7,Heart Disease,High
+P2176,81,Male,Seizure,170,96,99.6,Hypertension,High
+P2177,47,Female,Cough,120,114,101.6,Hypertension,Medium
+P2178,82,Female,Cough,132,92,97.3,Diabetes,Medium
+P2179,76,Male,Fever,132,95,100.0,Diabetes,Medium
+P2180,66,Female,Seizure,147,126,102.7,None,High
+P2181,73,Female,Chest Pain,164,66,101.3,Diabetes,High
+P2182,23,Male,Severe Headache,188,119,100.0,Asthma,Medium
+P2183,49,Male,Shortness of Breath,102,103,100.9,Heart Disease,Medium
+P2184,46,Male,Severe Headache,149,56,101.8,None,Medium
+P2185,34,Female,Severe Headache,159,90,99.2,None,Medium
+P2186,66,Female,Severe Headache,175,114,102.5,Heart Disease,High
+P2187,20,Male,Fever,142,111,99.9,None,Medium
+P2188,67,Female,Fever,136,100,99.7,Hypertension,Medium
+P2189,50,Female,Fever,179,65,99.2,Asthma,Medium
+P2190,41,Male,Chest Pain,163,134,100.9,None,High
+P2191,82,Male,Fever,187,127,98.5,None,Medium
+P2192,34,Female,Chest Pain,188,115,98.2,Asthma,Medium
+P2193,68,Male,Severe Headache,126,128,101.0,Diabetes,High
+P2194,48,Female,Chest Pain,111,100,100.5,Heart Disease,Medium
+P2195,49,Female,Shortness of Breath,152,115,99.1,Hypertension,Medium
+P2196,24,Male,Seizure,103,106,100.9,None,Medium
+P2197,48,Male,Shortness of Breath,174,138,99.4,None,High
+P2198,71,Male,Shortness of Breath,116,129,98.6,Diabetes,Medium
+P2199,39,Male,Shortness of Breath,142,81,99.0,Hypertension,Medium
+P2200,52,Female,Shortness of Breath,103,134,100.3,None,Medium
+P2201,43,Male,Chest Pain,118,135,102.7,None,High
+P2202,39,Female,Shortness of Breath,157,117,101.2,Diabetes,Medium
+P2203,82,Male,Chest Pain,143,97,102.1,Diabetes,High
+P2204,34,Female,Seizure,139,92,97.9,Diabetes,Medium
+P2205,26,Male,Fever,176,129,98.1,Asthma,Medium
+P2206,33,Male,Cough,101,126,97.6,Hypertension,Medium
+P2207,59,Male,Fever,176,111,98.6,Heart Disease,Medium
+P2208,84,Male,Severe Headache,129,67,100.5,None,Medium
+P2209,26,Female,Fever,182,108,98.0,Diabetes,Medium
+P2210,78,Male,Chest Pain,186,56,101.1,Diabetes,High
+P2211,48,Female,Seizure,132,132,102.9,Diabetes,High
+P2212,50,Female,Cough,106,85,97.1,Hypertension,Low
+P2213,64,Female,Cough,177,107,97.4,Heart Disease,High
+P2214,36,Male,Chest Pain,180,60,101.1,Asthma,High
+P2215,67,Female,Chest Pain,180,66,100.4,Hypertension,High
+P2216,86,Female,Shortness of Breath,158,90,100.0,Heart Disease,High
+P2217,72,Female,Fever,156,71,97.5,Heart Disease,Medium
+P2218,85,Male,Severe Headache,154,99,98.5,None,Medium
+P2219,38,Male,Fever,182,75,101.1,Heart Disease,Medium
+P2220,60,Male,Fever,151,121,98.1,None,Medium
+P2221,61,Female,Fever,131,64,100.7,None,Medium
+P2222,86,Male,Shortness of Breath,167,82,99.5,None,Medium
+P2223,68,Female,Fever,152,58,100.2,Hypertension,Medium
+P2224,84,Female,Severe Headache,173,101,102.3,Hypertension,High
+P2225,40,Female,Cough,117,55,99.8,Heart Disease,Medium
+P2226,75,Female,Fever,158,55,102.4,Diabetes,Medium
+P2227,54,Male,Seizure,182,83,97.0,Hypertension,Medium
+P2228,78,Male,Cough,189,58,99.7,Diabetes,Medium
+P2229,50,Female,Cough,121,102,101.2,Hypertension,Medium
+P2230,40,Male,Shortness of Breath,167,75,102.0,Asthma,Medium
+P2231,43,Male,Shortness of Breath,140,92,100.6,None,Medium
+P2232,46,Female,Fever,159,121,99.4,Diabetes,Medium
+P2233,78,Male,Severe Headache,118,100,99.9,Asthma,Medium
+P2234,74,Male,Chest Pain,113,98,99.2,Asthma,Medium
+P2235,29,Male,Fever,154,105,100.7,Heart Disease,Medium
+P2236,50,Male,Chest Pain,132,83,99.0,None,Medium
+P2237,48,Female,Fever,179,85,100.1,Heart Disease,Medium
+P2238,63,Female,Fever,176,106,101.0,Heart Disease,High
+P2239,58,Female,Chest Pain,176,57,97.6,Diabetes,Medium
+P2240,69,Female,Fever,133,103,99.6,Hypertension,Medium
+P2241,30,Male,Chest Pain,168,121,102.3,Asthma,High
+P2242,88,Male,Fever,123,117,99.4,None,Medium
+P2243,78,Female,Seizure,122,84,98.6,Asthma,Medium
+P2244,73,Female,Seizure,152,61,100.0,Diabetes,High
+P2245,89,Male,Shortness of Breath,178,106,100.0,Asthma,High
+P2246,86,Male,Cough,132,123,101.8,Hypertension,High
+P2247,43,Male,Chest Pain,100,58,98.5,None,Medium
+P2248,50,Female,Chest Pain,132,126,102.0,Diabetes,High
+P2249,38,Male,Shortness of Breath,144,136,101.9,Diabetes,High
+P2250,59,Female,Fever,111,119,101.7,Heart Disease,Medium
+P2251,20,Male,Chest Pain,189,63,100.9,Hypertension,Medium
+P2252,33,Male,Seizure,187,132,101.7,Hypertension,High
+P2253,41,Female,Chest Pain,172,67,99.6,Asthma,High
+P2254,38,Female,Cough,118,101,97.9,Hypertension,Low
+P2255,50,Male,Fever,131,118,101.2,None,Medium
+P2256,56,Male,Fever,183,126,99.4,Heart Disease,High
+P2257,26,Female,Seizure,124,56,101.6,Hypertension,Medium
+P2258,37,Female,Shortness of Breath,169,71,101.7,None,Medium
+P2259,85,Male,Chest Pain,183,57,97.6,Heart Disease,High
+P2260,43,Male,Chest Pain,155,118,99.8,Diabetes,High
+P2261,54,Female,Seizure,126,99,98.4,None,Medium
+P2262,54,Male,Shortness of Breath,170,87,98.8,None,Medium
+P2263,29,Female,Severe Headache,110,126,97.3,Asthma,Medium
+P2264,55,Female,Fever,159,73,102.7,Asthma,Medium
+P2265,73,Female,Chest Pain,113,87,101.5,None,Medium
+P2266,81,Male,Fever,163,116,98.3,Hypertension,Medium
+P2267,60,Female,Seizure,179,113,101.2,Diabetes,High
+P2268,36,Male,Seizure,120,76,97.0,Hypertension,Medium
+P2269,44,Female,Chest Pain,116,98,101.1,None,Medium
+P2270,25,Male,Fever,179,72,101.9,Hypertension,Medium
+P2271,50,Male,Severe Headache,100,130,98.2,Asthma,Medium
+P2272,72,Female,Cough,104,113,102.1,Diabetes,Medium
+P2273,66,Male,Fever,181,119,102.9,Hypertension,High
+P2274,78,Female,Cough,107,57,98.4,Heart Disease,Medium
+P2275,86,Male,Cough,154,94,98.1,None,Medium
+P2276,67,Male,Shortness of Breath,132,72,102.0,Asthma,Medium
+P2277,33,Female,Shortness of Breath,179,92,101.8,None,Medium
+P2278,70,Female,Chest Pain,162,86,99.4,Hypertension,High
+P2279,33,Male,Fever,151,83,98.9,None,Low
+P2280,34,Female,Seizure,163,67,102.2,Diabetes,High
+P2281,22,Male,Severe Headache,111,95,101.4,Heart Disease,Medium
+P2282,50,Male,Chest Pain,185,104,99.2,Heart Disease,High
+P2283,26,Female,Chest Pain,181,104,97.7,Heart Disease,High
+P2284,62,Female,Fever,116,110,99.0,Heart Disease,Medium
+P2285,84,Male,Fever,168,68,102.3,Asthma,High
+P2286,78,Male,Chest Pain,122,81,97.1,Diabetes,Medium
+P2287,33,Male,Shortness of Breath,140,109,98.6,Heart Disease,Medium
+P2288,78,Female,Cough,185,135,100.1,Heart Disease,High
+P2289,66,Female,Shortness of Breath,172,106,100.6,Asthma,High
+P2290,67,Female,Shortness of Breath,185,97,101.9,Heart Disease,High
+P2291,76,Male,Shortness of Breath,164,135,98.1,None,High
+P2292,58,Female,Cough,106,123,98.8,Diabetes,Medium
+P2293,47,Male,Chest Pain,172,60,98.7,None,Medium
+P2294,83,Female,Severe Headache,109,70,99.5,Asthma,Medium
+P2295,49,Female,Chest Pain,146,126,100.2,Hypertension,High
+P2296,53,Female,Shortness of Breath,125,64,101.5,Asthma,Medium
+P2297,46,Female,Cough,104,131,98.6,None,Medium
+P2298,20,Female,Shortness of Breath,166,125,100.5,Hypertension,High
+P2299,32,Male,Chest Pain,166,84,101.6,Heart Disease,High
+P2300,60,Male,Shortness of Breath,159,94,102.0,Asthma,Medium
+P2301,36,Male,Shortness of Breath,102,90,100.5,Hypertension,Medium
+P2302,58,Male,Severe Headache,189,134,99.1,Heart Disease,High
+P2303,50,Male,Severe Headache,104,132,100.9,Diabetes,Medium
+P2304,31,Male,Cough,167,137,100.3,Hypertension,Medium
+P2305,21,Male,Seizure,182,63,97.2,Diabetes,Medium
+P2306,77,Male,Cough,145,108,100.5,Hypertension,Medium
+P2307,54,Male,Shortness of Breath,122,81,101.2,Hypertension,Medium
+P2308,83,Female,Seizure,160,131,97.3,None,High
+P2309,36,Female,Chest Pain,100,94,97.7,Heart Disease,Medium
+P2310,83,Female,Seizure,139,92,97.6,None,Medium
+P2311,72,Male,Cough,150,114,100.2,None,Medium
+P2312,85,Female,Seizure,174,126,99.3,None,High
+P2313,19,Male,Shortness of Breath,179,124,100.4,Asthma,High
+P2314,76,Male,Shortness of Breath,118,82,100.5,Diabetes,Medium
+P2315,41,Female,Chest Pain,143,110,101.4,Diabetes,High
+P2316,68,Male,Chest Pain,131,104,100.6,None,Medium
+P2317,42,Male,Severe Headache,160,120,102.5,None,Medium
+P2318,53,Female,Fever,175,63,101.9,None,Medium
+P2319,55,Male,Cough,132,96,101.5,Asthma,Medium
+P2320,78,Male,Fever,117,124,100.4,Heart Disease,High
+P2321,32,Male,Fever,147,126,100.5,None,Medium
+P2322,60,Female,Shortness of Breath,159,111,102.9,Hypertension,High
+P2323,67,Male,Seizure,131,76,99.3,Heart Disease,High
+P2324,74,Female,Severe Headache,112,101,99.0,Diabetes,Medium
+P2325,71,Male,Cough,128,76,98.5,Heart Disease,Medium
+P2326,65,Female,Fever,104,89,97.2,Heart Disease,Medium
+P2327,88,Female,Cough,145,89,99.6,Asthma,Medium
+P2328,27,Female,Seizure,165,124,97.2,Asthma,High
+P2329,42,Male,Chest Pain,143,114,98.7,None,Medium
+P2330,24,Female,Cough,145,77,99.1,Heart Disease,Medium
+P2331,30,Female,Seizure,120,55,99.4,Diabetes,Medium
+P2332,77,Male,Chest Pain,132,58,100.6,Diabetes,Medium
+P2333,69,Female,Severe Headache,127,124,102.1,Diabetes,High
+P2334,74,Female,Severe Headache,186,70,101.8,Heart Disease,High
+P2335,86,Female,Seizure,140,131,98.9,Hypertension,High
+P2336,86,Male,Shortness of Breath,130,84,100.0,Hypertension,Medium
+P2337,44,Male,Cough,125,114,99.9,Hypertension,Medium
+P2338,73,Female,Shortness of Breath,130,113,98.5,Hypertension,Medium
+P2339,56,Male,Shortness of Breath,160,117,99.1,Diabetes,Medium
+P2340,34,Male,Fever,138,125,101.4,None,Medium
+P2341,52,Male,Chest Pain,110,115,99.6,None,Medium
+P2342,85,Male,Severe Headache,124,102,98.2,Hypertension,Medium
+P2343,21,Female,Severe Headache,137,117,101.0,Diabetes,Medium
+P2344,20,Female,Shortness of Breath,185,116,102.0,Asthma,High
+P2345,79,Female,Severe Headache,134,67,97.4,Asthma,Medium
+P2346,19,Female,Seizure,155,131,100.7,Heart Disease,High
+P2347,68,Female,Chest Pain,153,70,97.2,None,Medium
+P2348,62,Female,Cough,135,95,98.8,Asthma,Medium
+P2349,24,Female,Fever,114,114,98.8,Diabetes,Low
+P2350,54,Female,Cough,165,109,98.4,Asthma,Medium
+P2351,73,Male,Cough,143,111,98.9,Hypertension,Medium
+P2352,49,Male,Chest Pain,173,72,102.9,Heart Disease,High
+P2353,24,Male,Chest Pain,107,118,97.2,Diabetes,Medium
+P2354,58,Female,Fever,139,57,100.7,Hypertension,Medium
+P2355,69,Male,Severe Headache,121,58,99.3,None,Medium
+P2356,23,Female,Cough,137,80,99.7,None,Low
+P2357,34,Female,Chest Pain,187,85,100.0,Heart Disease,High
+P2358,52,Female,Seizure,115,133,99.4,Asthma,High
+P2359,79,Male,Severe Headache,126,89,99.6,None,Medium
+P2360,52,Male,Cough,127,63,99.4,Asthma,Medium
+P2361,38,Female,Fever,151,89,100.5,None,Low
+P2362,68,Male,Shortness of Breath,182,109,101.6,Heart Disease,High
+P2363,61,Male,Shortness of Breath,164,134,101.8,Diabetes,High
+P2364,64,Female,Chest Pain,179,110,99.5,Diabetes,High
+P2365,84,Male,Severe Headache,114,55,101.1,Asthma,Medium
+P2366,66,Male,Fever,172,83,99.7,Hypertension,Medium
+P2367,62,Female,Fever,170,66,102.8,Hypertension,High
+P2368,37,Female,Shortness of Breath,150,135,98.6,Diabetes,Medium
+P2369,18,Female,Cough,126,94,98.0,None,Low
+P2370,31,Male,Chest Pain,168,133,98.6,Hypertension,High
+P2371,72,Female,Fever,118,131,100.5,Diabetes,Medium
+P2372,87,Male,Shortness of Breath,178,134,97.3,Hypertension,High
+P2373,27,Male,Severe Headache,153,95,98.0,Heart Disease,Medium
+P2374,73,Male,Seizure,144,84,103.0,Diabetes,High
+P2375,72,Female,Severe Headache,118,83,99.1,Heart Disease,Medium
+P2376,36,Female,Severe Headache,106,80,100.6,Asthma,Medium
+P2377,55,Female,Cough,102,134,101.0,Hypertension,Medium
+P2378,88,Male,Seizure,142,116,102.3,Diabetes,High
+P2379,41,Female,Seizure,138,122,102.4,Heart Disease,High
+P2380,61,Female,Severe Headache,104,109,98.6,Asthma,Medium
+P2381,47,Female,Seizure,128,80,102.6,Diabetes,Medium
+P2382,54,Male,Seizure,152,84,97.1,None,Medium
+P2383,60,Female,Cough,106,103,102.5,Asthma,Medium
+P2384,58,Male,Seizure,176,133,101.8,Heart Disease,High
+P2385,86,Female,Seizure,126,62,98.9,Heart Disease,Medium
+P2386,81,Female,Seizure,109,67,101.7,Asthma,High
+P2387,52,Female,Shortness of Breath,160,108,101.0,Heart Disease,High
+P2388,58,Male,Shortness of Breath,129,75,98.6,None,Low
+P2389,19,Female,Cough,149,95,102.8,Hypertension,Medium
+P2390,20,Male,Shortness of Breath,179,105,99.7,Diabetes,Medium
+P2391,42,Female,Shortness of Breath,129,136,101.1,Asthma,High
+P2392,34,Male,Severe Headache,125,77,99.2,Hypertension,Medium
+P2393,65,Female,Chest Pain,119,56,101.2,Asthma,High
+P2394,44,Male,Cough,101,132,99.7,Asthma,Medium
+P2395,30,Female,Chest Pain,134,126,99.8,Diabetes,Medium
+P2396,48,Female,Chest Pain,109,75,98.2,Hypertension,Medium
+P2397,40,Female,Fever,102,86,101.8,Asthma,Medium
+P2398,46,Male,Shortness of Breath,151,100,98.3,Diabetes,Medium
+P2399,78,Female,Chest Pain,171,125,101.8,None,High
+P2400,80,Male,Seizure,120,57,98.6,Diabetes,Medium
+P2401,27,Male,Cough,126,66,97.3,Diabetes,Low
+P2402,82,Female,Cough,163,80,101.2,Diabetes,High
+P2403,50,Male,Shortness of Breath,161,101,98.6,None,Medium
+P2404,82,Female,Seizure,171,130,97.8,Hypertension,High
+P2405,42,Female,Cough,156,86,102.5,None,Medium
+P2406,80,Male,Chest Pain,176,55,99.2,Hypertension,High
+P2407,25,Male,Chest Pain,167,59,99.9,Asthma,Medium
+P2408,56,Male,Shortness of Breath,122,122,98.5,Asthma,Medium
+P2409,64,Female,Severe Headache,120,110,97.1,None,Medium
+P2410,76,Female,Seizure,106,103,101.9,Heart Disease,High
+P2411,51,Female,Severe Headache,132,80,97.4,Asthma,Medium
+P2412,80,Female,Fever,186,95,98.5,Diabetes,Medium
+P2413,27,Male,Fever,114,96,99.9,None,Low
+P2414,34,Male,Seizure,159,63,101.4,Heart Disease,High
+P2415,53,Male,Severe Headache,147,105,102.7,Heart Disease,High
+P2416,87,Female,Chest Pain,173,134,102.3,Diabetes,High
+P2417,39,Male,Fever,176,134,98.4,Asthma,Medium
+P2418,23,Male,Severe Headache,125,129,98.9,None,Medium
+P2419,20,Female,Shortness of Breath,151,128,98.1,None,Medium
+P2420,80,Male,Fever,164,106,101.9,None,High
+P2421,31,Male,Chest Pain,188,126,102.7,Hypertension,High
+P2422,45,Male,Shortness of Breath,170,64,98.2,Diabetes,Medium
+P2423,83,Female,Severe Headache,189,104,100.0,Heart Disease,High
+P2424,33,Male,Seizure,153,97,97.1,Hypertension,Medium
+P2425,39,Male,Fever,167,73,101.4,None,Medium
+P2426,36,Female,Severe Headache,115,108,100.2,Hypertension,Medium
+P2427,35,Male,Cough,122,139,97.7,Hypertension,Medium
+P2428,85,Female,Cough,124,117,97.0,Asthma,Medium
+P2429,62,Male,Severe Headache,189,115,97.2,None,Medium
+P2430,26,Female,Chest Pain,175,56,100.4,Heart Disease,High
+P2431,79,Male,Chest Pain,168,106,101.1,Asthma,High
+P2432,22,Female,Cough,158,122,100.7,Diabetes,Medium
+P2433,39,Male,Severe Headache,126,64,102.3,Asthma,Medium
+P2434,78,Female,Fever,150,64,99.2,Diabetes,Medium
+P2435,22,Female,Seizure,169,117,98.8,Diabetes,Medium
+P2436,76,Male,Fever,162,113,100.2,Asthma,High
+P2437,21,Female,Seizure,147,86,101.8,Hypertension,Medium
+P2438,69,Female,Severe Headache,173,88,99.3,Asthma,High
+P2439,60,Male,Cough,115,113,102.8,Diabetes,Medium
+P2440,58,Male,Chest Pain,180,101,97.5,Heart Disease,High
+P2441,71,Male,Chest Pain,154,73,97.6,Asthma,Medium
+P2442,76,Female,Severe Headache,164,122,100.9,None,High
+P2443,43,Female,Severe Headache,118,109,101.0,Heart Disease,Medium
+P2444,74,Male,Severe Headache,105,55,98.4,None,Medium
+P2445,68,Female,Cough,184,79,102.2,Asthma,High
+P2446,81,Female,Fever,182,64,98.7,Hypertension,Medium
+P2447,50,Male,Fever,170,71,102.6,Diabetes,Medium
+P2448,27,Female,Cough,130,114,97.8,Heart Disease,Medium
+P2449,67,Male,Chest Pain,136,136,98.2,None,Medium
+P2450,89,Female,Chest Pain,187,131,98.7,Hypertension,High
+P2451,28,Female,Chest Pain,105,89,102.6,Diabetes,Medium
+P2452,54,Female,Shortness of Breath,112,128,101.0,Heart Disease,High
+P2453,81,Female,Fever,100,117,99.8,Heart Disease,Medium
+P2454,27,Female,Severe Headache,183,61,101.6,Heart Disease,High
+P2455,54,Female,Chest Pain,128,66,99.3,Asthma,Medium
+P2456,43,Male,Severe Headache,182,66,101.4,None,Medium
+P2457,78,Female,Chest Pain,157,108,98.0,Asthma,High
+P2458,52,Male,Fever,114,119,98.0,Asthma,Medium
+P2459,42,Female,Cough,158,133,100.5,None,Medium
+P2460,23,Female,Cough,151,133,98.9,Asthma,Medium
+P2461,88,Female,Cough,131,107,101.2,Asthma,Medium
+P2462,86,Male,Fever,161,58,97.3,Asthma,Medium
+P2463,73,Male,Cough,123,120,99.5,Asthma,Medium
+P2464,71,Female,Chest Pain,114,123,99.2,Diabetes,High
+P2465,54,Male,Shortness of Breath,102,117,99.3,Asthma,Medium
+P2466,45,Female,Severe Headache,117,90,99.5,Diabetes,Medium
+P2467,43,Female,Fever,147,94,98.1,Asthma,Medium
+P2468,24,Female,Cough,156,62,101.8,None,Medium
+P2469,73,Female,Chest Pain,130,113,101.6,Asthma,High
+P2470,65,Male,Cough,130,137,97.1,None,Medium
+P2471,56,Female,Chest Pain,175,74,99.9,Asthma,High
+P2472,88,Female,Severe Headache,153,132,100.0,Diabetes,High
+P2473,46,Male,Severe Headache,173,127,100.9,Diabetes,High
+P2474,73,Male,Cough,116,63,100.7,None,Medium
+P2475,51,Female,Severe Headache,144,63,97.2,Hypertension,Medium
+P2476,36,Female,Severe Headache,105,65,97.8,Heart Disease,Medium
+P2477,78,Male,Fever,141,67,102.4,Hypertension,Medium
+P2478,37,Male,Cough,149,90,97.4,Hypertension,Low
+P2479,86,Male,Seizure,136,66,102.0,Hypertension,High
+P2480,57,Male,Severe Headache,153,56,98.2,None,Medium
+P2481,62,Female,Shortness of Breath,108,116,101.3,Hypertension,High
+P2482,64,Female,Fever,104,130,100.5,Diabetes,Medium
+P2483,39,Female,Chest Pain,137,73,101.5,Hypertension,Medium
+P2484,84,Male,Severe Headache,186,96,102.9,None,High
+P2485,43,Male,Seizure,112,112,100.6,Asthma,Medium
+P2486,20,Male,Shortness of Breath,154,112,102.1,Diabetes,Medium
+P2487,69,Female,Fever,188,78,98.2,Heart Disease,Medium
+P2488,54,Female,Severe Headache,182,107,97.8,Heart Disease,High
+P2489,38,Male,Seizure,139,116,98.1,Heart Disease,Medium
+P2490,86,Female,Severe Headache,113,96,101.7,Heart Disease,High
+P2491,21,Female,Severe Headache,171,129,99.0,Asthma,Medium
+P2492,74,Male,Severe Headache,189,102,100.3,Asthma,High
+P2493,50,Female,Fever,130,101,101.4,None,Medium
+P2494,89,Male,Cough,170,88,100.9,None,Medium
+P2495,31,Male,Cough,115,97,102.0,Hypertension,Medium
+P2496,29,Male,Seizure,169,73,98.7,Hypertension,Medium
+P2497,70,Female,Chest Pain,128,124,100.2,None,High
+P2498,81,Male,Seizure,123,70,98.4,Asthma,Medium
+P2499,23,Female,Fever,136,139,101.2,None,Medium
+P2500,55,Male,Severe Headache,140,135,100.7,None,Medium
+P2501,68,Male,Cough,164,106,101.1,None,High
+P2502,74,Male,Fever,178,136,100.5,Diabetes,High
+P2503,47,Female,Cough,141,65,98.4,Heart Disease,Medium
+P2504,56,Female,Severe Headache,171,72,98.9,Hypertension,Medium
+P2505,29,Female,Seizure,148,85,99.9,Asthma,Medium
+P2506,61,Female,Cough,163,131,100.6,Heart Disease,High
+P2507,68,Male,Severe Headache,106,60,102.8,Diabetes,Medium
+P2508,26,Female,Fever,135,94,99.7,Hypertension,Low
+P2509,41,Male,Chest Pain,147,117,99.2,Diabetes,High
+P2510,71,Male,Severe Headache,141,99,102.1,None,Medium
+P2511,31,Female,Cough,128,60,97.0,Asthma,Low
+P2512,70,Female,Severe Headache,117,92,100.1,Asthma,Medium
+P2513,85,Female,Shortness of Breath,143,101,101.6,Diabetes,High
+P2514,77,Male,Severe Headache,189,106,102.3,Heart Disease,High
+P2515,25,Male,Cough,179,95,97.9,Heart Disease,Medium
+P2516,86,Male,Shortness of Breath,183,68,100.8,Hypertension,High
+P2517,43,Female,Seizure,169,112,98.9,Heart Disease,High
+P2518,68,Male,Severe Headache,104,131,98.9,Heart Disease,High
+P2519,18,Female,Shortness of Breath,176,108,100.5,None,Medium
+P2520,25,Male,Seizure,124,94,100.0,Asthma,Medium
+P2521,45,Female,Seizure,177,57,99.0,Heart Disease,High
+P2522,79,Female,Chest Pain,126,99,100.9,Asthma,Medium
+P2523,42,Female,Seizure,160,98,101.1,Asthma,High
+P2524,63,Female,Fever,113,62,98.9,None,Low
+P2525,82,Male,Fever,179,136,101.0,Asthma,High
+P2526,66,Male,Cough,154,67,102.7,Asthma,Medium
+P2527,73,Male,Cough,114,111,98.2,Diabetes,Medium
+P2528,33,Male,Cough,107,99,102.4,Heart Disease,Medium
+P2529,71,Female,Fever,113,113,102.7,Heart Disease,High
+P2530,70,Female,Chest Pain,126,101,98.8,Asthma,Medium
+P2531,23,Male,Severe Headache,154,98,98.7,Heart Disease,Medium
+P2532,29,Female,Seizure,119,99,102.4,Heart Disease,Medium
+P2533,76,Male,Cough,189,76,100.9,Asthma,Medium
+P2534,64,Male,Chest Pain,128,99,98.5,Diabetes,Medium
+P2535,26,Female,Fever,123,69,98.9,Heart Disease,Low
+P2536,61,Male,Severe Headache,170,126,100.1,Hypertension,High
+P2537,53,Female,Shortness of Breath,160,135,99.8,None,Medium
+P2538,44,Female,Cough,100,88,103.0,Hypertension,Medium
+P2539,38,Male,Seizure,132,61,97.1,Diabetes,Medium
+P2540,20,Female,Seizure,150,133,100.7,Heart Disease,High
+P2541,76,Female,Shortness of Breath,105,83,97.7,None,Medium
+P2542,77,Female,Shortness of Breath,121,78,98.7,Heart Disease,Medium
+P2543,68,Male,Chest Pain,149,65,101.3,Diabetes,High
+P2544,59,Male,Cough,138,123,97.9,Asthma,Medium
+P2545,74,Male,Fever,120,136,98.6,Heart Disease,Medium
+P2546,32,Female,Shortness of Breath,168,131,99.7,Diabetes,High
+P2547,79,Female,Seizure,184,91,99.6,Asthma,High
+P2548,43,Male,Seizure,107,127,100.2,None,Medium
+P2549,38,Male,Fever,130,75,100.8,Hypertension,Low
+P2550,32,Male,Shortness of Breath,134,103,99.4,Asthma,Medium
+P2551,54,Male,Shortness of Breath,156,96,98.9,Asthma,Medium
+P2552,78,Female,Severe Headache,113,122,102.7,None,High
+P2553,51,Male,Severe Headache,175,78,101.9,Asthma,High
+P2554,47,Male,Fever,187,61,99.0,Diabetes,Medium
+P2555,69,Male,Chest Pain,114,100,102.1,None,Medium
+P2556,61,Male,Shortness of Breath,114,103,99.5,Hypertension,Medium
+P2557,31,Male,Fever,141,134,97.4,Heart Disease,Medium
+P2558,80,Female,Shortness of Breath,167,81,98.5,None,Medium
+P2559,70,Female,Chest Pain,151,117,102.8,None,High
+P2560,74,Male,Shortness of Breath,151,97,100.3,Hypertension,Medium
+P2561,59,Female,Shortness of Breath,103,123,98.9,Heart Disease,Medium
+P2562,58,Male,Cough,103,56,98.7,Diabetes,Low
+P2563,38,Male,Chest Pain,169,97,99.0,Asthma,Medium
+P2564,86,Male,Seizure,108,138,98.3,None,Medium
+P2565,20,Female,Seizure,172,103,101.8,Hypertension,High
+P2566,72,Female,Severe Headache,122,88,101.6,Heart Disease,High
+P2567,86,Female,Cough,114,101,98.9,Heart Disease,Medium
+P2568,45,Female,Cough,102,58,100.6,Hypertension,Medium
+P2569,62,Male,Severe Headache,158,99,100.3,Hypertension,Medium
+P2570,54,Male,Severe Headache,164,63,99.2,Asthma,Medium
+P2571,82,Male,Chest Pain,102,80,100.0,Asthma,Medium
+P2572,43,Male,Severe Headache,122,84,97.9,Diabetes,Medium
+P2573,81,Male,Shortness of Breath,121,69,97.5,Asthma,Medium
+P2574,73,Male,Cough,173,74,99.2,Asthma,Medium
+P2575,70,Female,Seizure,152,55,100.4,Hypertension,High
+P2576,36,Male,Severe Headache,161,132,102.7,Hypertension,High
+P2577,29,Female,Shortness of Breath,125,81,100.1,Heart Disease,Medium
+P2578,63,Male,Seizure,100,114,98.1,Asthma,Medium
+P2579,74,Male,Shortness of Breath,102,72,97.1,None,Medium
+P2580,51,Female,Seizure,188,114,98.6,Asthma,High
+P2581,89,Female,Severe Headache,118,76,102.4,Diabetes,Medium
+P2582,55,Male,Severe Headache,134,121,102.7,None,Medium
+P2583,32,Male,Shortness of Breath,110,78,99.6,Heart Disease,Medium
+P2584,21,Male,Fever,112,127,100.2,Diabetes,Medium
+P2585,54,Female,Severe Headache,147,125,100.5,None,Medium
+P2586,29,Female,Shortness of Breath,120,65,101.6,Diabetes,Medium
+P2587,75,Female,Cough,143,132,97.7,Diabetes,Medium
+P2588,42,Male,Chest Pain,103,118,102.4,Asthma,High
+P2589,33,Male,Seizure,109,120,99.6,None,Medium
+P2590,23,Female,Severe Headache,118,113,102.4,None,Medium
+P2591,25,Female,Fever,177,64,97.1,None,Low
+P2592,46,Female,Fever,114,77,97.2,Diabetes,Low
+P2593,45,Male,Seizure,125,64,100.1,Hypertension,Medium
+P2594,72,Male,Shortness of Breath,165,121,97.4,Heart Disease,High
+P2595,48,Male,Severe Headache,173,73,101.3,Asthma,High
+P2596,45,Female,Chest Pain,118,74,103.0,Diabetes,Medium
+P2597,60,Male,Shortness of Breath,110,102,100.6,Asthma,Medium
+P2598,71,Male,Chest Pain,149,82,99.5,Diabetes,High
+P2599,39,Male,Shortness of Breath,185,93,98.1,Hypertension,Medium
+P2600,61,Male,Shortness of Breath,141,94,101.7,Asthma,High
+P2601,19,Male,Severe Headache,127,128,97.0,Heart Disease,Medium
+P2602,84,Female,Shortness of Breath,170,126,99.8,Asthma,High
+P2603,27,Male,Severe Headache,185,111,100.9,Diabetes,Medium
+P2604,54,Female,Fever,176,118,100.0,Diabetes,Medium
+P2605,57,Male,Seizure,159,102,99.6,Hypertension,High
+P2606,36,Female,Shortness of Breath,171,87,97.2,None,Medium
+P2607,54,Female,Cough,188,90,98.9,Diabetes,Medium
+P2608,38,Female,Severe Headache,101,85,101.4,Hypertension,Medium
+P2609,47,Female,Chest Pain,175,98,101.3,None,High
+P2610,66,Female,Fever,123,78,100.9,None,Medium
+P2611,28,Male,Fever,112,126,101.8,Hypertension,Medium
+P2612,89,Male,Seizure,163,74,99.3,Diabetes,High
+P2613,88,Male,Seizure,177,82,99.7,Asthma,High
+P2614,60,Male,Fever,107,67,100.5,Hypertension,Medium
+P2615,52,Female,Shortness of Breath,122,100,99.6,Hypertension,Medium
+P2616,19,Male,Chest Pain,160,130,100.0,Diabetes,High
+P2617,69,Male,Cough,135,121,99.9,Asthma,Medium
+P2618,64,Female,Shortness of Breath,182,56,101.5,Asthma,High
+P2619,81,Female,Seizure,180,132,102.0,None,High
+P2620,71,Female,Shortness of Breath,173,121,98.4,Asthma,High
+P2621,80,Male,Fever,124,102,101.4,None,Medium
+P2622,38,Female,Cough,129,85,102.4,Asthma,Medium
+P2623,43,Female,Severe Headache,121,75,101.8,Heart Disease,Medium
+P2624,63,Male,Fever,108,71,102.4,Diabetes,Medium
+P2625,76,Female,Seizure,153,66,100.2,Hypertension,High
+P2626,23,Male,Chest Pain,152,70,102.8,Diabetes,Medium
+P2627,63,Male,Chest Pain,113,98,99.1,Heart Disease,High
+P2628,69,Female,Shortness of Breath,125,107,101.0,None,Medium
+P2629,36,Male,Severe Headache,146,62,97.1,None,Low
+P2630,52,Male,Chest Pain,152,112,102.4,Hypertension,High
+P2631,34,Female,Seizure,131,106,98.9,Heart Disease,Medium
+P2632,83,Female,Seizure,183,136,97.8,None,High
+P2633,61,Female,Cough,105,104,100.3,Heart Disease,Medium
+P2634,89,Male,Chest Pain,187,74,99.5,Hypertension,High
+P2635,22,Female,Shortness of Breath,140,94,97.9,Hypertension,Low
+P2636,62,Male,Seizure,170,134,97.5,Hypertension,High
+P2637,61,Male,Cough,132,87,101.3,None,Medium
+P2638,53,Female,Seizure,106,86,99.8,Hypertension,Medium
+P2639,56,Female,Seizure,123,124,97.8,None,Medium
+P2640,71,Female,Severe Headache,137,128,99.5,Heart Disease,High
+P2641,49,Male,Seizure,144,115,99.3,Hypertension,High
+P2642,70,Female,Seizure,150,130,100.9,Asthma,High
+P2643,55,Male,Shortness of Breath,161,72,102.7,Asthma,High
+P2644,81,Male,Fever,176,84,101.7,Heart Disease,High
+P2645,58,Female,Fever,112,88,100.4,Diabetes,Medium
+P2646,42,Male,Severe Headache,165,72,98.1,None,Medium
+P2647,59,Male,Shortness of Breath,117,86,97.3,None,Low
+P2648,54,Male,Fever,148,67,97.2,None,Low
+P2649,26,Female,Shortness of Breath,187,98,99.6,Asthma,Medium
+P2650,25,Female,Chest Pain,136,73,100.6,Asthma,Medium
+P2651,63,Male,Severe Headache,170,80,102.2,Hypertension,High
+P2652,63,Male,Fever,174,68,102.0,Asthma,High
+P2653,89,Female,Seizure,102,82,100.9,None,Medium
+P2654,35,Female,Seizure,134,131,98.3,None,Medium
+P2655,22,Female,Cough,174,113,97.9,None,Medium
+P2656,64,Female,Cough,112,132,100.5,Diabetes,Medium
+P2657,50,Male,Shortness of Breath,161,133,101.9,Heart Disease,High
+P2658,75,Male,Shortness of Breath,105,69,99.4,Heart Disease,Medium
+P2659,81,Male,Chest Pain,167,88,98.0,Heart Disease,High
+P2660,73,Male,Shortness of Breath,131,63,100.0,Diabetes,Medium
+P2661,89,Male,Shortness of Breath,177,87,97.5,Heart Disease,High
+P2662,72,Female,Seizure,175,111,97.9,Hypertension,High
+P2663,21,Female,Cough,183,104,100.6,None,Medium
+P2664,47,Male,Fever,128,62,97.7,Heart Disease,Medium
+P2665,43,Male,Fever,149,56,98.2,Asthma,Medium
+P2666,73,Male,Shortness of Breath,113,60,98.3,Diabetes,Medium
+P2667,78,Female,Cough,111,67,100.4,Asthma,Medium
+P2668,76,Male,Cough,136,79,102.0,Hypertension,Medium
+P2669,55,Male,Cough,142,68,98.0,None,Low
+P2670,40,Female,Seizure,159,66,99.5,Hypertension,Medium
+P2671,23,Male,Seizure,162,92,100.7,Hypertension,Medium
+P2672,69,Male,Fever,139,62,102.4,Asthma,Medium
+P2673,51,Male,Severe Headache,178,114,97.7,None,Medium
+P2674,63,Female,Seizure,121,94,98.6,Heart Disease,Medium
+P2675,68,Female,Cough,185,59,102.6,Hypertension,High
+P2676,45,Male,Chest Pain,183,134,99.4,Hypertension,High
+P2677,41,Male,Cough,106,92,99.0,Heart Disease,Medium
+P2678,85,Male,Severe Headache,141,59,98.3,Hypertension,Medium
+P2679,32,Female,Seizure,172,107,100.3,Heart Disease,High
+P2680,26,Female,Seizure,137,76,97.4,Diabetes,Medium
+P2681,66,Female,Fever,167,69,98.6,Diabetes,Medium
+P2682,47,Male,Severe Headache,119,87,100.3,Asthma,Medium
+P2683,24,Male,Cough,107,82,98.6,Asthma,Low
+P2684,28,Female,Cough,130,66,101.2,Hypertension,Medium
+P2685,68,Female,Cough,143,104,100.1,Diabetes,Medium
+P2686,52,Male,Seizure,100,83,98.2,None,Medium
+P2687,21,Female,Seizure,186,82,98.8,Diabetes,Medium
+P2688,70,Male,Cough,184,71,99.2,Heart Disease,High
+P2689,69,Female,Chest Pain,157,91,97.2,Diabetes,Medium
+P2690,78,Male,Chest Pain,178,88,100.4,None,High
+P2691,37,Male,Seizure,172,113,97.7,Diabetes,Medium
+P2692,50,Male,Chest Pain,177,71,97.5,Heart Disease,High
+P2693,18,Male,Shortness of Breath,112,81,101.6,Heart Disease,Medium
+P2694,23,Female,Seizure,122,64,98.6,Heart Disease,Medium
+P2695,68,Male,Shortness of Breath,186,122,98.8,None,High
+P2696,59,Male,Chest Pain,156,122,101.8,Asthma,High
+P2697,79,Female,Severe Headache,106,125,99.1,Asthma,High
+P2698,43,Male,Fever,125,73,102.0,Hypertension,Medium
+P2699,37,Male,Cough,149,134,100.5,Diabetes,Medium
+P2700,39,Female,Fever,112,66,98.3,Heart Disease,Low
+P2701,47,Female,Seizure,107,75,102.9,Hypertension,Medium
+P2702,83,Female,Cough,147,98,101.0,Asthma,Medium
+P2703,71,Female,Seizure,125,139,100.4,None,High
+P2704,43,Male,Shortness of Breath,133,62,101.9,Hypertension,Medium
+P2705,72,Male,Severe Headache,153,132,103.0,Asthma,High
+P2706,32,Female,Cough,180,72,102.6,Heart Disease,Medium
+P2707,40,Male,Fever,161,100,98.2,Asthma,Medium
+P2708,56,Female,Fever,114,107,101.9,Hypertension,Medium
+P2709,80,Female,Cough,179,70,98.1,Hypertension,Medium
+P2710,87,Male,Chest Pain,165,67,102.6,Diabetes,High
+P2711,26,Female,Chest Pain,162,88,98.6,None,Medium
+P2712,46,Male,Fever,136,97,100.1,Heart Disease,Medium
+P2713,81,Male,Seizure,123,125,101.3,Hypertension,High
+P2714,29,Female,Seizure,122,133,101.3,Asthma,High
+P2715,30,Female,Severe Headache,186,99,99.0,Hypertension,Medium
+P2716,82,Male,Fever,146,112,101.4,Diabetes,High
+P2717,22,Male,Shortness of Breath,159,75,99.3,None,Medium
+P2718,35,Male,Chest Pain,120,108,100.6,None,Medium
+P2719,77,Female,Chest Pain,156,77,100.1,Heart Disease,High
+P2720,51,Female,Severe Headache,169,82,97.9,Heart Disease,Medium
+P2721,56,Female,Shortness of Breath,141,77,97.8,None,Medium
+P2722,19,Male,Fever,123,71,101.8,Asthma,Medium
+P2723,87,Male,Seizure,168,114,102.7,Heart Disease,High
+P2724,29,Male,Shortness of Breath,146,121,97.3,Asthma,Medium
+P2725,44,Male,Cough,147,116,99.4,None,Medium
+P2726,76,Male,Cough,107,109,102.2,Hypertension,Medium
+P2727,19,Male,Severe Headache,138,99,102.8,Heart Disease,Medium
+P2728,55,Female,Fever,176,65,99.5,None,Medium
+P2729,76,Female,Seizure,189,109,102.7,Heart Disease,High
+P2730,34,Female,Seizure,167,59,101.1,Hypertension,High
+P2731,63,Female,Severe Headache,151,64,101.7,None,Medium
+P2732,60,Male,Seizure,125,109,98.9,Heart Disease,Medium
+P2733,46,Male,Fever,126,72,102.6,None,Medium
+P2734,86,Female,Seizure,173,75,101.4,None,High
+P2735,20,Female,Shortness of Breath,161,56,100.3,Hypertension,Medium
+P2736,59,Female,Cough,133,96,101.9,Heart Disease,Medium
+P2737,85,Female,Shortness of Breath,144,129,100.9,Hypertension,High
+P2738,64,Male,Shortness of Breath,104,103,98.4,Diabetes,Medium
+P2739,51,Female,Severe Headache,172,124,100.8,Diabetes,High
+P2740,36,Female,Severe Headache,177,94,98.3,Hypertension,Medium
+P2741,59,Female,Fever,180,126,98.6,Asthma,Medium
+P2742,70,Male,Cough,106,59,97.2,Heart Disease,Medium
+P2743,79,Male,Cough,116,74,98.2,None,Low
+P2744,32,Female,Fever,150,102,100.4,Hypertension,Medium
+P2745,65,Male,Chest Pain,102,119,98.1,None,Medium
+P2746,43,Male,Seizure,180,110,101.2,None,High
+P2747,79,Male,Severe Headache,112,123,98.9,Asthma,Medium
+P2748,18,Female,Seizure,188,101,99.8,Hypertension,High
+P2749,80,Male,Cough,151,64,101.9,None,Medium
+P2750,23,Male,Shortness of Breath,126,66,100.2,Heart Disease,Medium
+P2751,65,Male,Severe Headache,166,100,100.4,Asthma,High
+P2752,32,Female,Fever,170,90,100.6,Hypertension,Medium
+P2753,20,Female,Severe Headache,166,73,99.3,Hypertension,Medium
+P2754,71,Female,Cough,168,64,102.7,Diabetes,High
+P2755,30,Female,Chest Pain,150,86,100.6,Heart Disease,Medium
+P2756,41,Male,Cough,134,137,98.5,Diabetes,Medium
+P2757,71,Female,Chest Pain,143,116,100.2,Hypertension,High
+P2758,85,Male,Cough,132,131,98.6,Heart Disease,Medium
+P2759,71,Male,Seizure,118,97,99.4,Hypertension,Medium
+P2760,87,Female,Fever,111,95,97.7,None,Low
+P2761,20,Male,Shortness of Breath,102,138,102.6,Diabetes,Medium
+P2762,65,Female,Fever,166,96,101.8,Hypertension,High
+P2763,57,Male,Shortness of Breath,105,74,97.6,Hypertension,Medium
+P2764,44,Female,Shortness of Breath,120,67,102.0,None,Medium
+P2765,64,Male,Cough,185,82,100.0,Diabetes,Medium
+P2766,35,Male,Severe Headache,130,114,98.1,Asthma,Medium
+P2767,54,Female,Shortness of Breath,120,68,98.8,Diabetes,Medium
+P2768,77,Male,Shortness of Breath,122,83,101.6,Asthma,Medium
+P2769,55,Male,Shortness of Breath,182,81,101.6,Asthma,High
+P2770,32,Male,Cough,158,57,99.0,Hypertension,Low
+P2771,34,Male,Fever,182,65,100.4,Diabetes,Medium
+P2772,86,Female,Chest Pain,163,68,98.3,Heart Disease,High
+P2773,89,Female,Shortness of Breath,168,61,101.0,None,Medium
+P2774,72,Female,Severe Headache,177,110,99.0,Asthma,High
+P2775,65,Male,Shortness of Breath,116,90,97.5,Asthma,Medium
+P2776,55,Female,Fever,161,102,102.1,Diabetes,High
+P2777,53,Female,Seizure,128,132,100.7,None,Medium
+P2778,73,Female,Seizure,141,67,100.3,Heart Disease,High
+P2779,50,Female,Fever,120,134,102.7,None,Medium
+P2780,74,Female,Chest Pain,168,124,101.8,None,High
+P2781,65,Female,Fever,175,87,98.6,Diabetes,Medium
+P2782,48,Female,Seizure,120,81,99.0,Hypertension,Medium
+P2783,79,Male,Seizure,125,120,101.4,Hypertension,High
+P2784,34,Female,Chest Pain,106,122,98.6,Asthma,Medium
+P2785,55,Male,Shortness of Breath,110,55,99.2,Asthma,Medium
+P2786,69,Male,Fever,123,107,100.0,Diabetes,Medium
+P2787,80,Male,Fever,180,62,100.9,Heart Disease,High
+P2788,44,Female,Fever,151,72,100.7,Diabetes,Medium
+P2789,33,Male,Seizure,165,59,99.6,Asthma,Medium
+P2790,87,Male,Fever,106,104,99.0,Asthma,Medium
+P2791,64,Female,Fever,132,97,100.2,None,Medium
+P2792,74,Female,Shortness of Breath,104,114,102.9,Asthma,High
+P2793,19,Male,Shortness of Breath,169,97,101.0,Heart Disease,Medium
+P2794,76,Female,Severe Headache,188,63,101.6,Heart Disease,High
+P2795,65,Female,Fever,142,55,98.9,Heart Disease,Medium
+P2796,33,Male,Shortness of Breath,150,129,99.1,Hypertension,Medium
+P2797,72,Female,Chest Pain,100,82,101.2,None,Medium
+P2798,77,Female,Seizure,158,76,102.1,None,High
+P2799,66,Female,Fever,141,81,97.7,Asthma,Medium
+P2800,42,Female,Shortness of Breath,137,139,98.2,Diabetes,Medium
+P2801,77,Male,Fever,182,104,100.2,Asthma,High
+P2802,31,Male,Severe Headache,152,86,100.7,Diabetes,Medium
+P2803,65,Female,Cough,138,94,102.2,Hypertension,Medium
+P2804,25,Male,Shortness of Breath,178,80,100.4,Asthma,Medium
+P2805,68,Male,Seizure,181,117,97.1,Heart Disease,High
+P2806,44,Male,Chest Pain,108,93,99.3,Asthma,Medium
+P2807,88,Female,Seizure,106,126,101.9,Diabetes,High
+P2808,27,Female,Fever,170,139,102.7,None,Medium
+P2809,74,Male,Cough,185,81,100.2,Asthma,Medium
+P2810,21,Male,Chest Pain,187,77,97.1,Heart Disease,Medium
+P2811,59,Male,Chest Pain,102,57,100.4,None,Medium
+P2812,48,Female,Shortness of Breath,109,103,99.4,Heart Disease,Medium
+P2813,38,Male,Chest Pain,152,130,97.9,Hypertension,Medium
+P2814,74,Female,Cough,119,103,97.7,Diabetes,Medium
+P2815,46,Male,Fever,147,67,100.6,None,Medium
+P2816,33,Female,Chest Pain,105,99,97.0,Diabetes,Medium
+P2817,73,Male,Cough,170,86,99.4,Hypertension,Medium
+P2818,47,Female,Cough,124,139,103.0,Heart Disease,High
+P2819,45,Male,Seizure,157,74,102.0,Hypertension,High
+P2820,77,Male,Shortness of Breath,142,111,101.0,Diabetes,High
+P2821,71,Female,Shortness of Breath,180,99,100.5,None,Medium
+P2822,65,Female,Seizure,153,102,99.7,Hypertension,High
+P2823,23,Male,Chest Pain,133,117,98.4,Hypertension,Medium
+P2824,40,Male,Chest Pain,183,67,97.3,Hypertension,Medium
+P2825,49,Female,Chest Pain,125,107,97.9,None,Medium
+P2826,53,Female,Chest Pain,107,94,98.7,Hypertension,Medium
+P2827,33,Female,Cough,159,114,101.0,Hypertension,Medium
+P2828,48,Male,Fever,120,135,102.9,Diabetes,Medium
+P2829,38,Female,Shortness of Breath,135,119,99.7,Hypertension,Medium
+P2830,21,Male,Seizure,108,84,102.6,Diabetes,Medium
+P2831,21,Male,Chest Pain,168,77,98.9,Hypertension,Medium
+P2832,89,Male,Shortness of Breath,147,116,98.0,Hypertension,Medium
+P2833,77,Male,Seizure,179,59,102.9,Heart Disease,High
+P2834,68,Male,Shortness of Breath,164,63,99.2,Asthma,High
+P2835,64,Male,Seizure,166,78,98.0,None,Medium
+P2836,65,Female,Cough,134,108,100.7,Diabetes,Medium
+P2837,88,Female,Fever,115,107,99.2,Hypertension,Medium
+P2838,37,Female,Severe Headache,187,123,98.0,Hypertension,Medium
+P2839,86,Male,Cough,148,93,98.3,Hypertension,Medium
+P2840,56,Female,Fever,120,94,100.1,Diabetes,Medium
+P2841,71,Male,Cough,111,135,99.3,Asthma,Medium
+P2842,55,Male,Seizure,114,61,97.2,Hypertension,Medium
+P2843,82,Male,Cough,166,98,100.3,Asthma,Medium
+P2844,65,Female,Shortness of Breath,181,135,100.7,Diabetes,High
+P2845,27,Female,Chest Pain,128,102,98.7,Heart Disease,Medium
+P2846,79,Male,Seizure,112,98,102.8,Hypertension,High
+P2847,81,Male,Chest Pain,152,131,102.3,Asthma,High
+P2848,45,Female,Cough,101,111,102.7,Hypertension,Medium
+P2849,75,Female,Fever,151,83,102.1,Diabetes,Medium
+P2850,65,Female,Fever,132,129,100.8,Diabetes,Medium
+P2851,26,Female,Fever,147,121,97.4,Asthma,Medium
+P2852,53,Female,Cough,170,98,98.0,Asthma,Medium
+P2853,77,Male,Severe Headache,162,59,97.9,Diabetes,Medium
+P2854,57,Female,Shortness of Breath,118,101,101.2,Asthma,Medium
+P2855,35,Male,Cough,149,84,102.6,Asthma,Medium
+P2856,22,Male,Seizure,141,138,100.0,Asthma,High
+P2857,22,Male,Fever,149,139,102.3,Diabetes,Medium
+P2858,25,Male,Chest Pain,130,66,100.2,Hypertension,Medium
+P2859,79,Male,Chest Pain,189,87,99.6,Asthma,High
+P2860,57,Male,Seizure,164,113,98.9,Asthma,High
+P2861,18,Male,Cough,110,109,97.4,Hypertension,Low
+P2862,61,Male,Seizure,115,76,101.3,Heart Disease,High
+P2863,64,Male,Seizure,180,84,97.3,Hypertension,High
+P2864,75,Male,Seizure,161,139,99.4,Hypertension,High
+P2865,84,Male,Fever,140,97,97.8,Hypertension,Medium
+P2866,35,Female,Chest Pain,157,114,98.1,Heart Disease,Medium
+P2867,85,Female,Fever,121,78,101.7,Asthma,Medium
+P2868,83,Male,Shortness of Breath,139,60,101.4,Asthma,Medium
+P2869,47,Female,Seizure,120,116,97.3,Hypertension,Medium
+P2870,30,Female,Cough,175,63,100.1,Hypertension,Medium
+P2871,41,Male,Cough,133,115,99.1,Diabetes,Medium
+P2872,67,Male,Fever,103,105,98.5,Asthma,Medium
+P2873,56,Female,Chest Pain,107,99,98.5,Asthma,Medium
+P2874,45,Female,Severe Headache,126,119,102.1,Hypertension,Medium
+P2875,79,Female,Chest Pain,161,92,98.0,None,Medium
+P2876,41,Female,Severe Headache,138,75,98.7,Heart Disease,Medium
+P2877,65,Male,Cough,112,57,100.4,None,Medium
+P2878,36,Female,Shortness of Breath,113,102,102.2,None,Medium
+P2879,85,Male,Shortness of Breath,144,73,102.1,None,Medium
+P2880,83,Male,Chest Pain,178,120,101.0,Hypertension,High
+P2881,84,Female,Shortness of Breath,168,57,102.5,Heart Disease,High
+P2882,59,Female,Seizure,182,94,97.1,Asthma,Medium
+P2883,41,Female,Chest Pain,187,71,101.0,Heart Disease,High
+P2884,83,Male,Seizure,143,77,99.3,Asthma,High
+P2885,38,Male,Shortness of Breath,134,83,100.5,Asthma,Medium
+P2886,70,Female,Fever,136,77,100.1,Hypertension,Medium
+P2887,65,Female,Fever,109,133,100.1,Asthma,Medium
+P2888,64,Male,Chest Pain,152,93,100.9,Hypertension,High
+P2889,83,Male,Shortness of Breath,105,75,99.4,None,Medium
+P2890,53,Female,Cough,102,132,97.3,None,Medium
+P2891,61,Female,Chest Pain,132,114,99.4,Diabetes,High
+P2892,87,Male,Cough,182,131,100.9,Asthma,High
+P2893,38,Female,Severe Headache,101,101,100.1,Hypertension,Medium
+P2894,44,Male,Severe Headache,170,74,99.0,Heart Disease,Medium
+P2895,40,Female,Shortness of Breath,112,135,97.4,None,Medium
+P2896,31,Male,Seizure,119,67,102.8,Heart Disease,Medium
+P2897,64,Male,Fever,102,55,102.0,Heart Disease,Medium
+P2898,52,Female,Chest Pain,113,121,99.4,Heart Disease,High
+P2899,67,Female,Cough,177,139,98.2,Asthma,High
+P2900,68,Female,Fever,139,122,101.5,Diabetes,High
+P2901,18,Male,Chest Pain,132,61,98.3,Diabetes,Medium
+P2902,69,Female,Severe Headache,110,81,99.1,Asthma,Medium
+P2903,63,Male,Chest Pain,175,64,100.0,None,High
+P2904,35,Male,Severe Headache,185,63,100.9,Asthma,Medium
+P2905,75,Male,Shortness of Breath,112,104,100.0,Heart Disease,High
+P2906,68,Male,Fever,135,125,98.0,Diabetes,Medium
+P2907,28,Male,Severe Headache,143,68,97.8,Asthma,Medium
+P2908,67,Male,Fever,104,126,97.8,None,Medium
+P2909,74,Male,Cough,125,60,97.8,None,Low
+P2910,29,Male,Severe Headache,174,57,102.1,Hypertension,Medium
+P2911,81,Female,Chest Pain,161,60,99.6,Diabetes,High
+P2912,60,Male,Fever,172,57,100.8,Asthma,Medium
+P2913,89,Male,Cough,137,122,99.7,Diabetes,Medium
+P2914,80,Male,Shortness of Breath,141,118,101.8,Asthma,High
+P2915,88,Male,Cough,175,91,100.9,Diabetes,Medium
+P2916,19,Female,Chest Pain,143,121,98.3,Diabetes,Medium
+P2917,79,Female,Cough,100,71,98.2,Diabetes,Medium
+P2918,70,Female,Severe Headache,172,113,97.9,None,Medium
+P2919,29,Female,Seizure,140,69,102.3,Heart Disease,Medium
+P2920,28,Male,Shortness of Breath,107,109,97.3,Hypertension,Medium
+P2921,70,Female,Severe Headache,119,93,98.1,Hypertension,Medium
+P2922,51,Female,Cough,156,73,100.2,Diabetes,Medium
+P2923,57,Male,Seizure,113,135,102.4,Heart Disease,High
+P2924,26,Female,Cough,157,74,102.6,None,Medium
+P2925,67,Female,Fever,119,90,100.9,Diabetes,Medium
+P2926,89,Female,Severe Headache,131,55,97.1,None,Medium
+P2927,26,Female,Chest Pain,183,99,100.5,Asthma,Medium
+P2928,49,Male,Seizure,144,63,100.1,None,Medium
+P2929,55,Female,Chest Pain,159,55,102.6,Asthma,High
+P2930,22,Female,Shortness of Breath,162,90,98.4,Asthma,Medium
+P2931,41,Female,Fever,103,132,98.8,Diabetes,Medium
+P2932,42,Female,Chest Pain,173,61,100.8,Asthma,High
+P2933,85,Female,Severe Headache,142,111,97.7,None,Medium
+P2934,31,Male,Seizure,181,126,97.5,Heart Disease,High
+P2935,54,Female,Shortness of Breath,186,125,100.6,Diabetes,High
+P2936,84,Female,Cough,189,58,98.6,None,Medium
+P2937,33,Female,Cough,118,83,101.7,Heart Disease,Medium
+P2938,35,Male,Chest Pain,157,98,99.4,Heart Disease,Medium
+P2939,82,Male,Severe Headache,101,110,98.5,Hypertension,Medium
+P2940,45,Male,Fever,164,59,103.0,Heart Disease,High
+P2941,30,Female,Fever,164,70,98.5,Asthma,Medium
+P2942,81,Female,Chest Pain,131,134,102.2,Diabetes,High
+P2943,75,Female,Cough,145,106,101.9,None,Medium
+P2944,80,Female,Seizure,175,114,99.4,Asthma,High
+P2945,72,Male,Fever,156,125,102.4,Heart Disease,High
+P2946,43,Male,Chest Pain,111,125,102.0,None,High
+P2947,55,Female,Fever,120,68,99.9,Heart Disease,Medium
+P2948,87,Female,Shortness of Breath,132,60,101.8,Asthma,Medium
+P2949,54,Male,Fever,113,91,98.2,Diabetes,Low
+P2950,30,Male,Shortness of Breath,139,112,100.1,None,Medium
+P2951,55,Male,Cough,131,120,98.6,Hypertension,Medium
+P2952,42,Male,Shortness of Breath,157,129,101.3,Diabetes,High
+P2953,83,Male,Severe Headache,129,135,101.9,Diabetes,High
+P2954,86,Male,Shortness of Breath,147,94,101.3,Hypertension,High
+P2955,30,Female,Fever,189,85,101.8,Asthma,Medium
+P2956,80,Female,Cough,147,102,101.3,Heart Disease,High
+P2957,73,Female,Shortness of Breath,117,81,101.3,None,Medium
+P2958,69,Female,Fever,115,131,101.3,Asthma,High
+P2959,26,Male,Chest Pain,125,82,102.2,Heart Disease,Medium
+P2960,53,Male,Shortness of Breath,108,101,99.8,Heart Disease,Medium
+P2961,74,Male,Seizure,131,121,102.1,Heart Disease,High
+P2962,71,Female,Fever,115,116,97.2,None,Medium
+P2963,73,Male,Severe Headache,122,71,97.8,Hypertension,Medium
+P2964,89,Female,Shortness of Breath,182,84,99.7,None,Medium
+P2965,39,Female,Fever,116,69,99.6,Hypertension,Low
+P2966,49,Male,Shortness of Breath,176,139,97.1,Heart Disease,High
+P2967,74,Male,Seizure,157,70,99.7,Asthma,High
+P2968,18,Male,Seizure,140,102,102.4,None,Medium
+P2969,50,Female,Shortness of Breath,132,136,97.0,Heart Disease,Medium
+P2970,47,Male,Chest Pain,188,99,97.5,Hypertension,Medium
+P2971,62,Female,Fever,177,135,98.2,Hypertension,High
+P2972,49,Female,Severe Headache,155,78,101.0,Diabetes,Medium
+P2973,37,Male,Fever,178,110,99.0,Heart Disease,Medium
+P2974,71,Male,Cough,133,82,99.8,Hypertension,Medium
+P2975,43,Female,Seizure,150,101,99.1,Diabetes,High
+P2976,78,Female,Fever,122,91,101.8,Heart Disease,Medium
+P2977,66,Male,Shortness of Breath,126,60,102.1,Asthma,Medium
+P2978,41,Male,Severe Headache,137,82,100.4,Heart Disease,Medium
+P2979,83,Male,Fever,160,100,97.8,Hypertension,Medium
+P2980,60,Male,Chest Pain,158,56,102.6,Asthma,High
+P2981,54,Male,Shortness of Breath,170,74,99.8,Hypertension,Medium
+P2982,51,Female,Shortness of Breath,185,85,100.7,Diabetes,Medium
+P2983,36,Male,Seizure,167,78,100.6,Heart Disease,High
+P2984,71,Male,Shortness of Breath,138,71,102.2,Asthma,Medium
+P2985,65,Female,Fever,134,86,99.9,Hypertension,Medium
+P2986,64,Male,Fever,163,100,97.5,Heart Disease,Medium
+P2987,52,Female,Shortness of Breath,116,96,99.9,Asthma,Medium
+P2988,87,Male,Shortness of Breath,116,135,97.9,None,Medium
+P2989,74,Female,Fever,149,111,99.4,None,Medium
+P2990,56,Female,Seizure,154,90,98.1,Diabetes,Medium
+P2991,31,Female,Severe Headache,126,137,102.2,Asthma,Medium
+P2992,61,Female,Chest Pain,167,102,101.6,Hypertension,High
+P2993,39,Female,Cough,103,135,102.6,Heart Disease,Medium
+P2994,76,Male,Cough,133,65,100.7,Heart Disease,Medium
+P2995,73,Male,Shortness of Breath,137,75,102.8,Heart Disease,High
+P2996,27,Male,Severe Headache,125,62,102.6,Heart Disease,Medium
+P2997,77,Female,Shortness of Breath,171,88,97.2,Diabetes,Medium
+P2998,33,Male,Shortness of Breath,112,130,100.9,None,Medium
+P2999,39,Male,Seizure,126,118,100.7,Diabetes,Medium
+P3000,43,Male,Chest Pain,182,123,98.7,None,High
